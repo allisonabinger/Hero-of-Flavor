@@ -1,4 +1,3 @@
-
 id,name,ingredient1,ingredient2,ingredient3,ingredient4,ingredient5,effect,hearts
 1,Mushroom Skewer,Any mushroom,,,,,,
 2,Meat and Mushroom Skewer,Any mushroom,Any meat,,,,,
@@ -8,7 +7,7 @@ id,name,ingredient1,ingredient2,ingredient3,ingredient4,ingredient5,effect,heart
 6,Seafood Skewer,Any snail or crab,,,,,,
 7,Copious Meat Skewers,Any four different meat,,,,,,
 8,Copious Seafood Skewers,Any four different fish,,,,,,
-9,Steamed Fruit,Any fruit (excluding Hylian tomato),"Any vegetable, flower, or herb",,,
+9,Steamed Fruit,Any fruit (excluding Hylian tomato),"Any vegetable, flower, or herb",,,,,
 10,Steamed Tomatoes,Hylian tomato,"Any vegetable, flower, or herb",,,,,
 11,Steamed Mushrooms,Any mushroom,"Any vegetable, flower, or herb",,,,,
 12,Steamed Meat,Any meat,"Any vegetable, flower, or herb",,,,,
