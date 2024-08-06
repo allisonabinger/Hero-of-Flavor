@@ -1,9 +1,9 @@
 Name,type,subtype,Effect
 Golden Apple,Fruit,Vegetable,Mighty
 Palm Fruit,Fruit,N/A,Bright
-Hylian Tomato,Fruit,N/A, N/A
-Apple,Fruit,N/A, N/A
-Wildberry,Fruit,N/A, N/A
+Hylian Tomato,Fruit,N/A,N/A
+Apple,Fruit,N/A,N/A
+Wildberry,Fruit,N/A,N/A
 Voltfruit,Fruit,N/A,Electro
 Fleet-Lotus Seeds,Fruit,N/A,Hasty
 Hydromelon,Fruit,N/A,Chilly
@@ -13,7 +13,7 @@ Fire Fruit,Fruit,N/A,Scorching
 Ice Fruit,Fruit,N/A,Biting
 Shock Fruit,Fruit,N/A,Stormy
 Splash Fruit,Fruit,N/A,Rapid
-Dazzlefruit,Fruit,N/A, N/A
+Dazzlefruit,Fruit,N/A,N/A
 Big Hearty Truffle,Mushroom,N/A,Hearty
 Hearty Truffle,Mushroom,N/A,Hearty
 Endura Shroom,Mushroom,N/A,Enduring
@@ -22,22 +22,22 @@ Brightcap,Mushroom,N/A,Bright
 Stamella Shroom,Mushroom,N/A,Energizing
 Chillshroom,Mushroom,N/A,Chilly
 Sunshroom,Mushroom,N/A,Spicy
-Hylian Shroom,Mushroom,N/A, N/A
+Hylian Shroom,Mushroom,N/A,N/A
 Zapshroom,Mushroom,N/A,Electro
 Silent Shroom,Mushroom,N/A,Sneaky
 Razorshroom,Mushroom,N/A,Mighty
 Ironshroom,Mushroom,N/A,Bright
-Skyshroom,Mushroom,N/A, N/A
+Skyshroom,Mushroom,N/A,N/A
 Big Hearty Radish,Herb,Vegetable,Hearty
 Hearty Radish,Herb,Vegetable,Hearty
 Endura Carrot,Herb,Vegetable,Enduring
-Hyrule Herb,Herb,N/A, N/A
+Hyrule Herb,Herb,N/A,N/A
 Silent Princess,Herb,N/A,Sneaky
 Fortified Pumpkin,Herb,Vegetable,Tough
 Sun Pumpkin,Herb,Vegetable,Sunny
 Swift Carrot,Herb,Vegetable,Hasty
 Stambulb,Herb,Vegetable,Energizing
-Korok Frond,Herb,N/A, N/A
+Korok Frond,Herb,N/A,N/A
 Cool Safflina,Herb,N/A,Chilly
 Warm Safflina,Herb,N/A,Spicy
 Mighty Thistle,Herb,N/A,Mighty
@@ -46,31 +46,31 @@ Blue Nightshade,Herb,N/A,Sneaky
 Electric Safflina,Herb,N/A,Electro
 Swift Violet,Herb,N/A,Hasty
 Sundelion,Herb,N/A,Sunny
-Raw Gourmet Meat,Meat,Venison, N/A
-Raw Whole Bird,Meat,Bird, N/A
-Raw Prime Meat,Meat,Venison, N/A
-Raw Bird Thigh,Meat,Bird, N/A
-Raw Meat,Meat,Venison, N/A
-Raw Bird Drumstick,Meat,Bird, N/A
+Raw Gourmet Meat,Meat,Venison,N/A
+Raw Whole Bird,Meat,Bird,N/A
+Raw Prime Meat,Meat,Venison,N/A
+Raw Bird Thigh,Meat,Bird,N/A
+Raw Meat,Meat,Venison,N/A
+Raw Bird Drumstick,Meat,Bird,N/A
 Courser Bee Honey,Special,N/A,Energizing
-Hylian Rice,Special,N/A, N/A
-Bird Egg,Special,N/A, N/A
-Tabantha Wheat,Special,N/A, N/A
-Hateno Cheese,Special,N/A, N/A
-Milk ,Special,N/A, N/A
-Acorn,Special,Nut, N/A
-Chickaloo Tree Nut,Special,Nut, N/A
-Cane Sugar,Special,N/A, N/A
-Goron Spice,Special,N/A, N/A
-Goat Butter,Special,N/A, N/A
-Monster Extract,Special,N/A, N/A
-Oil Jar,Special,N/A, N/A
+Hylian Rice,Special,N/A,N/A
+Bird Egg,Special,N/A,N/A
+Tabantha Wheat,Special,N/A,N/A
+Hateno Cheese,Special,N/A,N/A
+Milk ,Special,N/A,N/A
+Acorn,Special,Nut,N/A
+Chickaloo Tree Nut,Special,Nut,N/A
+Cane Sugar,Special,N/A,N/A
+Goron Spice,Special,N/A,N/A
+Goat Butter,Special,N/A,N/A
+Monster Extract,Special,N/A,N/A
+Oil Jar,Special,N/A,N/A
 Dark Clump,Special,N/A,Warding
-Rock Salt,Special,N/A, N/A
-Star Fragment,Special,N/A, N/A
+Rock Salt,Special,N/A,N/A
+Star Fragment,Special,N/A,N/A
 Hearty Salmon,Fish,Seafood,Hearty
 Hearty Bass,Fish,Seafood,Hearty
-Hyrule Bass,Fish,Seafood, N/A
+Hyrule Bass,Fish,Seafood,N/A
 Staminoka Bass,Fish,Seafood,Energizing
 Chillfin Trout,Fish,Seafood,Chilly
 Sizzlefin Trout,Fish,Seafood,Spicy
@@ -78,8 +78,8 @@ Voltfin Trout,Fish,Seafood,Electro
 Stealthfin Trout,Fish,Seafood,Sneaky
 Mighty Carp,Fish,Seafood,Mighty
 Armored Carp,Fish,Seafood,Tough
-Sanke Carp,Fish,Seafood, N/A
-Ancient Arowana,Fish,Seafood, N/A
+Sanke Carp,Fish,Seafood,N/A
+Ancient Arowana,Fish,Seafood,N/A
 Glowing Cave Fish,Fish,Seafood,Bright
 Mighty Porgy,Fish,Seafood,Mighty
 Armored Porgy,Fish,Seafood,Tough
@@ -87,7 +87,7 @@ Sneaky River Snail,Shelled,Seafood,Sneaky
 Razorclaw Crab,Shelled,Seafood,Mighty
 Ironshell Crab,Shelled,Seafood,Tough
 Bright-Eyed Crab,Shelled,Seafood,Energizing
-Fairy,Special,N/A, N/A
+Fairy,Special,N/A,N/A
 Winterwing Butterfly,Critter,Insect,Chilly
 Summerwing Butterfly,Critter,Insect,Spicy
 Thunderwing Butterfly,Critter,Insect,Electro
@@ -107,105 +107,105 @@ Hearty Lizard,Critter,Lizard,Hearty
 Hightail Lizard,Critter,Lizard,Hasty
 Fireproof Lizard,Critter,Lizard,Fireproof
 Sticky Lizard,Critter,Lizard,Sticky
-Bokoblin Guts,Monster Part,N/A, N/A
-Moblin Guts,Monster Part,N/A, N/A
-Horriblin Guts,Monster Part,N/A, N/A
-Gibdo Guts,Monster Part,N/A, N/A
-Boss Bokoblin Guts,Monster Part,N/A,
-Frox Guts,Monster Part,N/A,
-Hinox Guts,Monster Part,N/A, N/A
-Red Chuchu Jelly,Monster Part,N/A, N/A
-White Chuchu Jelly,Monster Part,N/A, N/A
-Yellow Chuchu Jelly,Monster Part,N/A, N/A
-Chuchu Jelly,Monster Part,N/A, N/A
-Octo Balloon,Monster Part,N/A, N/A
-Keese Eyeball,Monster Part,N/A, N/A
-Fire Keese Eyeball,Monster Part,N/A, N/A
-Ice Keese Eyeball,Monster Part,N/A, N/A
-Electric Keese Eyeball,Monster Part,N/A, N/A
-Octorok Eyeball,Monster Part,N/A, N/A
-Aerocuda Eyeball,Monster Part,N/A, N/A
-Keese Wing,Monster Part,N/A, N/A
-Fire Keese Wing,Monster Part,N/A, N/A
-Ice Keese Wing,Monster Part,N/A, N/A
-Electric Keese Wing,Monster Part,N/A, N/A
-Aerocuda Wing,Monster Part,N/A, N/A
-Gibdo Wing,Monster Part,N/A, N/A
-Bokoblin Horn,Monster Part,N/A, N/A
-Blue Bokoblin Horn,Monster Part,N/A, N/A
-Black Bokoblin Horn,Monster Part,N/A, N/A
-Silver Bokoblin Horn,Monster Part,N/A, N/A
-Blue Boss Bokoblin Horn,Monster Part,N/A, N/A
-Black Boss Bokoblin Horn,Monster Part,N/A, N/A
-Lizalfos Horn,Monster Part,N/A, N/A
-Blue Lizalfos Horn,Monster Part,N/A, N/A
-Black Lizalfos Horn,Monster Part,N/A, N/A
+Bokoblin Guts,Monster Part,N/A,N/A
+Moblin Guts,Monster Part,N/A,N/A
+Horriblin Guts,Monster Part,N/A,N/A
+Gibdo Guts,Monster Part,N/A,N/A
+Boss Bokoblin Guts,Monster Part,N/A,N/A
+Frox Guts,Monster Part,N/A,N/A
+Hinox Guts,Monster Part,N/A,N/A
+Red Chuchu Jelly,Monster Part,N/A,N/A
+White Chuchu Jelly,Monster Part,N/A,N/A
+Yellow Chuchu Jelly,Monster Part,N/A,N/A
+Chuchu Jelly,Monster Part,N/A,N/A
+Octo Balloon,Monster Part,N/A,N/A
+Keese Eyeball,Monster Part,N/A,N/A
+Fire Keese Eyeball,Monster Part,N/A,N/A
+Ice Keese Eyeball,Monster Part,N/A,N/A
+Electric Keese Eyeball,Monster Part,N/A,N/A
+Octorok Eyeball,Monster Part,N/A,N/A
+Aerocuda Eyeball,Monster Part,N/A,N/A
+Keese Wing,Monster Part,N/A,N/A
+Fire Keese Wing,Monster Part,N/A,N/A
+Ice Keese Wing,Monster Part,N/A,N/A
+Electric Keese Wing,Monster Part,N/A,N/A
+Aerocuda Wing,Monster Part,N/A,N/A
+Gibdo Wing,Monster Part,N/A,N/A
+Bokoblin Horn,Monster Part,N/A,N/A
+Blue Bokoblin Horn,Monster Part,N/A,N/A
+Black Bokoblin Horn,Monster Part,N/A,N/A
+Silver Bokoblin Horn,Monster Part,N/A,N/A
+Blue Boss Bokoblin Horn,Monster Part,N/A,N/A
+Black Boss Bokoblin Horn,Monster Part,N/A,N/A
+Lizalfos Horn,Monster Part,N/A,N/A
+Blue Lizalfos Horn,Monster Part,N/A,N/A
+Black Lizalfos Horn,Monster Part,N/A,N/A
 Silver Lizalfos Horn,Monster Part,N/A,Biting
-Fire-Breath Lizalfos Horn,Monster Part,N/A, N/A
-Ice-Breath Lizalfos Horn,Monster Part,N/A, N/A
-Electric Lizalfos Horn,Monster Part,N/A, N/A
-Lynel Saber Horn,Monster Part,N/A, N/A
-Blue-Maned Lynel Saber Horn,Monster Part,N/A, N/A
+Fire-Breath Lizalfos Horn,Monster Part,N/A,N/A
+Ice-Breath Lizalfos Horn,Monster Part,N/A,N/A
+Electric Lizalfos Horn,Monster Part,N/A,N/A
+Lynel Saber Horn,Monster Part,N/A,N/A
+Blue-Maned Lynel Saber Horn,Monster Part,N/A,N/A
 White-Maned Lynel Saber Horn,Monster Part,N/A,
-Silver Lynel Saber Horn,Monster Part,N/A, N/A
-Soldier Construct Horn,Special,N/A, N/A
-Soldier Construct II Horn,Special,N/A, N/A
-Soldier Construct III Horn,Special,N/A, N/A
-Soldier Construct IV Horn,Special,N/A, N/A
-Captain Construct I Horn,Special,N/A, N/A
-Captain Construct II Horn,Special,N/A, N/A
-Captain Construct III Horn,Special,N/A, N/A
+Silver Lynel Saber Horn,Monster Part,N/A,N/A
+Soldier Construct Horn,Special,N/A,N/A
+Soldier Construct II Horn,Special,N/A,N/A
+Soldier Construct III Horn,Special,N/A,N/A
+Soldier Construct IV Horn,Special,N/A,N/A
+Captain Construct I Horn,Special,N/A,N/A
+Captain Construct II Horn,Special,N/A,N/A
+Captain Construct III Horn,Special,N/A,N/A
 Captain Construct IV Horn,Special,N/A,
-Hinox Toenail,Monster Part,N/A, N/A
-Dinraal's Horn,Special,N/A, N/A
-Light Dragon's Horn,Special,N/A, N/A
-Like Like Stone,Monster Part,N/A, N/A
-Fire Like Stone,Monster Part,N/A, N/A
-Ice Like Stone,Monster Part,N/A, N/A
-Shock Like Stone,Monster Part,N/A, N/A
-Moblin Horn,Monster Part,N/A, N/A
-Blue Moblin Horn,Monster Part,N/A, N/A
-Black Moblin Horn,Monster Part,N/A, N/A
-Horriblin Horn,Monster Part,N/A, N/A
-Blue Horriblin Horn,Monster Part,N/A, N/A
-Black Horriblin Horn,Monster Part,N/A, N/A
-Silver Horriblin Horn,Monster Part,N/A, N/A
-Lynel Hoof,Monster Part,N/A, N/A
-Lynel Mace Horn,Monster Part,N/A, N/A
-Blue-Maned Lynel Mace Horn,Monster Part,N/A, N/A
+Hinox Toenail,Monster Part,N/A,N/A
+Dinraal's Horn,Special,N/A,N/A
+Light Dragon's Horn,Special,N/A,N/A
+Like Like Stone,Monster Part,N/A,N/A
+Fire Like Stone,Monster Part,N/A,N/A
+Ice Like Stone,Monster Part,N/A,N/A
+Shock Like Stone,Monster Part,N/A,N/A
+Moblin Horn,Monster Part,N/A,N/A
+Blue Moblin Horn,Monster Part,N/A,N/A
+Black Moblin Horn,Monster Part,N/A,N/A
+Horriblin Horn,Monster Part,N/A,N/A
+Blue Horriblin Horn,Monster Part,N/A,N/A
+Black Horriblin Horn,Monster Part,N/A,N/A
+Silver Horriblin Horn,Monster Part,N/A,N/A
+Lynel Hoof,Monster Part,N/A,N/A
+Lynel Mace Horn,Monster Part,N/A,N/A
+Blue-Maned Lynel Mace Horn,Monster Part,N/A,N/A
 White-Maned Lynel Mace Horn,Monster Part,N/A,
 Silver Lynel Mace Horn,Monster Part,N/A,
-Hinox Horn,Monster Part,N/A, N/A
-Blue Hinox Horn,Monster Part,N/A, N/A
-Black Hinox Horn,Monster Part,N/A, N/A
-Stalnox Horn,Monster Part,N/A, N/A
+Hinox Horn,Monster Part,N/A,N/A
+Blue Hinox Horn,Monster Part,N/A,N/A
+Black Hinox Horn,Monster Part,N/A,N/A
+Stalnox Horn,Monster Part,N/A,N/A
 Molduga Jaw,Monster Part,N/A,
-Frox Fang,Monster Part,N/A, N/A
+Frox Fang,Monster Part,N/A,N/A
 Obsidian Frox Fang,Monster Part,N/A,
 Blue-White Frox Fang,Monster Part,N/A,
-Shard of Light Dragon's Spike,Special,N/A, N/A
-Lizalfos Tail,Monster Part,N/A, N/A
-Blue Lizalfos Tail,Monster Part,N/A, N/A
-Black Lizalfos Tail,Monster Part,N/A, N/A
-Silver Lizalfos Tail,Monster Part,N/A, N/A
-Fire-Breath Lizalfos Tail,Monster Part,N/A, N/A
-Ice-Breath Lizalfos Tail,Monster Part,N/A, N/A
-Electric Lizalfos Tail,Monster Part,N/A, N/A
-Gibdo Bone,Monster Part,N/A, N/A
-Octorok Tentacle,Monster Part,N/A, N/A
-Bokoblin Fang,Monster Part,N/A, N/A
-Moblin Fang,Monster Part,N/A, N/A
-Boss Bokoblin Fang,Monster Part,N/A, N/A
-Hinox Tooth,Monster Part,N/A, N/A
-Horriblin Claw,Monster Part,N/A, N/A
-Lizalfos Talon,Monster Part,N/A, N/A
-Frox Fingernail,Monster Part,N/A, N/A
-Dinraal's Scale,Special,N/A,
-Naydra's Scale,Special,N/A,
-Light Dragon's Scale,Special,N/A,
-Dinraal's Claw,Special,N/A,
-Naydra's Claw,Special,N/A,
-Light Dragon's Talon,Special,N/A,
-Shard of Dinraal's Fang,Special,N/A,
-Brightbloom Seed,Fruit,N/A, N/A
-Giant Brightbloom Seed,Fruit,N/A, N/A
+Shard of Light Dragon's Spike,Special,N/A,N/A
+Lizalfos Tail,Monster Part,N/A,N/A
+Blue Lizalfos Tail,Monster Part,N/A,N/A
+Black Lizalfos Tail,Monster Part,N/A,N/A
+Silver Lizalfos Tail,Monster Part,N/A,N/A
+Fire-Breath Lizalfos Tail,Monster Part,N/A,N/A
+Ice-Breath Lizalfos Tail,Monster Part,N/A,N/A
+Electric Lizalfos Tail,Monster Part,N/A,N/A
+Gibdo Bone,Monster Part,N/A,N/A
+Octorok Tentacle,Monster Part,N/A,N/A
+Bokoblin Fang,Monster Part,N/A,N/A
+Moblin Fang,Monster Part,N/A,N/A
+Boss Bokoblin Fang,Monster Part,N/A,N/A
+Hinox Tooth,Monster Part,N/A,N/A
+Horriblin Claw,Monster Part,N/A,N/A
+Lizalfos Talon,Monster Part,N/A,N/A
+Frox Fingernail,Monster Part,N/A,N/A
+Dinraal's Scale,Special,N/A,N/A
+Naydra's Scale,Special,N/A,N/A
+Light Dragon's Scale,Special,N/A,N/A
+Dinraal's Claw,Special,N/A,N/A
+Naydra's Claw,Special,N/A,N/A
+Light Dragon's Talon,Special,N/A,N/A
+Shard of Dinraal's Fang,Special,N/A,N/A
+Brightbloom Seed,Fruit,N/A,N/A
+Giant Brightbloom Seed,Fruit,N/A,N/A
