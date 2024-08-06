@@ -1,0 +1,5561 @@
+[
+    {
+        "Name": "",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Mushroom Skewer",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Meat and Mushroom Skewer",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fish and Mushroom Skewer",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Meat Skewer",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fish Skewer",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Seafood Skewer",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Copious Meat Skewers",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Copious Seafood Skewers",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Steamed Fruit",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Steamed Tomatoes",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Tomato"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Steamed Mushrooms",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Steamed Meat",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Steamed Fish",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Sauteed Peppers",
+        "Ingredients": {
+            "Unique": {
+                "Spicy Pepper": {
+                    "Type": "Fruit",
+                    "Effect": "Cold Resistance",
+                    "Prefix": "Spicy"
+                }
+            },
+            "Generic": {
+                "Cold Resistance": [
+                    "Spicy Pepper"
+                ]
+            }
+        },
+        "Variants": {
+            "Cold Resistance Variant": {
+                "Name": "Cold Resistance Variant",
+                "Ingredient Options": [
+                    "Spicy Pepper"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Sauteed Nuts",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fried Wild Greens",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Copious Fried Wild Greens",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Energizing Cooked Stambulb",
+        "Ingredients": {
+            "Unique": {
+                "Stambulb": {
+                    "Type": "Herb",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Stambulb"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Stambulb"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Energizing Buttered Stambulb",
+        "Ingredients": {
+            "Unique": {
+                "Stambulb": {
+                    "Type": "Herb",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Stambulb"
+                ],
+                "None": [
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Stambulb"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Copious Mushroom Skewers",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Spiced Meat Skewer",
+        "Ingredients": {
+            "Unique": {
+                "Raw Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Meat",
+                    "Goron Spice",
+                    "Raw Meat"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Spiced Meat Skewer",
+        "Ingredients": {
+            "Unique": {
+                "Raw Prime Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Prime Meat",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Spiced Meat Skewer",
+        "Ingredients": {
+            "Unique": {
+                "Raw Gourmet Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Gourmet Meat",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Crab Stir-Fry",
+        "Ingredients": {
+            "Unique": {
+                "Bright-Eyed Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Razorclaw Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Ironshell Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Bright-Eyed Crab"
+                ],
+                "Attack Up": [
+                    "Razorclaw Crab"
+                ],
+                "Defense Up": [
+                    "Ironshell Crab"
+                ],
+                "None": [
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Bright-Eyed Crab"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Razorclaw Crab"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Ironshell Crab"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Meat and Seafood Fry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Raw Bird Drumstick": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Meat and Seafood Fry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Prime Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Raw Bird Thigh": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Meat and Seafood Fry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Gourmet Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Raw Whole Bird": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salt-Grilled Greens",
+        "Ingredients": {
+            "Unique": {
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salt-Grilled Mushrooms",
+        "Ingredients": {
+            "Unique": {
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salt-Grilled Meat",
+        "Ingredients": {
+            "Unique": {
+                "Raw Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Raw Bird Drumstick": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Meat",
+                    "Raw Bird Drumstick",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salt-Grilled Prime Meat",
+        "Ingredients": {
+            "Unique": {
+                "Raw Prime Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Raw Bird Thigh": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salt-Grilled Gourmet Meat",
+        "Ingredients": {
+            "Unique": {
+                "Raw Gourmet Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Raw Whole Bird": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salt-Grilled Fish",
+        "Ingredients": {
+            "Unique": {
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salt-Grilled Crab",
+        "Ingredients": {
+            "Unique": {
+                "Bright-Eyed Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Razorclaw Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Ironshell Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Bright-Eyed Crab"
+                ],
+                "Attack Up": [
+                    "Razorclaw Crab"
+                ],
+                "Defense Up": [
+                    "Ironshell Crab"
+                ],
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Bright-Eyed Crab"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Razorclaw Crab"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Ironshell Crab"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Herb Saute",
+        "Ingredients": {
+            "Unique": {
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fragrant Mushroom Saute",
+        "Ingredients": {
+            "Unique": {
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Pepper Steak",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Peppered Seafood",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fragrant Seafood Stew",
+        "Ingredients": {
+            "Unique": {
+                "Stambulb": {
+                    "Type": "Herb",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Oil Jar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Stambulb"
+                ],
+                "None": [
+                    "Oil Jar"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Stambulb"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Deep-Fried Drumstick",
+        "Ingredients": {
+            "Unique": {
+                "Raw Bird Drumstick": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Oil Jar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Bird Drumstick",
+                    "Oil Jar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Deep-Fried Thigh",
+        "Ingredients": {
+            "Unique": {
+                "Raw Bird Thigh": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Oil Jar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Bird Thigh",
+                    "Oil Jar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Deep-Fried Bird Roast",
+        "Ingredients": {
+            "Unique": {
+                "Raw Whole Bird": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Oil Jar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Whole Bird",
+                    "Oil Jar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Seafood Meuniere",
+        "Ingredients": {
+            "Unique": {
+                "Voltfin Trout": {
+                    "Type": "Fish",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                },
+                "Staminoka Bass": {
+                    "Type": "Fish",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Hearty Bass": {
+                    "Type": "Fish",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Mighty Carp": {
+                    "Type": "Fish",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Hyrule Bass": {
+                    "Type": "Fish",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Sanke Carp": {
+                    "Type": "Fish",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Ancient Arowana": {
+                    "Type": "Fish",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Stealthfin Trout": {
+                    "Type": "Fish",
+                    "Effect": "Stealth Up",
+                    "Prefix": "Sneaky"
+                },
+                "Sizzlefin Trout": {
+                    "Type": "Fish",
+                    "Effect": "Cold Resistance",
+                    "Prefix": "Spicy"
+                },
+                "Armored Carp": {
+                    "Type": "Fish",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Bright-Eyed Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Razorclaw Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Sneaky River Snail": {
+                    "Type": "Shelled",
+                    "Effect": "Stealth Up",
+                    "Prefix": "Sneaky"
+                },
+                "Ironshell Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Shock Resistance": [
+                    "Voltfin Trout"
+                ],
+                "Stamina Recovery": [
+                    "Staminoka Bass",
+                    "Bright-Eyed Crab"
+                ],
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Hearty Bass"
+                ],
+                "Attack Up": [
+                    "Mighty Carp",
+                    "Razorclaw Crab"
+                ],
+                "None": [
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ],
+                "Stealth Up": [
+                    "Stealthfin Trout",
+                    "Sneaky River Snail"
+                ],
+                "Cold Resistance": [
+                    "Sizzlefin Trout"
+                ],
+                "Defense Up": [
+                    "Armored Carp",
+                    "Ironshell Crab"
+                ]
+            }
+        },
+        "Variants": {
+            "Shock Resistance Variant": {
+                "Name": "Shock Resistance Variant",
+                "Ingredient Options": [
+                    "Voltfin Trout"
+                ]
+            },
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Staminoka Bass",
+                    "Bright-Eyed Crab"
+                ]
+            },
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Hearty Bass"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Carp",
+                    "Razorclaw Crab"
+                ]
+            },
+            "Stealth Up Variant": {
+                "Name": "Stealth Up Variant",
+                "Ingredient Options": [
+                    "Stealthfin Trout",
+                    "Sneaky River Snail"
+                ]
+            },
+            "Cold Resistance Variant": {
+                "Name": "Cold Resistance Variant",
+                "Ingredient Options": [
+                    "Sizzlefin Trout"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Armored Carp",
+                    "Ironshell Crab"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Porgy Meuniere",
+        "Ingredients": {
+            "Unique": {
+                "Armored Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Mighty Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Defense Up": [
+                    "Armored Porgy"
+                ],
+                "Attack Up": [
+                    "Mighty Porgy"
+                ],
+                "None": [
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Armored Porgy"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Porgy"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Salmon Meuniere",
+        "Ingredients": {
+            "Unique": {
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fruit and Mushroom Mix",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Simmered Fruit",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Copious Simmered Fruit",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Simmered Tomato",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Tomato"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fruity Tomato Stew",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Tomato",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Tomato Mushroom Stew",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Tomato"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Tomato Seafood Soup",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Tomato"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Cream of Vegetable Soup",
+        "Ingredients": {
+            "Unique": {
+                "Big Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ],
+                "None": [
+                    "Hylian Tomato",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Veggie Cream Soup",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            },
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Cream of Mushroom Soup",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Big Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ],
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            },
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ]
+            },
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Creamy Meat Soup",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Big Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ],
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            },
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ]
+            },
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Creamy Seafood Soup",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Big Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ],
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            },
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ]
+            },
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Snail Chowder",
+        "Ingredients": {
+            "Unique": {
+                "Sneaky River Snail": {
+                    "Type": "Shelled",
+                    "Effect": "Stealth Up",
+                    "Prefix": "Sneaky"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stealth Up": [
+                    "Sneaky River Snail"
+                ],
+                "None": [
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {
+            "Stealth Up Variant": {
+                "Name": "Stealth Up Variant",
+                "Ingredient Options": [
+                    "Sneaky River Snail"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Creamy Heart Soup",
+        "Ingredients": {
+            "Unique": {
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hydromelon": {
+                    "Type": "Fruit",
+                    "Effect": "Heat Resistance",
+                    "Prefix": "Chilly"
+                },
+                "Voltfruit": {
+                    "Type": "Fruit",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                }
+            },
+            "Generic": {
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Hearty Radish"
+                ],
+                "Heat Resistance": [
+                    "Hydromelon"
+                ],
+                "Shock Resistance": [
+                    "Voltfruit"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Hearty Radish"
+                ]
+            },
+            "Heat Resistance Variant": {
+                "Name": "Heat Resistance Variant",
+                "Ingredient Options": [
+                    "Hydromelon"
+                ]
+            },
+            "Shock Resistance Variant": {
+                "Name": "Shock Resistance Variant",
+                "Ingredient Options": [
+                    "Voltfruit"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Glazed Veggies",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Big Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ],
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            },
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ]
+            },
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            },
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Glazed Mushrooms",
+        "Ingredients": {
+            "Unique": {
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Glazed Meat",
+        "Ingredients": {
+            "Unique": {
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Glazed Seafood",
+        "Ingredients": {
+            "Unique": {
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Curry Rice",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Vegetable Curry",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "None": [
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Meat Curry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Meat",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Meat Curry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Prime Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Prime Meat",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Meat Curry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Gourmet Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Gourmet Meat",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Poultry Curry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Bird Drumstick": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Bird Drumstick",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Poultry Curry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Bird Thigh": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Bird Thigh",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Poultry Curry",
+        "Ingredients": {
+            "Unique": {
+                "Raw Whole Bird": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Whole Bird",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Seafood Curry",
+        "Ingredients": {
+            "Unique": {
+                "Armored Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Mighty Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Defense Up": [
+                    "Armored Porgy"
+                ],
+                "Attack Up": [
+                    "Mighty Porgy"
+                ],
+                "None": [
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Armored Porgy"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Porgy"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Cheesy Curry",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Carrot Stew",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "None": [
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Pumpkin Stew",
+        "Ingredients": {
+            "Unique": {
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Meat Stew",
+        "Ingredients": {
+            "Unique": {
+                "Raw Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Meat",
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Meat Stew",
+        "Ingredients": {
+            "Unique": {
+                "Raw Prime Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Prime Meat",
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Meat Stew",
+        "Ingredients": {
+            "Unique": {
+                "Raw Gourmet Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Gourmet Meat",
+                    "Goat Butter",
+                    "Tabantha Wheat"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Meat-Stuffed Pumpkin",
+        "Ingredients": {
+            "Unique": {
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                }
+            },
+            "Generic": {
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        },
+        "Variants": {
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Vegetable Risotto",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "None": [
+                    "Hylian Rice",
+                    "Rock Salt",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Mushroom Risotto",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice",
+                    "Rock Salt",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Salmon Risotto",
+        "Ingredients": {
+            "Unique": {
+                "Hearty Salmon": {
+                    "Type": "Fish",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Hearty Salmon"
+                ],
+                "None": [
+                    "Hylian Rice",
+                    "Rock Salt",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Hearty Salmon"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Crab Risotto",
+        "Ingredients": {
+            "Unique": {
+                "Bright-Eyed Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Razorclaw Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Ironshell Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Bright-Eyed Crab"
+                ],
+                "Attack Up": [
+                    "Razorclaw Crab"
+                ],
+                "Defense Up": [
+                    "Ironshell Crab"
+                ],
+                "None": [
+                    "Hylian Rice",
+                    "Rock Salt",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Bright-Eyed Crab"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Razorclaw Crab"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Ironshell Crab"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Cheesy Risotto",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese",
+                    "Rock Salt",
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Poultry Pilaf",
+        "Ingredients": {
+            "Unique": {
+                "Raw Bird Drumstick": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Bird Drumstick",
+                    "Hylian Rice",
+                    "Bird Egg",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Poultry Pilaf",
+        "Ingredients": {
+            "Unique": {
+                "Raw Bird Thigh": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Bird Thigh",
+                    "Hylian Rice",
+                    "Bird Egg",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Poultry Pilaf",
+        "Ingredients": {
+            "Unique": {
+                "Raw Whole Bird": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Whole Bird",
+                    "Hylian Rice",
+                    "Bird Egg",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Seafood Paella",
+        "Ingredients": {
+            "Unique": {
+                "Mighty Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Armored Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Attack Up": [
+                    "Mighty Porgy"
+                ],
+                "Defense Up": [
+                    "Armored Porgy"
+                ],
+                "None": [
+                    "Rock Salt",
+                    "Goat Butter",
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Porgy"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Armored Porgy"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Curry Pilaf",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice",
+                    "Goat Butter",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fried Egg and Rice",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Crunchy Fried Rice",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Oil Jar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice",
+                    "Bird Egg",
+                    "Oil Jar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Seafood Fried Rice",
+        "Ingredients": {
+            "Unique": {
+                "Armored Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Mighty Porgy": {
+                    "Type": "Fish",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Defense Up": [
+                    "Armored Porgy"
+                ],
+                "Attack Up": [
+                    "Mighty Porgy"
+                ],
+                "None": [
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Armored Porgy"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Porgy"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Crab Omelet with Rice",
+        "Ingredients": {
+            "Unique": {
+                "Bright-Eyed Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Razorclaw Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Ironshell Crab": {
+                    "Type": "Shelled",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Bright-Eyed Crab"
+                ],
+                "Attack Up": [
+                    "Razorclaw Crab"
+                ],
+                "Defense Up": [
+                    "Ironshell Crab"
+                ],
+                "None": [
+                    "Hylian Rice",
+                    "Rock Salt",
+                    "Bird Egg"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Bright-Eyed Crab"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Razorclaw Crab"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Ironshell Crab"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Meat and Rice Bowl",
+        "Ingredients": {
+            "Unique": {
+                "Raw Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Meat",
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Meat and Rice Bowl",
+        "Ingredients": {
+            "Unique": {
+                "Raw Prime Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Prime Meat",
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Meat and Rice Bowl",
+        "Ingredients": {
+            "Unique": {
+                "Raw Gourmet Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Gourmet Meat",
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Cheesy Meat Bowl",
+        "Ingredients": {
+            "Unique": {
+                "Raw Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Meat",
+                    "Hateno Cheese",
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Prime Cheesy Meat Bowl",
+        "Ingredients": {
+            "Unique": {
+                "Raw Prime Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Prime Meat",
+                    "Hateno Cheese",
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Gourmet Cheesy Meat Bowl",
+        "Ingredients": {
+            "Unique": {
+                "Raw Gourmet Meat": {
+                    "Type": "Meat",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Raw Gourmet Meat",
+                    "Hateno Cheese",
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Veggie Rice Balls",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Big Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ],
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            },
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ]
+            },
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Mushroom Rice Balls",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Meaty Rice Balls",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Seafood Rice Balls",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Veggie Porridge",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Wheat Bread",
+        "Ingredients": {
+            "Unique": {
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Tabantha Wheat",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Melty Cheesy Bread",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese",
+                    "Tabantha Wheat",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Hylian Tomato Pizza",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese",
+                    "Tabantha Wheat",
+                    "Hylian Tomato"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Meat Pie",
+        "Ingredients": {
+            "Unique": {
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fish Pie",
+        "Ingredients": {
+            "Unique": {
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Cheesy Tomato",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hylian Tomato": {
+                    "Type": "Vegetable",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese",
+                    "Hylian Tomato"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Cheesy Baked Fish",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Omelet",
+        "Ingredients": {
+            "Unique": {
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Bird Egg"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Vegetable Omelet",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Big Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Hearty Radish": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                },
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ],
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Bird Egg",
+                    "Goat Butter",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            },
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Big Hearty Radish",
+                    "Hearty Radish"
+                ]
+            },
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Mushroom Omelet",
+        "Ingredients": {
+            "Unique": {
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Bird Egg",
+                    "Goat Butter",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Cheesy Omelet",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese",
+                    "Bird Egg",
+                    "Goat Butter",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Hot Buttered Apple",
+        "Ingredients": {
+            "Unique": {
+                "Golden Apple": {
+                    "Type": "Fruit",
+                    "Effect": "Critical Success",
+                    "Prefix": "None"
+                },
+                "Apple": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Critical Success": [
+                    "Golden Apple"
+                ],
+                "None": [
+                    "Apple",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {
+            "Critical Success Variant": {
+                "Name": "Critical Success Variant",
+                "Ingredient Options": [
+                    "Golden Apple"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Honeyed Fruits",
+        "Ingredients": {
+            "Unique": {
+                "Ice Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Cold Weather Attack",
+                    "Prefix": "Biting"
+                },
+                "Hydromelon": {
+                    "Type": "Fruit",
+                    "Effect": "Heat Resistance",
+                    "Prefix": "Chilly"
+                },
+                "Voltfruit": {
+                    "Type": "Fruit",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                },
+                "Fleet-Lotus Seeds": {
+                    "Type": "Fruit",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Mighty Bananas": {
+                    "Type": "Fruit",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Palm Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Wildberry": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Dazzlefruit": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Splash Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Swim Speed Up",
+                    "Prefix": "Rapid"
+                },
+                "Fire Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Hot Weather Attack",
+                    "Prefix": "Scorching"
+                },
+                "Spicy Pepper": {
+                    "Type": "Fruit",
+                    "Effect": "Cold Resistance",
+                    "Prefix": "Spicy"
+                },
+                "Shock Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Stormy Weather Attack",
+                    "Prefix": "Stormy"
+                },
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Cold Weather Attack": [
+                    "Ice Fruit"
+                ],
+                "Heat Resistance": [
+                    "Hydromelon"
+                ],
+                "Shock Resistance": [
+                    "Voltfruit"
+                ],
+                "Speed Up": [
+                    "Fleet-Lotus Seeds"
+                ],
+                "Attack Up": [
+                    "Mighty Bananas"
+                ],
+                "None": [
+                    "Palm Fruit",
+                    "Wildberry",
+                    "Dazzlefruit"
+                ],
+                "Swim Speed Up": [
+                    "Splash Fruit"
+                ],
+                "Hot Weather Attack": [
+                    "Fire Fruit"
+                ],
+                "Cold Resistance": [
+                    "Spicy Pepper"
+                ],
+                "Stormy Weather Attack": [
+                    "Shock Fruit"
+                ],
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ]
+            }
+        },
+        "Variants": {
+            "Cold Weather Attack Variant": {
+                "Name": "Cold Weather Attack Variant",
+                "Ingredient Options": [
+                    "Ice Fruit"
+                ]
+            },
+            "Heat Resistance Variant": {
+                "Name": "Heat Resistance Variant",
+                "Ingredient Options": [
+                    "Hydromelon"
+                ]
+            },
+            "Shock Resistance Variant": {
+                "Name": "Shock Resistance Variant",
+                "Ingredient Options": [
+                    "Voltfruit"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Fleet-Lotus Seeds"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Bananas"
+                ]
+            },
+            "Swim Speed Up Variant": {
+                "Name": "Swim Speed Up Variant",
+                "Ingredient Options": [
+                    "Splash Fruit"
+                ]
+            },
+            "Hot Weather Attack Variant": {
+                "Name": "Hot Weather Attack Variant",
+                "Ingredient Options": [
+                    "Fire Fruit"
+                ]
+            },
+            "Cold Resistance Variant": {
+                "Name": "Cold Resistance Variant",
+                "Ingredient Options": [
+                    "Spicy Pepper"
+                ]
+            },
+            "Stormy Weather Attack Variant": {
+                "Name": "Stormy Weather Attack Variant",
+                "Ingredient Options": [
+                    "Shock Fruit"
+                ]
+            },
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Honeyed Apple",
+        "Ingredients": {
+            "Unique": {
+                "Golden Apple": {
+                    "Type": "Fruit",
+                    "Effect": "Critical Success",
+                    "Prefix": "None"
+                },
+                "Apple": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Critical Success": [
+                    "Golden Apple"
+                ],
+                "None": [
+                    "Apple"
+                ],
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ]
+            }
+        },
+        "Variants": {
+            "Critical Success Variant": {
+                "Name": "Critical Success Variant",
+                "Ingredient Options": [
+                    "Golden Apple"
+                ]
+            },
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Honey Candy",
+        "Ingredients": {
+            "Unique": {
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Fried Bananas",
+        "Ingredients": {
+            "Unique": {
+                "Mighty Bananas": {
+                    "Type": "Fruit",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Attack Up": [
+                    "Mighty Bananas"
+                ],
+                "None": [
+                    "Tabantha Wheat",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Bananas"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Egg Pudding",
+        "Ingredients": {
+            "Unique": {
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Bird Egg",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Plain Crepe",
+        "Ingredients": {
+            "Unique": {
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Bird Egg",
+                    "Tabantha Wheat",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Wildberry Crepe",
+        "Ingredients": {
+            "Unique": {
+                "Wildberry": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Wildberry",
+                    "Bird Egg",
+                    "Tabantha Wheat",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Honey Crepe",
+        "Ingredients": {
+            "Unique": {
+                "Courser Bee Honey": {
+                    "Type": "Special",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Courser Bee Honey"
+                ],
+                "None": [
+                    "Bird Egg",
+                    "Tabantha Wheat",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Nutcake",
+        "Ingredients": {
+            "Unique": {
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fruitcake",
+        "Ingredients": {
+            "Unique": {
+                "Golden Apple": {
+                    "Type": "Fruit",
+                    "Effect": "Critical Success",
+                    "Prefix": "None"
+                },
+                "Apple": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Wildberry": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Ice Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Cold Weather Attack",
+                    "Prefix": "Biting"
+                },
+                "Hydromelon": {
+                    "Type": "Fruit",
+                    "Effect": "Heat Resistance",
+                    "Prefix": "Chilly"
+                },
+                "Voltfruit": {
+                    "Type": "Fruit",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                },
+                "Fleet-Lotus Seeds": {
+                    "Type": "Fruit",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Mighty Bananas": {
+                    "Type": "Fruit",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Palm Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Dazzlefruit": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Splash Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Swim Speed Up",
+                    "Prefix": "Rapid"
+                },
+                "Fire Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Hot Weather Attack",
+                    "Prefix": "Scorching"
+                },
+                "Spicy Pepper": {
+                    "Type": "Fruit",
+                    "Effect": "Cold Resistance",
+                    "Prefix": "Spicy"
+                },
+                "Shock Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Stormy Weather Attack",
+                    "Prefix": "Stormy"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Critical Success": [
+                    "Golden Apple"
+                ],
+                "None": [
+                    "Apple",
+                    "Wildberry",
+                    "Palm Fruit",
+                    "Dazzlefruit",
+                    "Tabantha Wheat",
+                    "Cane Sugar"
+                ],
+                "Cold Weather Attack": [
+                    "Ice Fruit"
+                ],
+                "Heat Resistance": [
+                    "Hydromelon"
+                ],
+                "Shock Resistance": [
+                    "Voltfruit"
+                ],
+                "Speed Up": [
+                    "Fleet-Lotus Seeds"
+                ],
+                "Attack Up": [
+                    "Mighty Bananas"
+                ],
+                "Swim Speed Up": [
+                    "Splash Fruit"
+                ],
+                "Hot Weather Attack": [
+                    "Fire Fruit"
+                ],
+                "Cold Resistance": [
+                    "Spicy Pepper"
+                ],
+                "Stormy Weather Attack": [
+                    "Shock Fruit"
+                ]
+            }
+        },
+        "Variants": {
+            "Critical Success Variant": {
+                "Name": "Critical Success Variant",
+                "Ingredient Options": [
+                    "Golden Apple"
+                ]
+            },
+            "Cold Weather Attack Variant": {
+                "Name": "Cold Weather Attack Variant",
+                "Ingredient Options": [
+                    "Ice Fruit"
+                ]
+            },
+            "Heat Resistance Variant": {
+                "Name": "Heat Resistance Variant",
+                "Ingredient Options": [
+                    "Hydromelon"
+                ]
+            },
+            "Shock Resistance Variant": {
+                "Name": "Shock Resistance Variant",
+                "Ingredient Options": [
+                    "Voltfruit"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Fleet-Lotus Seeds"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Bananas"
+                ]
+            },
+            "Swim Speed Up Variant": {
+                "Name": "Swim Speed Up Variant",
+                "Ingredient Options": [
+                    "Splash Fruit"
+                ]
+            },
+            "Hot Weather Attack Variant": {
+                "Name": "Hot Weather Attack Variant",
+                "Ingredient Options": [
+                    "Fire Fruit"
+                ]
+            },
+            "Cold Resistance Variant": {
+                "Name": "Cold Resistance Variant",
+                "Ingredient Options": [
+                    "Spicy Pepper"
+                ]
+            },
+            "Stormy Weather Attack Variant": {
+                "Name": "Stormy Weather Attack Variant",
+                "Ingredient Options": [
+                    "Shock Fruit"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Carrot Cake",
+        "Ingredients": {
+            "Unique": {
+                "Endura Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                },
+                "Swift Carrot": {
+                    "Type": "Vegetable",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Endura Carrot"
+                ],
+                "Speed Up": [
+                    "Swift Carrot"
+                ],
+                "None": [
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Endura Carrot"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Swift Carrot"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Pumpkin Pie",
+        "Ingredients": {
+            "Unique": {
+                "Sun Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Gloom Recovery",
+                    "Prefix": "Sunny"
+                },
+                "Fortified Pumpkin": {
+                    "Type": "Vegetable",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Gloom Recovery": [
+                    "Sun Pumpkin"
+                ],
+                "Defense Up": [
+                    "Fortified Pumpkin"
+                ],
+                "None": [
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {
+            "Gloom Recovery Variant": {
+                "Name": "Gloom Recovery Variant",
+                "Ingredient Options": [
+                    "Sun Pumpkin"
+                ]
+            },
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Fortified Pumpkin"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Cheesecake",
+        "Ingredients": {
+            "Unique": {
+                "Hateno Cheese": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hateno Cheese",
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Fruit Pie",
+        "Ingredients": {
+            "Unique": {
+                "Ice Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Cold Weather Attack",
+                    "Prefix": "Biting"
+                },
+                "Hydromelon": {
+                    "Type": "Fruit",
+                    "Effect": "Heat Resistance",
+                    "Prefix": "Chilly"
+                },
+                "Voltfruit": {
+                    "Type": "Fruit",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                },
+                "Fleet-Lotus Seeds": {
+                    "Type": "Fruit",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Mighty Bananas": {
+                    "Type": "Fruit",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                },
+                "Palm Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Wildberry": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Dazzlefruit": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Splash Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Swim Speed Up",
+                    "Prefix": "Rapid"
+                },
+                "Fire Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Hot Weather Attack",
+                    "Prefix": "Scorching"
+                },
+                "Spicy Pepper": {
+                    "Type": "Fruit",
+                    "Effect": "Cold Resistance",
+                    "Prefix": "Spicy"
+                },
+                "Shock Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "Stormy Weather Attack",
+                    "Prefix": "Stormy"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Cold Weather Attack": [
+                    "Ice Fruit"
+                ],
+                "Heat Resistance": [
+                    "Hydromelon"
+                ],
+                "Shock Resistance": [
+                    "Voltfruit"
+                ],
+                "Speed Up": [
+                    "Fleet-Lotus Seeds"
+                ],
+                "Attack Up": [
+                    "Mighty Bananas"
+                ],
+                "None": [
+                    "Palm Fruit",
+                    "Wildberry",
+                    "Dazzlefruit",
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ],
+                "Swim Speed Up": [
+                    "Splash Fruit"
+                ],
+                "Hot Weather Attack": [
+                    "Fire Fruit"
+                ],
+                "Cold Resistance": [
+                    "Spicy Pepper"
+                ],
+                "Stormy Weather Attack": [
+                    "Shock Fruit"
+                ]
+            }
+        },
+        "Variants": {
+            "Cold Weather Attack Variant": {
+                "Name": "Cold Weather Attack Variant",
+                "Ingredient Options": [
+                    "Ice Fruit"
+                ]
+            },
+            "Heat Resistance Variant": {
+                "Name": "Heat Resistance Variant",
+                "Ingredient Options": [
+                    "Hydromelon"
+                ]
+            },
+            "Shock Resistance Variant": {
+                "Name": "Shock Resistance Variant",
+                "Ingredient Options": [
+                    "Voltfruit"
+                ]
+            },
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Fleet-Lotus Seeds"
+                ]
+            },
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Mighty Bananas"
+                ]
+            },
+            "Swim Speed Up Variant": {
+                "Name": "Swim Speed Up Variant",
+                "Ingredient Options": [
+                    "Splash Fruit"
+                ]
+            },
+            "Hot Weather Attack Variant": {
+                "Name": "Hot Weather Attack Variant",
+                "Ingredient Options": [
+                    "Fire Fruit"
+                ]
+            },
+            "Cold Resistance Variant": {
+                "Name": "Cold Resistance Variant",
+                "Ingredient Options": [
+                    "Spicy Pepper"
+                ]
+            },
+            "Stormy Weather Attack Variant": {
+                "Name": "Stormy Weather Attack Variant",
+                "Ingredient Options": [
+                    "Shock Fruit"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Apple Pie",
+        "Ingredients": {
+            "Unique": {
+                "Golden Apple": {
+                    "Type": "Fruit",
+                    "Effect": "Critical Success",
+                    "Prefix": "None"
+                },
+                "Apple": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "Critical Success": [
+                    "Golden Apple"
+                ],
+                "None": [
+                    "Apple",
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {
+            "Critical Success Variant": {
+                "Name": "Critical Success Variant",
+                "Ingredient Options": [
+                    "Golden Apple"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Egg Tart",
+        "Ingredients": {
+            "Unique": {
+                "Bird Egg": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Bird Egg",
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Milk",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Noble Pursuit",
+        "Ingredients": {
+            "Unique": {
+                "Palm Fruit": {
+                    "Type": "Fruit",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Hydromelon": {
+                    "Type": "Fruit",
+                    "Effect": "Heat Resistance",
+                    "Prefix": "Chilly"
+                },
+                "Voltfruit": {
+                    "Type": "Fruit",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Palm Fruit",
+                    "Rock Salt"
+                ],
+                "Heat Resistance": [
+                    "Hydromelon"
+                ],
+                "Shock Resistance": [
+                    "Voltfruit"
+                ]
+            }
+        },
+        "Variants": {
+            "Heat Resistance Variant": {
+                "Name": "Heat Resistance Variant",
+                "Ingredient Options": [
+                    "Hydromelon"
+                ]
+            },
+            "Shock Resistance Variant": {
+                "Name": "Shock Resistance Variant",
+                "Ingredient Options": [
+                    "Voltfruit"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Monster Stew",
+        "Ingredients": {
+            "Unique": {
+                "Monster Extract": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Monster Extract"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Monster Soup",
+        "Ingredients": {
+            "Unique": {
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Monster Extract": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Monster Extract"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Monster Curry",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Monster Extract": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice",
+                    "Goron Spice",
+                    "Monster Extract"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Monster Rice Balls",
+        "Ingredients": {
+            "Unique": {
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Monster Extract": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Hylian Rice",
+                    "Rock Salt",
+                    "Monster Extract"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Monster Cake",
+        "Ingredients": {
+            "Unique": {
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Monster Extract": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Tabantha Wheat",
+                    "Cane Sugar",
+                    "Goat Butter",
+                    "Monster Extract"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Dark Stew",
+        "Ingredients": {
+            "Unique": {
+                "Dark Clump": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "Warding"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Dark Clump"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Dark Soup",
+        "Ingredients": {
+            "Unique": {
+                "Dark Clump": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "Warding"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Dark Clump",
+                    "Tabantha Wheat",
+                    "Goat Butter"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Dark Curry",
+        "Ingredients": {
+            "Unique": {
+                "Dark Clump": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "Warding"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goron Spice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Dark Clump",
+                    "Hylian Rice",
+                    "Goron Spice"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Dark Rice Ball",
+        "Ingredients": {
+            "Unique": {
+                "Dark Clump": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "Warding"
+                },
+                "Hylian Rice": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Rock Salt": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Dark Clump",
+                    "Hylian Rice",
+                    "Rock Salt"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Dark Cake",
+        "Ingredients": {
+            "Unique": {
+                "Dark Clump": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "Warding"
+                },
+                "Tabantha Wheat": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Goat Butter": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                },
+                "Cane Sugar": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Dark Clump",
+                    "Tabantha Wheat",
+                    "Goat Butter",
+                    "Cane Sugar"
+                ]
+            }
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Energizing Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Restless Cricket": {
+                    "Type": "Critter",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                },
+                "Energetic Rhino Beetle": {
+                    "Type": "Critter",
+                    "Effect": "Stamina Recovery",
+                    "Prefix": "Energizing"
+                }
+            },
+            "Generic": {
+                "Stamina Recovery": [
+                    "Restless Cricket",
+                    "Energetic Rhino Beetle"
+                ]
+            }
+        },
+        "Variants": {
+            "Stamina Recovery Variant": {
+                "Name": "Stamina Recovery Variant",
+                "Ingredient Options": [
+                    "Restless Cricket",
+                    "Energetic Rhino Beetle"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Hasty Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Hot-Footed Frog": {
+                    "Type": "Critter",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                },
+                "Hightail Lizard": {
+                    "Type": "Critter",
+                    "Effect": "Speed Up",
+                    "Prefix": "Hasty"
+                }
+            },
+            "Generic": {
+                "Speed Up": [
+                    "Hot-Footed Frog",
+                    "Hightail Lizard"
+                ]
+            }
+        },
+        "Variants": {
+            "Speed Up Variant": {
+                "Name": "Speed Up Variant",
+                "Ingredient Options": [
+                    "Hot-Footed Frog",
+                    "Hightail Lizard"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Spicy Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Summerwing Butterfly": {
+                    "Type": "Critter",
+                    "Effect": "Cold Resistance",
+                    "Prefix": "Spicy"
+                },
+                "Warm Darner": {
+                    "Type": "Critter",
+                    "Effect": "Cold Resistance",
+                    "Prefix": "Spicy"
+                }
+            },
+            "Generic": {
+                "Cold Resistance": [
+                    "Summerwing Butterfly",
+                    "Warm Darner"
+                ]
+            }
+        },
+        "Variants": {
+            "Cold Resistance Variant": {
+                "Name": "Cold Resistance Variant",
+                "Ingredient Options": [
+                    "Summerwing Butterfly",
+                    "Warm Darner"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Chilly Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Winterwing Butterfly": {
+                    "Type": "Critter",
+                    "Effect": "Heat Resistance",
+                    "Prefix": "Chilly"
+                },
+                "Cold Darner": {
+                    "Type": "Critter",
+                    "Effect": "Heat Resistance",
+                    "Prefix": "Chilly"
+                }
+            },
+            "Generic": {
+                "Heat Resistance": [
+                    "Winterwing Butterfly",
+                    "Cold Darner"
+                ]
+            }
+        },
+        "Variants": {
+            "Heat Resistance Variant": {
+                "Name": "Heat Resistance Variant",
+                "Ingredient Options": [
+                    "Winterwing Butterfly",
+                    "Cold Darner"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Electro Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Thunderwing Butterfly": {
+                    "Type": "Critter",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                },
+                "Electric Darner": {
+                    "Type": "Critter",
+                    "Effect": "Shock Resistance",
+                    "Prefix": "Electro"
+                }
+            },
+            "Generic": {
+                "Shock Resistance": [
+                    "Thunderwing Butterfly",
+                    "Electric Darner"
+                ]
+            }
+        },
+        "Variants": {
+            "Shock Resistance Variant": {
+                "Name": "Shock Resistance Variant",
+                "Ingredient Options": [
+                    "Thunderwing Butterfly",
+                    "Electric Darner"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Fireproof Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Fireproof Lizard": {
+                    "Type": "Critter",
+                    "Effect": "Flame Guard",
+                    "Prefix": "Fireproof"
+                },
+                "Smotherwing Butterfly": {
+                    "Type": "Critter",
+                    "Effect": "Flame Guard",
+                    "Prefix": "Fireproof"
+                }
+            },
+            "Generic": {
+                "Flame Guard": [
+                    "Fireproof Lizard",
+                    "Smotherwing Butterfly"
+                ]
+            }
+        },
+        "Variants": {
+            "Flame Guard Variant": {
+                "Name": "Flame Guard Variant",
+                "Ingredient Options": [
+                    "Fireproof Lizard",
+                    "Smotherwing Butterfly"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Mighty Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Bladed Rhino Beetle": {
+                    "Type": "Critter",
+                    "Effect": "Attack Up",
+                    "Prefix": "Mighty"
+                }
+            },
+            "Generic": {
+                "Attack Up": [
+                    "Bladed Rhino Beetle"
+                ]
+            }
+        },
+        "Variants": {
+            "Attack Up Variant": {
+                "Name": "Attack Up Variant",
+                "Ingredient Options": [
+                    "Bladed Rhino Beetle"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Tough Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Rugged Rhino Beetle": {
+                    "Type": "Critter",
+                    "Effect": "Defense Up",
+                    "Prefix": "Tough"
+                }
+            },
+            "Generic": {
+                "Defense Up": [
+                    "Rugged Rhino Beetle"
+                ]
+            }
+        },
+        "Variants": {
+            "Defense Up Variant": {
+                "Name": "Defense Up Variant",
+                "Ingredient Options": [
+                    "Rugged Rhino Beetle"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Sneaky Elixir",
+        "Ingredients": {
+            "Unique": {},
+            "Generic": {}
+        },
+        "Variants": {}
+    },
+    {
+        "Name": "Sticky Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Sticky Frog": {
+                    "Type": "Critter",
+                    "Effect": "Slip Resistance",
+                    "Prefix": "Electro"
+                },
+                "Sticky Lizard": {
+                    "Type": "Critter",
+                    "Effect": "Slip Resistance",
+                    "Prefix": "Electro"
+                }
+            },
+            "Generic": {
+                "Slip Resistance": [
+                    "Sticky Frog",
+                    "Sticky Lizard"
+                ]
+            }
+        },
+        "Variants": {
+            "Slip Resistance Variant": {
+                "Name": "Slip Resistance Variant",
+                "Ingredient Options": [
+                    "Sticky Frog",
+                    "Sticky Lizard"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Bright Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Deep Firefly": {
+                    "Type": "Critter",
+                    "Effect": "Glow",
+                    "Prefix": "Bright"
+                }
+            },
+            "Generic": {
+                "Glow": [
+                    "Deep Firefly"
+                ]
+            }
+        },
+        "Variants": {
+            "Glow Variant": {
+                "Name": "Glow Variant",
+                "Ingredient Options": [
+                    "Deep Firefly"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Enduring Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Tireless Frog": {
+                    "Type": "Critter",
+                    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+                    "Prefix": "Enduring"
+                }
+            },
+            "Generic": {
+                "Full Stamina Recovery + Temporary Extra Stamina": [
+                    "Tireless Frog"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Stamina Recovery + Temporary Extra Stamina Variant": {
+                "Name": "Full Stamina Recovery + Temporary Extra Stamina Variant",
+                "Ingredient Options": [
+                    "Tireless Frog"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Hearty Elixir",
+        "Ingredients": {
+            "Unique": {
+                "Hearty Lizard": {
+                    "Type": "Critter",
+                    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+                    "Prefix": "Hearty"
+                }
+            },
+            "Generic": {
+                "Full Heart Recovery + Temporary Extra Hearts": [
+                    "Hearty Lizard"
+                ]
+            }
+        },
+        "Variants": {
+            "Full Heart Recovery + Temporary Extra Hearts Variant": {
+                "Name": "Full Heart Recovery + Temporary Extra Hearts Variant",
+                "Ingredient Options": [
+                    "Hearty Lizard"
+                ]
+            }
+        }
+    },
+    {
+        "Name": "Fairy Tonic",
+        "Ingredients": {
+            "Unique": {
+                "Fairy": {
+                    "Type": "Special",
+                    "Effect": "None",
+                    "Prefix": "None"
+                }
+            },
+            "Generic": {
+                "None": [
+                    "Fairy"
+                ]
+            }
+        },
+        "Variants": {}
+    }
+]
