@@ -72,8 +72,9 @@
         "Name": "Copious Meat Skewers",
         "ingredients": [
             {
-                "type": "Four Unique Meat",
-                "name": null
+                "type": "Meat",
+                "name": null,
+                "unique_count": 4
             }
         ]
     },
@@ -82,8 +83,9 @@
         "Name": "Copious Seafood Skewers",
         "ingredients": [
             {
-                "type": "Four Unique Fish",
-                "name": null
+                "type": "Fish",
+                "name": null,
+                "unique_count": 4
             }
         ]
     },
@@ -192,8 +194,9 @@
         "Name": "Copious Fried Wild Greens",
         "ingredients": [
             {
-                "type": "Four Unique Herb",
-                "name": null
+                "type": "Herb",
+                "name": null,
+                "unique_count": 4
             }
         ]
     },
@@ -226,8 +229,9 @@
         "Name": "Copious Mushroom Skewers",
         "ingredients": [
             {
-                "type": "Four Unique Mushroom",
-                "name": null
+                "type": "Mushroom",
+                "name": null,
+                "unique_count": 4
             }
         ]
     },
@@ -283,15 +287,12 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Bright-Eyed Crab"
-            },
-            {
-                "type": null,
-                "name": "Razorclaw Crab"
-            },
-            {
-                "type": null,
-                "name": "Ironshell Crab"
+                "name": null,
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
             },
             {
                 "type": null,
@@ -305,19 +306,19 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Raw Meat"
+                "name": null,
+                "options": [
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
             },
             {
                 "type": null,
-                "name": "Raw Bird Drumstick"
-            },
-            {
-                "type": "Shelled",
-                "name": null
-            },
-            {
-                "type": "Fish",
-                "name": null
+                "name": null,
+                "options": [
+                    "Any Shelled",
+                    "Any Fish"
+                ]
             }
         ]
     },
@@ -327,19 +328,19 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Raw Prime Meat"
+                "name": null,
+                "options": [
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh"
+                ]
             },
             {
                 "type": null,
-                "name": "Raw Bird Thigh"
-            },
-            {
-                "type": "Shelled",
-                "name": null
-            },
-            {
-                "type": "Fish",
-                "name": null
+                "name": null,
+                "options": [
+                    "Any Shelled",
+                    "Any Fish"
+                ]
             }
         ]
     },
@@ -349,19 +350,19 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Raw Gourmet Meat"
+                "name": null,
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird"
+                ]
             },
             {
                 "type": null,
-                "name": "Raw Whole Bird"
-            },
-            {
-                "type": "Shelled",
-                "name": null
-            },
-            {
-                "type": "Fish",
-                "name": null
+                "name": null,
+                "options": [
+                    "Any Shelled",
+                    "Any Fish"
+                ]
             }
         ]
     },
@@ -399,11 +400,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Raw Meat"
-            },
-            {
-                "type": null,
-                "name": "Raw Bird Drumstick"
+                "name": null,
+                "options": [
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
             },
             {
                 "type": null,
@@ -417,11 +418,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Raw Prime Meat"
-            },
-            {
-                "type": null,
-                "name": "Raw Bird Thigh"
+                "name": null,
+                "options": [
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh"
+                ]
             },
             {
                 "type": null,
@@ -435,11 +436,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Raw Gourmet Meat"
-            },
-            {
-                "type": null,
-                "name": "Raw Whole Bird"
+                "name": null,
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird"
+                ]
             },
             {
                 "type": null,
@@ -467,15 +468,12 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Bright-Eyed Crab"
-            },
-            {
-                "type": null,
-                "name": "Razorclaw Crab"
-            },
-            {
-                "type": null,
-                "name": "Ironshell Crab"
+                "name": null,
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
             },
             {
                 "type": null,
@@ -530,12 +528,29 @@
         "Name": "Peppered Seafood",
         "ingredients": [
             {
-                "type": "Shelled",
-                "name": null
-            },
-            {
-                "type": "Fish",
-                "name": null
+                "type": "null",
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             },
             {
                 "type": null,
@@ -548,12 +563,29 @@
         "Name": "Fragrant Seafood Stew",
         "ingredients": [
             {
-                "type": "Shelled",
-                "name": null
-            },
-            {
-                "type": "Fish",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             },
             {
                 "type": null,
@@ -613,59 +645,23 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Voltfin Trout"
-            },
-            {
-                "type": null,
-                "name": "Staminoka Bass"
-            },
-            {
-                "type": null,
-                "name": "Hearty Bass"
-            },
-            {
-                "type": null,
-                "name": "Mighty Carp"
-            },
-            {
-                "type": null,
-                "name": "Hyrule Bass"
-            },
-            {
-                "type": null,
-                "name": "Sanke Carp"
-            },
-            {
-                "type": null,
-                "name": "Ancient Arowana"
-            },
-            {
-                "type": null,
-                "name": "Stealthfin Trout"
-            },
-            {
-                "type": null,
-                "name": "Sizzlefin Trout"
-            },
-            {
-                "type": null,
-                "name": "Armored Carp"
-            },
-            {
-                "type": null,
-                "name": "Bright-Eyed Crab"
-            },
-            {
-                "type": null,
-                "name": "Razorclaw Crab"
-            },
-            {
-                "type": null,
-                "name": "Sneaky River Snail"
-            },
-            {
-                "type": null,
-                "name": "Ironshell Crab"
+                "name": null,
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
             },
             {
                 "type": null,
@@ -683,11 +679,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Armored Porgy"
-            },
-            {
-                "type": null,
-                "name": "Mighty Porgy"
+                "name": null,
+                "options": [
+                    "Armored Porgy",
+                    "Mighty Porgy"
+                ]
             },
             {
                 "type": null,
@@ -746,8 +742,9 @@
         "Name": "Copious Simmered Fruit",
         "ingredients": [
             {
-                "type": "Four Unique Fruit",
-                "name": null
+                "type": "Fruit",
+                "name": null,
+                "unique_count": 4
             }
         ]
     },
@@ -802,12 +799,29 @@
                 "name": "Hylian Tomato"
             },
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             }
         ]
     },
@@ -816,20 +830,14 @@
         "Name": "Cream of Vegetable Soup",
         "ingredients": [
             {
-                "type": "Herb",
-                "name": null
-            },
-            {
                 "type": null,
-                "name": "Big Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hylian Tomato"
+                "name": null,
+                "options": [
+                    "Any Herb",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Hylian Tomato"
+                ]
             },
             {
                 "type": null,
@@ -847,19 +855,13 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -880,32 +882,28 @@
                 "name": null
             },
             {
-                "type": "Herb",
-                "name": null
-            },
-            {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Big Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -926,32 +924,28 @@
                 "name": null
             },
             {
-                "type": "Herb",
-                "name": null
-            },
-            {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Big Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -968,40 +962,36 @@
         "Name": "Creamy Seafood Soup",
         "ingredients": [
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
-            },
-            {
-                "type": "Herb",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Any Fish",
+                    "Any Shelled"
+                ]
             },
             {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Big Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -1062,32 +1052,28 @@
         "Name": "Glazed Veggies",
         "ingredients": [
             {
-                "type": "Herb",
-                "name": null
-            },
-            {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Big Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -1128,12 +1114,29 @@
         "Name": "Glazed Seafood",
         "ingredients": [
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             },
             {
                 "type": null,
@@ -1161,15 +1164,13 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin\r\nFortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -1295,11 +1296,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Armored Porgy"
-            },
-            {
-                "type": null,
-                "name": "Mighty Porgy"
+                "name": null,
+                "options": [
+                    "Armored Porgy",
+                    "Mighty Porgy"
+                ]
             },
             {
                 "type": null,
@@ -1335,11 +1336,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
+                "name": null,
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot"
+                ]
             },
             {
                 "type": null,
@@ -1361,11 +1362,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -1453,11 +1454,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": "Meat",
@@ -1471,11 +1472,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot or pumpkin"
+                "name": null,
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot or pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -1541,15 +1542,12 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Bright-Eyed Crab"
-            },
-            {
-                "type": null,
-                "name": "Razorclaw Crab"
-            },
-            {
-                "type": null,
-                "name": "Ironshell Crab"
+                "name": null,
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
             },
             {
                 "type": null,
@@ -1574,12 +1572,51 @@
                 "name": "Hateno Cheese"
             },
             {
-                "type": "Mushroom",
-                "name": null
-            },
-            {
-                "type": "Fish",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
             },
             {
                 "type": null,
@@ -1663,11 +1700,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Mighty Porgy"
-            },
-            {
-                "type": null,
-                "name": "Armored Porgy"
+                "name": null,
+                "options": [
+                    "Mighty Porgy",
+                    "Armored Porgy"
+                ]
             },
             {
                 "type": null,
@@ -1747,11 +1784,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Armored Porgy"
-            },
-            {
-                "type": null,
-                "name": "Mighty Porgy"
+                "name": null,
+                "options": [
+                    "Armored Porgy",
+                    "Mighty Porgy"
+                ]
             },
             {
                 "type": null,
@@ -1769,15 +1806,12 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Bright-Eyed Crab"
-            },
-            {
-                "type": null,
-                "name": "Razorclaw Crab"
-            },
-            {
-                "type": null,
-                "name": "Ironshell Crab"
+                "name": null,
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
             },
             {
                 "type": null,
@@ -1918,32 +1952,28 @@
         "Name": "Veggie Rice Balls",
         "ingredients": [
             {
-                "type": "Herb",
-                "name": null
-            },
-            {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Big Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -1984,12 +2014,29 @@
         "Name": "Seafood Rice Balls",
         "ingredients": [
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             },
             {
                 "type": null,
@@ -2092,12 +2139,29 @@
         "Name": "Fish Pie",
         "ingredients": [
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             },
             {
                 "type": null,
@@ -2136,12 +2200,29 @@
                 "name": "Hateno Cheese"
             },
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             }
         ]
     },
@@ -2160,32 +2241,28 @@
         "Name": "Vegetable Omelet",
         "ingredients": [
             {
-                "type": "Herb",
-                "name": null
-            },
-            {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
-            },
-            {
-                "type": null,
-                "name": "Big Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Hearty Radish"
-            },
-            {
-                "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -2255,11 +2332,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Golden Apple"
-            },
-            {
-                "type": null,
-                "name": "Apple"
+                "name": null,
+                "options": [
+                    "Golden Apple",
+                    "Apple"
+                ]
             },
             {
                 "type": null,
@@ -2273,51 +2350,21 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Ice Fruit"
-            },
-            {
-                "type": null,
-                "name": "Hydromelon"
-            },
-            {
-                "type": null,
-                "name": "Voltfruit"
-            },
-            {
-                "type": null,
-                "name": "Fleet-Lotus Seeds"
-            },
-            {
-                "type": null,
-                "name": "Mighty Bananas"
-            },
-            {
-                "type": null,
-                "name": "Palm Fruit"
-            },
-            {
-                "type": null,
-                "name": "Wildberry"
-            },
-            {
-                "type": null,
-                "name": "Dazzlefruit"
-            },
-            {
-                "type": null,
-                "name": "Splash Fruit"
-            },
-            {
-                "type": null,
-                "name": "Fire Fruit"
-            },
-            {
-                "type": null,
-                "name": "Spicy Pepper"
-            },
-            {
-                "type": null,
-                "name": "Shock Fruit"
+                "name": null,
+                "options": [
+                    "Ice Fruit",
+                    "Hydromelon",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Mighty Bananas",
+                    "Palm Fruit",
+                    "Wildberry",
+                    "Dazzlefruit",
+                    "Splash Fruit",
+                    "Fire Fruit",
+                    "Spicy Pepper",
+                    "Shock Fruit"
+                ]
             },
             {
                 "type": null,
@@ -2331,11 +2378,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Golden Apple"
-            },
-            {
-                "type": null,
-                "name": "Apple"
+                "name": null,
+                "options": [
+                    "Golden Apple",
+                    "Apple"
+                ]
             },
             {
                 "type": null,
@@ -2491,59 +2538,29 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Golden Apple"
+                "name": null,
+                "options": [
+                    "Golden Apple",
+                    "Apple",
+                    "Wildberry"
+                ]
             },
             {
                 "type": null,
-                "name": "Apple"
-            },
-            {
-                "type": null,
-                "name": "Wildberry"
-            },
-            {
-                "type": null,
-                "name": "Ice Fruit"
-            },
-            {
-                "type": null,
-                "name": "Hydromelon"
-            },
-            {
-                "type": null,
-                "name": "Voltfruit"
-            },
-            {
-                "type": null,
-                "name": "Fleet-Lotus Seeds"
-            },
-            {
-                "type": null,
-                "name": "Mighty Bananas"
-            },
-            {
-                "type": null,
-                "name": "Palm Fruit"
-            },
-            {
-                "type": null,
-                "name": "Dazzlefruit"
-            },
-            {
-                "type": null,
-                "name": "Splash Fruit"
-            },
-            {
-                "type": null,
-                "name": "Fire Fruit"
-            },
-            {
-                "type": null,
-                "name": "Spicy Pepper"
-            },
-            {
-                "type": null,
-                "name": "Shock Fruit"
+                "name": null,
+                "options": [
+                    "Ice Fruit",
+                    "Hydromelon",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Mighty Bananas",
+                    "Palm Fruit",
+                    "Dazzlefruit",
+                    "Splash Fruit",
+                    "Fire Fruit",
+                    "Spicy Pepper",
+                    "Shock Fruit"
+                ]
             },
             {
                 "type": null,
@@ -2561,11 +2578,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Endura Carrot"
-            },
-            {
-                "type": null,
-                "name": "Swift Carrot"
+                "name": null,
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot"
+                ]
             },
             {
                 "type": null,
@@ -2587,11 +2604,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Sun Pumpkin"
-            },
-            {
-                "type": null,
-                "name": "Fortified Pumpkin"
+                "name": null,
+                "options": [
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
             },
             {
                 "type": null,
@@ -2635,51 +2652,21 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Ice Fruit"
-            },
-            {
-                "type": null,
-                "name": "Hydromelon"
-            },
-            {
-                "type": null,
-                "name": "Voltfruit"
-            },
-            {
-                "type": null,
-                "name": "Fleet-Lotus Seeds"
-            },
-            {
-                "type": null,
-                "name": "Mighty Bananas"
-            },
-            {
-                "type": null,
-                "name": "Palm Fruit"
-            },
-            {
-                "type": null,
-                "name": "Wildberry"
-            },
-            {
-                "type": null,
-                "name": "Dazzlefruit"
-            },
-            {
-                "type": null,
-                "name": "Splash Fruit"
-            },
-            {
-                "type": null,
-                "name": "Fire Fruit"
-            },
-            {
-                "type": null,
-                "name": "Spicy Pepper"
-            },
-            {
-                "type": null,
-                "name": "Shock Fruit"
+                "name": null,
+                "options": [
+                    "Ice Fruit",
+                    "Hydromelon",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Mighty Bananas",
+                    "Palm Fruit",
+                    "Wildberry",
+                    "Dazzlefruit",
+                    "Splash Fruit",
+                    "Fire Fruit",
+                    "Spicy Pepper",
+                    "Shock Fruit"
+                ]
             },
             {
                 "type": null,
@@ -2701,11 +2688,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Golden Apple"
-            },
-            {
-                "type": null,
-                "name": "Apple"
+                "name": null,
+                "options": [
+                    "Golden Apple",
+                    "Apple"
+                ]
             },
             {
                 "type": null,
@@ -2784,12 +2771,29 @@
                 "name": null
             },
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             },
             {
                 "type": null,
@@ -2890,12 +2894,29 @@
                 "name": null
             },
             {
-                "type": "Fish",
-                "name": null
-            },
-            {
-                "type": "Shelled",
-                "name": null
+                "type": null,
+                "name": null,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
             }
         ]
     },
@@ -2985,11 +3006,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Restless Cricket"
-            },
-            {
-                "type": null,
-                "name": "Energetic Rhino Beetle"
+                "name": null,
+                "options": [
+                    "Restless Cricket",
+                    "Energetic Rhino Beetle"
+                ]
             },
             {
                 "type": "Monster Part",
@@ -3003,11 +3024,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Hot-Footed Frog"
-            },
-            {
-                "type": null,
-                "name": "Hightail Lizard"
+                "name": null,
+                "options": [
+                    "Hot-Footed Frog",
+                    "Hightail Lizard"
+                ]
             },
             {
                 "type": "Monster Part",
@@ -3021,11 +3042,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Summerwing Butterfly"
-            },
-            {
-                "type": null,
-                "name": "Warm Darner"
+                "name": null,
+                "options": [
+                    "Summerwing Butterfly",
+                    "Warm Darner"
+                ]
             },
             {
                 "type": "Monster Part",
@@ -3039,11 +3060,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Winterwing Butterfly"
-            },
-            {
-                "type": null,
-                "name": "Cold Darner"
+                "name": null,
+                "options": [
+                    "Winterwing Butterfly",
+                    "Cold Darner"
+                ]
             },
             {
                 "type": "Monster Part",
@@ -3057,11 +3078,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Thunderwing Butterfly"
-            },
-            {
-                "type": null,
-                "name": "Electric Darner"
+                "name": null,
+                "options": [
+                    "Thunderwing Butterfly",
+                    "Electric Darner"
+                ]
             },
             {
                 "type": "Monster Part",
@@ -3075,11 +3096,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Fireproof Lizard"
-            },
-            {
-                "type": null,
-                "name": "Smotherwing Butterfly"
+                "name": null,
+                "options": [
+                    "Fireproof Lizard",
+                    "Smotherwing Butterfly"
+                ]
             },
             {
                 "type": "Monster Part",
@@ -3135,11 +3156,11 @@
         "ingredients": [
             {
                 "type": null,
-                "name": "Sticky Frog"
-            },
-            {
-                "type": null,
-                "name": "Sticky Lizard"
+                "name": null,
+                "options": [
+                    "Sticky Frog",
+                    "Sticky Lizard"
+                ]
             },
             {
                 "type": "Monster Part",
