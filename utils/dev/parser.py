@@ -1,6 +1,10 @@
 import csv
 import json
 
+# IMPORTANT
+# Current parser does not take into account recipes that have 'Any' within
+# the OPTIONS of ingredients. JSON data was manually fixed.
+
 def parser(csv_file, json_file):
     recipes = []
 
