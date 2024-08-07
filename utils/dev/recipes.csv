@@ -63,8 +63,7 @@ ID,Name,Ingredient 1,Ingredient 2,Ingredient 3,Ingredient 4,Ingredient 5
 62,Glazed Meat,Any Meat,Courser Bee Honey,,,
 63,Glazed Seafood,Any Fish;Any Shelled,Courser Bee Honey,,,
 64,Curry Rice,Hylian Rice,Goron Spice,,,
-65,Vegetable Curry,"Endura Carrot;Swift Carrot;Sun Pumpkin
-Fortified Pumpkin",Hylian Rice,Goron Spice,,
+65,Vegetable Curry,"Endura Carrot;Swift Carrot;Sun Pumpkin;Fortified Pumpkin",Hylian Rice,Goron Spice,,
 66,Meat Curry,Raw Meat,Hylian Rice,Goron Spice,,
 67,Prime Meat Curry,Raw Prime Meat,Hylian Rice,Goron Spice,,
 68,Gourmet Meat Curry,Raw Gourmet Meat,Hylian Rice,Goron Spice,,
