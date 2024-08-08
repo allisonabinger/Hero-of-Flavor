@@ -1,0 +1,81 @@
+Querying Mongo DB for recipes and ingredients. 
+
+Using MongoDB's Query Structure, will be adjusted later for the DB Client. 
+
+
+Data structures for ingredients:
+
+    {
+        _id: Object ID created by MongoDB
+        "id": number - unique ID for DB (starts at 1),
+        "Name": string - Name of the ingredient (Golden Apple, Chillshroom, etc),
+        "Type": string - category of ingredients (Fruit, Vegetable, etc),
+        "Effect": string - effect of the ingredient or dish when used (Heat Resistance, Shock Resistance, etc),
+        "Prefix": string - the prefix added to the recipe name when effect is used,
+        "sellPrice": "8",
+        "buyPrice": "32",
+        "locations": [
+            "Near Sonapan Shrine",
+            "Hyrule Field"
+        ]
+    },
+
+
+
+-- Recipes ------------------------------------------
+
+Finding recipes with only the specified ingredients (Recipes that do not require any more ingredients to make)
+
+
+**** working on this ****
+
+
+--------
+
+Finding recipes with any of the specified ingredients
+
+
+
+[
+  {
+    "$match": {
+      "$or": [
+        { "ingredients.name": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
+        { "ingredients.options": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
+        { "ingredients.type": { "$in": ["Type of Ingredient 1", "Type of Ingredient 2", "Type of Ingredient 3"] } }
+      ]
+    }
+  },
+]
+
+
+
+Note that this will give recipes with the ingredients included, but will feature recipes the user may not 
+have all of the ingredients for. 
+
+
+--------
+
+Finding recipes with all of the specified ingredients:
+
+The $and operator means it must match all of the things listed below. The $or means one of the options listed. 
+The $or is used to account for recipes that list the ingredient by name as a neccesary ingredient, accept 
+the ingedient as one of many as one ingredient, or accept any of the ingredient type as one ingredient.
+
+
+
+{
+  "$and": [
+    {
+      "$or": [
+        { "ingredients.name": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
+        { "ingredients.options": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
+        { "ingredients.type": { "$in": ["Type of Ingredient 1", "Type of Ingredient 2", "Type of Ingredient 3"] } }
+      ]
+    }
+  ]
+}
+
+
+
+--------
