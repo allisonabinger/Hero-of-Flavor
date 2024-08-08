@@ -1,18 +1,23 @@
 import React from 'react';
-import Header from './components/Header';
-import IngredientInput from './components/IngredientInput';
-import RecipeGrid from './components/RecipeGrid';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Search from './pages/Search';
+import Recipes from './pages/Recipes';
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <IngredientInput />
-        <RecipeGrid />
-      </main>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/recipes" element={<Recipes />} />
+        </Routes>
+      </div>
+    </Router>
   );
-};
+}
 
 export default App;
