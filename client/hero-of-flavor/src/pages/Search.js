@@ -1,82 +1,68 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import './Search.css';
+import { getIngredients } from '../db'; // Adjust the path as necessary
 
 const Search = () => {
+  const [ingredients, setIngredients] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const ingredientsPerPage = 12;
+
+  useEffect(() => {
+    const fetchIngredients = async () => {
+      try {
+        const ingredientsData = await getIngredients();
+        setIngredients(ingredientsData);
+      } catch (error) {
+        console.error('Failed to fetch ingredients:', error);
+      }
+    };
+
+    fetchIngredients();
+  }, []);
+
+  const indexOfLastIngredient = currentPage * ingredientsPerPage;
+  const indexOfFirstRecipe = indexOfLastIngredient - ingredientsPerPage;
+  const currentIngredient = ingredients.slice(indexOfFirstRecipe, indexOfLastIngredient);
+
+  const totalPages = Math.ceil(ingredients.length / ingredientsPerPage);
+
+  const goToNextPage = () => {
+    setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+  };
+
+  const goToPreviousPage = () => {
+    setCurrentPage((prev) => Math.max(prev - 1, 1));
+  };
+
+
   return (
-    <div style={styles.container}>
+    <div className="container">
       <h1>Recipe by Ingredient Tool</h1>
-      <button style={styles.button}>Find Recipes With My Ingredients!</button>
-      <div style={styles.options}>
-        <button style={styles.optionButton}>Sort By Type</button>
-        <button style={styles.optionButton}>Sort Alphabetically</button>
+      <button className="button">Find Recipes With My Ingredients!</button>
+      <div className="options">
+        <button className="optionButton">Sort By Type</button>
+        <button className="optionButton">Sort Alphabetically</button>
       </div>
       <h2>How to Use</h2>
-      <div style={styles.ingredientsGrid}>
-        {Array.from({ length: 9 }).map((_, idx) => (
-          <div key={idx} style={styles.ingredientCard}>
-            <div style={styles.icon}>icon</div>
-            <p>Ingredient Name</p>
+      <div className="ingredientsGrid">
+        {currentIngredient.map((ingredient) => (
+          <div key={ingredient._id} className="ingredientCard">
+            <div className="icon">icon</div>
+            <p>{ingredient.name}</p>
           </div>
         ))}
       </div>
+      <div className="pagination-controls">
+        <button onClick={goToPreviousPage} disabled={currentPage === 1}>
+          Previous
+        </button>
+        <span>Page {currentPage} of {totalPages}</span>
+        <button onClick={goToNextPage} disabled={currentPage === totalPages}>
+          Next
+        </button>
+      </div>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    padding: '20px',
-    textAlign: 'center',
-    backgroundColor: '#DFF5E1',
-  },
-  button: {
-    padding: '15px 30px',
-    margin: '20px 0',
-    fontSize: '16px',
-    backgroundColor: '#4CAF50',
-    color: '#fff',
-    border: 'none',
-    cursor: 'pointer',
-    borderRadius: '5px',
-  },
-  options: {
-    display: 'flex',
-    justifyContent: 'center',
-    gap: '20px',
-    margin: '20px 0',
-  },
-  optionButton: {
-    padding: '10px 20px',
-    fontSize: '14px',
-    backgroundColor: '#fff',
-    border: '1px solid #ccc',
-    cursor: 'pointer',
-    borderRadius: '5px',
-  },
-  ingredientsGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
-    gap: '20px',
-    justifyContent: 'center',
-  },
-  ingredientCard: {
-    backgroundColor: '#fff',
-    padding: '20px',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    border: '1px solid #ccc',
-    borderRadius: '5px',
-  },
-  icon: {
-    backgroundColor: '#f8b9c9',
-    width: '60px',
-    height: '60px',
-    borderRadius: '50%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginBottom: '10px',
-  },
 };
 
 export default Search;

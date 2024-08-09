@@ -1,0 +1,60 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: #DFF5E1;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .optionButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .ingredientsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .ingredientCard {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .icon {
+    background-color: #f8b9c9;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }

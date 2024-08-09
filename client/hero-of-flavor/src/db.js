@@ -1,4 +1,4 @@
-// utils/db.js
+// src/db.js
 
 const { MongoClient } = require('mongodb');
 
@@ -17,4 +17,16 @@ async function connectToDatabase() {
   }
 }
 
-module.exports = connectToDatabase; 
+async function getIngredients() {
+  const db = await connectToDatabase();
+  const ingredients = await db.collection('ingredients').find({}).toArray();
+  return ingredients;
+}
+
+async function getRecipes() {
+  const db = await connectToDatabase();
+  const recipes = await db.collection('recipes').find({}).toArray();
+  return recipes;
+}
+
+module.exports = { connectToDatabase, getIngredients, getRecipes };
