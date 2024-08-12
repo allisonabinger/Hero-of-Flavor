@@ -46,22 +46,29 @@ class DBClient {
     }
   }
 
-//   async findPaintings(filter ={}, projection={}, skip = 0, limit = 10, sort = {}) {
-//     const db = await this.connection;
-//     const collection = db.collection('paintings');
-//     try {
-//         const results = await collection.find(filter)
-//             .project(projection)
-//             .skip(skip)
-//             .limit(limit)
-//             .sort(sort)
-//             .toArray();
-//         return results;
-//     } catch (err) {
-//         console.error('Error in findPaintings: ', err);
-//         throw err
-//     }
-//   }
+    // contains Query controller to handle responses and requests to the API
+    static async findRecipesByIngredients(selectedIngredients) {
+        try {
+            const db = await this.connection;
+            const collection = db.collection('recipes');
+
+            const matchingRecipes = await collection.find({
+                ingredients: {
+                    $not: {
+                        $elemMatch: {
+                            $not: { $in: selectedIngredients }
+                        }
+                    }
+                }
+            }).toArray();
+
+            return matchingRecipes
+            
+        } catch (err) {
+            console.error('Error fetching recipes: ', err);
+            return [];
+        }
+    }
 }
 
 const dbClient = new DBClient();
