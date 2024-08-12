@@ -106,11 +106,17 @@ class DBClient {
     //     }
     // }
 
-    async findIngredients() {
+    async findIngredients(sortBy) {
         try {
             const db = await this.connection;
             const collection = db.collection('ingredients');
-            return collection.find({}).toArray();
+
+            const sortOptions = { id: 1 }
+            if (sortBy) {
+                sortOptions.type = sortBy === 'asc' ? 1 : -1;
+            }
+
+            return collection.find({}).sort(sortOptions).toArray();
         } catch (error) {
             console.error('Error fetching ingredients:', error);
             throw error;

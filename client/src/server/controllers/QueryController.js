@@ -19,18 +19,19 @@ class QueryController {
     }
 
     static async getIngredients(req, res) {
+        const { sortBy } = req.query;
         try {
             // Fetch ingredients from the database
-            const ingredients = await dbClient.findIngredients();
+            const ingredients = await dbClient.findIngredients(sortBy);
             
             // Define the base path for images
             const basePath = '../Hero_of_Flavor/client/src/images/ingredients/';
             
             // Map through the ingredients and modify the imagePath
             const modifiedIngredients = ingredients.map(ingredient => ({
-                name: ingredient.name,
+                Name: ingredient.Name,
                 imagePath: basePath + ingredient.imagePath,
-                type: ingredient.Type
+                Type: ingredient.Type
             }));
             
             // Send the modified ingredients in the response
