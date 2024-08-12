@@ -37,15 +37,15 @@ Finding recipes with any of the specified ingredients
 
 
 [
-  {
-    "$match": {
-      "$or": [
-        { "ingredients.name": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
-        { "ingredients.options": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
-        { "ingredients.type": { "$in": ["Type of Ingredient 1", "Type of Ingredient 2", "Type of Ingredient 3"] } }
-      ]
-    }
-  },
+{
+"$match": {
+    "$or": [
+    { "ingredients.name": { "$in": ["Golden Apple", "Goat Butter", "Hylian Rice"] } },
+    { "ingredients.options": { "$in": ["Golden Apple", "Goat Butter", "Hylian Rice"] } },
+    { "ingredients.type": { "$in": ["Fruit", "Special", "Special"] } }
+    ]
+}
+}
 ]
 
 
@@ -68,9 +68,9 @@ the ingedient as one of many as one ingredient, or accept any of the ingredient 
   "$and": [
     {
       "$or": [
-        { "ingredients.name": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
-        { "ingredients.options": { "$in": ["Ingredient 1", "Ingredient 2", "Ingredient 3"] } },
-        { "ingredients.type": { "$in": ["Type of Ingredient 1", "Type of Ingredient 2", "Type of Ingredient 3"] } }
+        { "ingredients.name": { "$in": ["Golden Apple", "Goat Butter", "Hylian Rice"] } },
+        { "ingredients.options": { "$in": ["Golden Apple", "Goat Butter", "Hylian Rice"] } },
+        { "ingredients.type": { "$in": ["Fruit", "Special", "Special"] } }
       ]
     }
   ]

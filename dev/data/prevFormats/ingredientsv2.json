@@ -1,0 +1,2761 @@
+[
+  {
+    "id": 1,
+    "Name": "Golden Apple",
+    "Type": "Fruit",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Near Sonapan Shrine",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 2,
+    "Name": "Palm Fruit",
+    "Type": "Fruit",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Gerudo Town",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 3,
+    "Name": "Apple",
+    "Type": "Fruit",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Near Sonapan Shrine",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 4,
+    "Name": "Wildberry",
+    "Type": "Fruit",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Gerudo Highlands",
+      "Hebra Mountains"
+    ]
+  },
+  {
+    "id": 5,
+    "Name": "Voltfruit",
+    "Type": "Fruit",
+    "Effect": "Shock Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Gerudo Town",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 6,
+    "Name": "Fleet-Lotus Seeds",
+    "Type": "Fruit",
+    "Effect": "Speed Up",
+    "Prefix": "Hasty",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Near Jonsau Shrine",
+      "Zora's Domain"
+    ]
+  },
+  {
+    "id": 7,
+    "Name": "Hydromelon",
+    "Type": "Fruit",
+    "Effect": "Heat Resistance",
+    "Prefix": "Chilly",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Gerudo Town",
+      "Kara Kara Bazaar"
+    ]
+  },
+  {
+    "id": 8,
+    "Name": "Mighty Bananas",
+    "Type": "Fruit",
+    "Effect": "Attack Up",
+    "Prefix": "Mighty",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Yiga Clan Hideout",
+      "Eventide Island"
+    ]
+  },
+  {
+    "id": 9,
+    "Name": "Spicy Pepper",
+    "Type": "Fruit",
+    "Effect": "Cold Resistance",
+    "Prefix": "Spicy",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Tabantha Frontier",
+      "Gerudo Canyon Stable"
+    ]
+  },
+  {
+    "id": 10,
+    "Name": "Fire Fruit",
+    "Type": "Fruit",
+    "Effect": "Hot Weather Attack",
+    "Prefix": "Scorching",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "In-isa Shrine",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 11,
+    "Name": "Ice Fruit",
+    "Type": "Fruit",
+    "Effect": "Cold Weather Attack",
+    "Prefix": "Biting",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Hebra Mountains",
+      "Mayanas Shrine"
+    ]
+  },
+  {
+    "id": 12,
+    "Name": "Shock Fruit",
+    "Type": "Fruit",
+    "Effect": "Stormy Weather Attack",
+    "Prefix": "Stormy",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "East Neluda",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 13,
+    "Name": "Splash Fruit",
+    "Type": "Fruit",
+    "Effect": "Swim Speed Up",
+    "Prefix": "Rapid",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Upland Zorana Skyview Tower",
+      "Zora's Domain"
+    ]
+  },
+  {
+    "id": 14,
+    "Name": "Dazzlefruit",
+    "Type": "Fruit",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Sky Islands",
+      "Tarrey Town General Store"
+    ]
+  },
+  {
+    "id": 15,
+    "Name": "Big Hearty Truffle",
+    "Type": "Mushroom",
+    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+    "Prefix": "Hearty",
+    "sellPrice": 25,
+    "buyPrice": 100,
+    "locations": [
+      "Highland Stable Well",
+      "Gerudo Canyon Mine"
+    ]
+  },
+  {
+    "id": 16,
+    "Name": "Hearty Truffle",
+    "Type": "Mushroom",
+    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+    "Prefix": "Hearty",
+    "sellPrice": 20,
+    "buyPrice": 80,
+    "locations": [
+      "Sturnida Springs Cave",
+      "Satori Mountain Foothill Cave"
+    ]
+  },
+  {
+    "id": 17,
+    "Name": "Endura Shroom",
+    "Type": "Mushroom",
+    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+    "Prefix": "Enduring",
+    "sellPrice": 15,
+    "buyPrice": 60,
+    "locations": [
+      "North Tabantha Sky Archipelago",
+      "North Neclude Sky Archipelago"
+    ]
+  },
+  {
+    "id": 18,
+    "Name": "Rushroom",
+    "Type": "Mushroom",
+    "Effect": "Speed Up",
+    "Prefix": "Hasty",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Near Ukouh Shrine",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 19,
+    "Name": "Brightcap",
+    "Type": "Mushroom",
+    "Effect": "Glow",
+    "Prefix": "Bright",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Hyrule Caves"
+    ]
+  },
+  {
+    "id": 20,
+    "Name": "Stamella Shroom",
+    "Type": "Mushroom",
+    "Effect": "Stamina Recovery",
+    "Prefix": "Energizing",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Fort Hateno",
+      "West Necluda"
+    ]
+  },
+  {
+    "id": 21,
+    "Name": "Chillshroom",
+    "Type": "Mushroom",
+    "Effect": "Heat Resistance",
+    "Prefix": "Chilly",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 22,
+    "Name": "Sunshroom",
+    "Type": "Mushroom",
+    "Effect": "Cold Resistance",
+    "Prefix": "Spicy",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Eldin Canyon",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 23,
+    "Name": "Hylian Shroom",
+    "Type": "Mushroom",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Hyrule Ridge",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 24,
+    "Name": "Zapshroom",
+    "Type": "Mushroom",
+    "Effect": "Shock Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Gerudo Desert",
+      "Lanayru Wetlands"
+    ]
+  },
+  {
+    "id": 25,
+    "Name": "Silent Shroom",
+    "Type": "Mushroom",
+    "Effect": "Stealth Up",
+    "Prefix": "Sneaky",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Akkala Highlands",
+      "Tanagar Canyon"
+    ]
+  },
+  {
+    "id": 26,
+    "Name": "Razorshroom",
+    "Type": "Mushroom",
+    "Effect": "Attack Up",
+    "Prefix": "Mighty",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Great Hyrule Forest",
+      "Tabantha Frontier"
+    ]
+  },
+  {
+    "id": 27,
+    "Name": "Ironshroom",
+    "Type": "Mushroom",
+    "Effect": "Defense Up",
+    "Prefix": "Tough",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Necluda",
+      "Satori Mountain Foothill Cave Entrance"
+    ]
+  },
+  {
+    "id": 28,
+    "Name": "Skyshroom",
+    "Type": "Mushroom",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Great Sky Island",
+      "Thunderhead Isles"
+    ]
+  },
+  {
+    "id": 29,
+    "Name": "Big Hearty Radish",
+    "Type": "Vegetable",
+    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+    "Prefix": "Hearty",
+    "sellPrice": 25,
+    "buyPrice": 100,
+    "locations": [
+      "Valor Island",
+      "Necluda Sky Archipelago"
+    ]
+  },
+  {
+    "id": 30,
+    "Name": "Hearty Radish",
+    "Type": "Vegetable",
+    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+    "Prefix": "Hearty",
+    "sellPrice": 20,
+    "buyPrice": 80,
+    "locations": [
+      "Lanayru Sky Archipelago",
+      "South Lanayru Sky Archipelago"
+    ]
+  },
+  {
+    "id": 31,
+    "Name": "Endura Carrot",
+    "Type": "Vegetable",
+    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+    "Prefix": "Enduring",
+    "sellPrice": 20,
+    "buyPrice": 80,
+    "locations": [
+      "Near Cherry Blossom Trees",
+      "Satori Mountain"
+    ]
+  },
+  {
+    "id": 32,
+    "Name": "Hylian Tomato",
+    "Type": "Vegetable",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Batrea Lake",
+      "East Necluda"
+    ]
+  },
+  {
+    "id": 33,
+    "Name": "Fortified Pumpkin",
+    "Type": "Vegetable",
+    "Effect": "Defense Up",
+    "Prefix": "Tough",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Carok Bridge Well",
+      "Hateno Village"
+    ]
+  },
+  {
+    "id": 34,
+    "Name": "Sun Pumpkin",
+    "Type": "Vegetable",
+    "Effect": "Gloom Recovery",
+    "Prefix": "Sunny",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Hateno Village"
+    ]
+  },
+  {
+    "id": 35,
+    "Name": "Swift Carrot",
+    "Type": "Vegetable",
+    "Effect": "Speed Up",
+    "Prefix": "Hasty",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Satori Mountain",
+      "Hateno Village"
+    ]
+  },
+  {
+    "id": 36,
+    "Name": "Hyrule Herb",
+    "Type": "Herb",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Satori Mountain",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 37,
+    "Name": "Silent Princess",
+    "Type": "Herb",
+    "Effect": "Stealth Up",
+    "Prefix": "Sneaky",
+    "sellPrice": 10,
+    "buyPrice": 30,
+    "locations": [
+      "Rutile Lake",
+      "Akkala Highlands"
+    ]
+  },
+  {
+    "id": 38,
+    "Name": "Stambulb",
+    "Type": "Herb",
+    "Effect": "Stamina Recovery",
+    "Prefix": "Energizing",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "South Hyrule Sky Archipelago",
+      "Great Sky Island"
+    ]
+  },
+  {
+    "id": 39,
+    "Name": "Korok Frond",
+    "Type": "Herb",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Central Hyrule",
+      "Necluda"
+    ]
+  },
+  {
+    "id": 40,
+    "Name": "Cool Safflina",
+    "Type": "Herb",
+    "Effect": "Heat Resistance",
+    "Prefix": "Chilly",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "East Hebra Sky Archipelago",
+      "Hebra Mountains"
+    ]
+  },
+  {
+    "id": 41,
+    "Name": "Warm Safflina",
+    "Type": "Herb",
+    "Effect": "Cold Resistance",
+    "Prefix": "Spicy",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Eldin Mountains",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 42,
+    "Name": "Mighty Thistle",
+    "Type": "Herb",
+    "Effect": "Attack Up",
+    "Prefix": "Mighty",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Koto Pond",
+      "Faron Grasslands"
+    ]
+  },
+  {
+    "id": 43,
+    "Name": "Armoranth",
+    "Type": "Herb",
+    "Effect": "Defense Up",
+    "Prefix": "Tough",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Near Usazum Shrine",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "id": 44,
+    "Name": "Blue Nightshade",
+    "Type": "Herb",
+    "Effect": "Stealth Up",
+    "Prefix": "Sneaky",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Rutile Lake",
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "id": 45,
+    "Name": "Electric Safflina",
+    "Type": "Herb",
+    "Effect": "Shock Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Gerudo Desert",
+      "Satori Mountain"
+    ]
+  },
+  {
+    "id": 46,
+    "Name": "Swift Violet",
+    "Type": "Herb",
+    "Effect": "Speed Up",
+    "Prefix": "Hasty",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "Tabantha Frontier",
+      "Eldin Mountains"
+    ]
+  },
+  {
+    "id": 47,
+    "Name": "Sundelion",
+    "Type": "Herb",
+    "Effect": "Gloom Recovery",
+    "Prefix": "Sunny",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Hyrule Sky",
+      "Eldin Sky"
+    ]
+  },
+  {
+    "id": 48,
+    "Name": "Raw Gourmet Meat",
+    "Type": "Meat",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 35,
+    "buyPrice": 140,
+    "locations": [
+      "Large Mammals"
+    ]
+  },
+  {
+    "id": 49,
+    "Name": "Raw Whole Bird",
+    "Type": "Meat",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 35,
+    "buyPrice": 140,
+    "locations": [
+      "White Pigeons",
+      "Eldin Ostriches"
+    ]
+  },
+  {
+    "id": 50,
+    "Name": "Raw Prime Meat",
+    "Type": "Meat",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": 60,
+    "locations": [
+      "Wolves",
+      "Deer"
+    ]
+  },
+  {
+    "id": 51,
+    "Name": "Raw Bird Thigh",
+    "Type": "Meat",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": 60,
+    "locations": [
+      "Pigeons",
+      "Ostriches"
+    ]
+  },
+  {
+    "id": 52,
+    "Name": "Raw Meat",
+    "Type": "Meat",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Mammals"
+    ]
+  },
+  {
+    "id": 53,
+    "Name": "Raw Bird Drumstick",
+    "Type": "Meat",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Ducks",
+      "Herons"
+    ]
+  },
+  {
+    "id": 54,
+    "Name": "Acorn",
+    "Type": "Nut",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 2,
+    "buyPrice": 8,
+    "locations": [
+      "Squirrels",
+      "Trees"
+    ]
+  },
+  {
+    "id": 55,
+    "Name": "Chickaloo Tree Nut",
+    "Type": "Nut",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Sparrows",
+      "Trees"
+    ]
+  },
+  {
+    "id": 56,
+    "Name": "Hylian Rice",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "East Necluda",
+      "Hateno Village"
+    ]
+  },
+  {
+    "id": 57,
+    "Name": "Bird Egg",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Cape Cales",
+      "Thundra Plateau"
+    ]
+  },
+  {
+    "id": 58,
+    "Name": "Tabantha Wheat",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Tabantha Frontier",
+      "Rito Village"
+    ]
+  },
+  {
+    "id": 59,
+    "Name": "Hateno Cheese",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Hateno Village"
+    ]
+  },
+  {
+    "id": 60,
+    "Name": "Fresh Milk ",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Hateno Village"
+    ]
+  },
+  {
+    "id": 61,
+    "Name": "Cane Sugar",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Rito Village",
+      "Goron City"
+    ]
+  },
+  {
+    "id": 62,
+    "Name": "Goron Spice",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Goron City"
+    ]
+  },
+  {
+    "id": 63,
+    "Name": "Goat Butter",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Hateno Village",
+      "Rito Village"
+    ]
+  },
+  {
+    "id": 64,
+    "Name": "Monster Extract",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 12,
+    "buyPrice": 50,
+    "locations": [
+      "Tarrey Town"
+    ]
+  },
+  {
+    "id": 65,
+    "Name": "Oil Jar",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": 12,
+    "locations": [
+      "Rito Village",
+      "Kara Kara Bazaar"
+    ]
+  },
+  {
+    "id": 66,
+    "Name": "Dark Clump",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "Warding",
+    "sellPrice": 5,
+    "buyPrice": 20,
+    "locations": [
+      "Bargainer Statues"
+    ]
+  },
+  {
+    "id": 67,
+    "Name": "Rock Salt",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 2,
+    "buyPrice": 12,
+    "locations": [
+      "Goron City",
+      "Ore Deposits"
+    ]
+  },
+  {
+    "id": 68,
+    "Name": "Star Fragment",
+    "Type": "Special",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 200,
+    "buyPrice": 800,
+    "locations": [
+      "Shooting Stars"
+    ]
+  },
+  {
+    "id": 69,
+    "Name": "Fairy",
+    "Type": "Special",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 2,
+    "buyPrice": null,
+    "locations": [
+      "Dueling Peaks Stable Well",
+      "Hyrule Ridge Sky"
+    ]
+  },
+  {
+    "id": 70,
+    "Name": "Courser Bee Honey",
+    "Type": "Special",
+    "Effect": "Stamina Recovery",
+    "Prefix": "Energizing",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "Near East Hill Chasm",
+      "East Necluda"
+    ]
+  },
+  {
+    "id": 71,
+    "Name": "Hearty Salmon",
+    "Type": "Fish",
+    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+    "Prefix": "Hearty",
+    "sellPrice": 20,
+    "buyPrice": 80,
+    "locations": [
+      "Tama Pond",
+      "Hyrule Castle Moat"
+    ]
+  },
+  {
+    "id": 72,
+    "Name": "Hearty Bass",
+    "Type": "Fish",
+    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+    "Prefix": "Hearty",
+    "sellPrice": 18,
+    "buyPrice": 72,
+    "locations": [
+      "Hateno Tower",
+      "Mount Rhoam"
+    ]
+  },
+  {
+    "id": 73,
+    "Name": "Hyrule Bass",
+    "Type": "Fish",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Bottomless Pond",
+      "Lookout Landing"
+    ]
+  },
+  {
+    "id": 74,
+    "Name": "Staminoka Bass",
+    "Type": "Fish",
+    "Effect": "Stamina Recovery",
+    "Prefix": "Energizing",
+    "sellPrice": 18,
+    "buyPrice": 72,
+    "locations": [
+      "Riverside Stable",
+      "Nabi Lake"
+    ]
+  },
+  {
+    "id": 75,
+    "Name": "Chillfin Trout",
+    "Type": "Fish",
+    "Effect": "Heat Resistance",
+    "Prefix": "Chilly",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Zora's Domain",
+      "Hebra Mountains"
+    ]
+  },
+  {
+    "id": 76,
+    "Name": "Sizzlefin Trout",
+    "Type": "Fish",
+    "Effect": "Cold Resistance",
+    "Prefix": "Spicy",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Eldin Canyon",
+      "Coral Reef"
+    ]
+  },
+  {
+    "id": 77,
+    "Name": "Voltfin Trout",
+    "Type": "Fish",
+    "Effect": "Shock Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Hebra Plunge",
+      "Tama Pond"
+    ]
+  },
+  {
+    "id": 78,
+    "Name": "Stealthfin Trout",
+    "Type": "Fish",
+    "Effect": "Stealth Up",
+    "Prefix": "Sneaky",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "Lake Mekara"
+    ]
+  },
+  {
+    "id": 79,
+    "Name": "Mighty Carp",
+    "Type": "Fish",
+    "Effect": "Attack Up",
+    "Prefix": "Mighty",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "Akkala Highlands",
+      "Lanayru Great Spring"
+    ]
+  },
+  {
+    "id": 80,
+    "Name": "Armored Carp",
+    "Type": "Fish",
+    "Effect": "Defense Up",
+    "Prefix": "Tough",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "East Neclude",
+      "Zora's Domain"
+    ]
+  },
+  {
+    "id": 81,
+    "Name": "Sanke Carp",
+    "Type": "Fish",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 20,
+    "buyPrice": 80,
+    "locations": [
+      "Kakariko Village"
+    ]
+  },
+  {
+    "id": 82,
+    "Name": "Ancient Arowana",
+    "Type": "Fish",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Great Sky Island",
+      "North Tabantha Sky Archipelago"
+    ]
+  },
+  {
+    "id": 83,
+    "Name": "Glowing Cave Fish",
+    "Type": "Fish",
+    "Effect": "Glow",
+    "Prefix": "Bright",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Hyrule Caves"
+    ]
+  },
+  {
+    "id": 84,
+    "Name": "Mighty Porgy",
+    "Type": "Fish",
+    "Effect": "Attack Up",
+    "Prefix": "Mighty",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "Necluda Sea",
+      "Lurelin Village"
+    ]
+  },
+  {
+    "id": 85,
+    "Name": "Armored Porgy",
+    "Type": "Fish",
+    "Effect": "Defense Up",
+    "Prefix": "Tough",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "Necluda Sea",
+      "Lurelin Village"
+    ]
+  },
+  {
+    "id": 86,
+    "Name": "Sneaky River Snail",
+    "Type": "Shelled",
+    "Effect": "Stealth Up",
+    "Prefix": "Sneaky",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Zora's Domain",
+      "West Necluda"
+    ]
+  },
+  {
+    "id": 87,
+    "Name": "Razorclaw Crab",
+    "Type": "Shelled",
+    "Effect": "Attack Up",
+    "Prefix": "Mighty",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Lanayru Bay",
+      "West Necluda"
+    ]
+  },
+  {
+    "id": 88,
+    "Name": "Ironshell Crab",
+    "Type": "Shelled",
+    "Effect": "Defense Up",
+    "Prefix": "Tough",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Necluda Sea",
+      "Faron Sea"
+    ]
+  },
+  {
+    "id": 89,
+    "Name": "Bright-Eyed Crab",
+    "Type": "Shelled",
+    "Effect": "Stamina Recovery",
+    "Prefix": "Energizing",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Lanayru Great Spring",
+      "Zora's Domain"
+    ]
+  },
+  {
+    "id": 90,
+    "Name": "Bladed Rhino Beetle",
+    "Type": "Critter",
+    "Effect": "Attack Up",
+    "Prefix": "Mighty",
+    "sellPrice": 4,
+    "buyPrice": null,
+    "locations": [
+      "Hopper Pond",
+      "Bronas Forest"
+    ]
+  },
+  {
+    "id": 91,
+    "Name": "Cold Darner",
+    "Type": "Critter",
+    "Effect": "Heat Resistance",
+    "Prefix": "Chilly",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Kara Kara Bazaar",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 92,
+    "Name": "Deep Firefly",
+    "Type": "Critter",
+    "Effect": "Glow",
+    "Prefix": "Bright",
+    "sellPrice": 2,
+    "buyPrice": null,
+    "locations": [
+      "Depths"
+    ]
+  },
+  {
+    "id": 93,
+    "Name": "Electric Darner",
+    "Type": "Critter",
+    "Effect": "Shock Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Thunderhead Isles",
+      "West Necluda"
+    ]
+  },
+  {
+    "id": 94,
+    "Name": "Energetic Rhino Beetle",
+    "Type": "Critter",
+    "Effect": "Stamina Recovery",
+    "Prefix": "Energizing",
+    "sellPrice": 30,
+    "buyPrice": null,
+    "locations": [
+      "Rutile Lake",
+      "Great Sky Island"
+    ]
+  },
+  {
+    "id": 95,
+    "Name": "Fireproof Lizard",
+    "Type": "Critter",
+    "Effect": "Flame Guard",
+    "Prefix": "Fireproof",
+    "sellPrice": 5,
+    "buyPrice": 25,
+    "locations": [
+      "Death Mountain",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "id": 96,
+    "Name": "Hearty Lizard",
+    "Type": "Critter",
+    "Effect": "Full Heart Recovery + Temporary Extra Hearts",
+    "Prefix": "Hearty",
+    "sellPrice": 20,
+    "buyPrice": 100,
+    "locations": [
+      "Gerudo Highlands",
+      "Calora Lake Cave"
+    ]
+  },
+  {
+    "id": 97,
+    "Name": "Hightail Lizard",
+    "Type": "Critter",
+    "Effect": "Speed Up",
+    "Prefix": "Hasty",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Satori Mountain",
+      "Kakariko Village"
+    ]
+  },
+  {
+    "id": 98,
+    "Name": "Hot-Footed Frog",
+    "Type": "Critter",
+    "Effect": "Speed Up",
+    "Prefix": "Hasty",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Mipha Court",
+      "Horse God Bridge"
+    ]
+  },
+  {
+    "id": 99,
+    "Name": "Restless Cricket",
+    "Type": "Critter",
+    "Effect": "Stamina Recovery",
+    "Prefix": "Energizing",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Hyrule Grass"
+    ]
+  },
+  {
+    "id": 100,
+    "Name": "Rugged Rhino Beetle",
+    "Type": "Critter",
+    "Effect": "Defense Up",
+    "Prefix": "Tough",
+    "sellPrice": 4,
+    "buyPrice": null,
+    "locations": [
+      "Rutile Lake",
+      "West Necluda"
+    ]
+  },
+  {
+    "id": 101,
+    "Name": "Smotherwing Butterfly",
+    "Type": "Critter",
+    "Effect": "Flame Guard",
+    "Prefix": "Fireproof",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Death Mountain",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "id": 102,
+    "Name": "Sticky Frog",
+    "Type": "Critter",
+    "Effect": "Slip Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 10,
+    "buyPrice": 40,
+    "locations": [
+      "Hyrule Caves",
+      "Kakariko Village"
+    ]
+  },
+  {
+    "id": 103,
+    "Name": "Sticky Lizard",
+    "Type": "Critter",
+    "Effect": "Slip Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 8,
+    "buyPrice": 32,
+    "locations": [
+      "Hyrule Caves",
+      "Lanayru"
+    ]
+  },
+  {
+    "id": 104,
+    "Name": "Summerwing Butterfly",
+    "Type": "Critter",
+    "Effect": "Cold Resistance",
+    "Prefix": "Spicy",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Great Hyrule Forest",
+      "Eldin Mountains"
+    ]
+  },
+  {
+    "id": 105,
+    "Name": "Sunset Firefly",
+    "Type": "Critter",
+    "Effect": "Stealth Up",
+    "Prefix": "Sneaky",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "East Castle Town",
+      "Faron Woods"
+    ]
+  },
+  {
+    "id": 106,
+    "Name": "Thunderwing Butterfly",
+    "Type": "Critter",
+    "Effect": "Shock Resistance",
+    "Prefix": "Electro",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Faron Grasslands",
+      "Thunderhead Isles"
+    ]
+  },
+  {
+    "id": 107,
+    "Name": "Tireless Frog",
+    "Type": "Critter",
+    "Effect": "Full Stamina Recovery + Temporary Extra Stamina",
+    "Prefix": "Enduring",
+    "sellPrice": 20,
+    "buyPrice": 100,
+    "locations": [
+      "Hyrule Wells",
+      "Kara Kara Bazaar"
+    ]
+  },
+  {
+    "id": 108,
+    "Name": "Warm Darner",
+    "Type": "Critter",
+    "Effect": "Cold Resistance",
+    "Prefix": "Spicy",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Akkala Highlands",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 109,
+    "Name": "Winterwing Butterfly",
+    "Type": "Critter",
+    "Effect": "Heat Resistance",
+    "Prefix": "Chilly",
+    "sellPrice": 2,
+    "buyPrice": 10,
+    "locations": [
+      "Hyrule Ridge",
+      "Tabantha Frontier"
+    ]
+  },
+  {
+    "id": 110,
+    "Name": "Aerocuda Eyeball",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": 16,
+    "locations": [
+      "Kakariko Village",
+      "Hyrule Sky"
+    ]
+  },
+  {
+    "id": 111,
+    "Name": "Aerocuda Wing",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 6,
+    "buyPrice": 24,
+    "locations": [
+      "Kakariko Village",
+      "Hyrule Sky"
+    ]
+  },
+  {
+    "id": 112,
+    "Name": "Black Bokoblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 9,
+    "buyPrice": null,
+    "locations": [
+      "Mystathi's Shelf",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 113,
+    "Name": "Black Boss Bokoblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 36,
+    "buyPrice": null,
+    "locations": [
+      "Mystathi's Shelf",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 114,
+    "Name": "Black Hinox Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 60,
+    "buyPrice": null,
+    "locations": [
+      "North Akkala Beach Cave"
+    ]
+  },
+  {
+    "id": 115,
+    "Name": "Black Horriblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Desert Coliseum",
+      "Gerudo Desert Depths"
+    ]
+  },
+  {
+    "id": 116,
+    "Name": "Black Lizalfos Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Gerudo Desert",
+      "East Necluda"
+    ]
+  },
+  {
+    "id": 117,
+    "Name": "Black Lizalfos Tail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 22,
+    "buyPrice": null,
+    "locations": [
+      "Gerudo Desert",
+      "East Necluda"
+    ]
+  },
+  {
+    "id": 118,
+    "Name": "Black Moblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Gerudo Highlands",
+      "Deep Akkala"
+    ]
+  },
+  {
+    "id": 119,
+    "Name": "Blue Bokoblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 5,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "id": 120,
+    "Name": "Blue Boss Bokoblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 26,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "id": 121,
+    "Name": "Blue Hinox Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 35,
+    "buyPrice": null,
+    "locations": [
+      "Hebra North Crest",
+      "Dalite Forest"
+    ]
+  },
+  {
+    "id": 122,
+    "Name": "Blue Horriblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 9,
+    "buyPrice": null,
+    "locations": [
+      "Death Mountain Depths",
+      "Sahasra Slope Cave"
+    ]
+  },
+  {
+    "id": 123,
+    "Name": "Blue Lizalfos Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 10,
+    "buyPrice": null,
+    "locations": [
+      "Naydra Snowfield",
+      "Mount Lanayru"
+    ]
+  },
+  {
+    "id": 124,
+    "Name": "Blue Lizalfos Tail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 20,
+    "buyPrice": null,
+    "locations": [
+      "Naydra Snowfield",
+      "Mount Lanayru"
+    ]
+  },
+  {
+    "id": 125,
+    "Name": "Blue Moblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 9,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "id": 126,
+    "Name": "Blue-Maned Lynel Mace Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 70,
+    "buyPrice": null,
+    "locations": [
+      "Stalry Plateau",
+      "Harfin Valley"
+    ]
+  },
+  {
+    "id": 127,
+    "Name": "Blue-Maned Lynel Saber Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 70,
+    "buyPrice": null,
+    "locations": [
+      "Stalry Plateau",
+      "Harfin Valley"
+    ]
+  },
+  {
+    "id": 128,
+    "Name": "Blue-White Frox Fang",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 40,
+    "buyPrice": null,
+    "locations": [
+      "Abandoned Kara Kara Mine"
+    ]
+  },
+  {
+    "id": 129,
+    "Name": "Bokoblin Fang",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 130,
+    "Name": "Bokoblin Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 20,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 131,
+    "Name": "Bokoblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 132,
+    "Name": "Boss Bokoblin Fang",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Hyrule Depths"
+    ]
+  },
+  {
+    "id": 133,
+    "Name": "Boss Bokoblin Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 60,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Hyrule Depths"
+    ]
+  },
+  {
+    "id": 134,
+    "Name": "Chuchu Jelly",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 2,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Great Sky Island"
+    ]
+  },
+  {
+    "id": 135,
+    "Name": "Dinraal's Claw",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 180,
+    "buyPrice": null,
+    "locations": [
+      "North Hyrule"
+    ]
+  },
+  {
+    "id": 136,
+    "Name": "Dinraal's Horn",
+    "Type": "Monster Part",
+    "Effect": "Effect Duration;Critical Success",
+    "Prefix": "None",
+    "sellPrice": 300,
+    "buyPrice": null,
+    "locations": [
+      "North Hyrule"
+    ]
+  },
+  {
+    "id": 137,
+    "Name": "Dinraal's Scale",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 150,
+    "buyPrice": null,
+    "locations": [
+      "North Hyrule"
+    ]
+  },
+  {
+    "id": 139,
+    "Name": "Shard of Dinraal's Fang",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 250,
+    "buyPrice": null,
+    "locations": [
+      "North Hyrule"
+    ]
+  },
+  {
+    "id": 140,
+    "Name": "Electric Keese Eyeball",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 6,
+    "buyPrice": null,
+    "locations": [
+      "East Necluda",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 141,
+    "Name": "Electric Keese Wing",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": null,
+    "locations": [
+      "East Necluda",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 142,
+    "Name": "Electric Lizalfos Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "East Necluda",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 143,
+    "Name": "Electric Lizalfos Tail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 22,
+    "buyPrice": null,
+    "locations": [
+      "East Necluda",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 144,
+    "Name": "Farosh's Claw",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 180,
+    "buyPrice": null,
+    "locations": [
+      "Southeast Hyrule"
+    ]
+  },
+  {
+    "id": 145,
+    "Name": "Farosh's Scale",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 300,
+    "buyPrice": null,
+    "locations": [
+      "Southeast Hyrule"
+    ]
+  },
+  {
+    "id": 146,
+    "Name": "Farosh's Horn",
+    "Type": "Monster Part",
+    "Effect": "Effect Duration;Critical Success",
+    "Prefix": "None",
+    "sellPrice": 150,
+    "buyPrice": null,
+    "locations": [
+      "Southeast Hyrule"
+    ]
+  },
+  {
+    "id": 147,
+    "Name": "Shard of Farosh's Fang",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 250,
+    "buyPrice": null,
+    "locations": [
+      "Southeast Hyrule"
+    ]
+  },
+  {
+    "id": 149,
+    "Name": "Fire Keese Eyeball",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 6,
+    "buyPrice": null,
+    "locations": [
+      "Death Mountain",
+      "Akkala"
+    ]
+  },
+  {
+    "id": 150,
+    "Name": "Fire Keese Wing",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": null,
+    "locations": [
+      "Death Mountain",
+      "Akkala"
+    ]
+  },
+  {
+    "id": 151,
+    "Name": "Fire Like Stone",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 25,
+    "buyPrice": null,
+    "locations": [
+      "Eldin Caves",
+      "Death Mountain Foothill Cave"
+    ]
+  },
+  {
+    "id": 152,
+    "Name": "Fire-Breath Lizalfos Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Eldin",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 153,
+    "Name": "Fire-Breath Lizalfos Tail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 22,
+    "buyPrice": null,
+    "locations": [
+      "Eldin",
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "id": 154,
+    "Name": "Frox Fang",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 40,
+    "buyPrice": null,
+    "locations": [
+      "Near Hebra Canyon Mine",
+      "Near Abandoned hebra Mine"
+    ]
+  },
+  {
+    "id": 155,
+    "Name": "Frox Fingernail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 40,
+    "buyPrice": null,
+    "locations": [
+      "Near Hebra Canyon Mine",
+      "Near Abandoned hebra Mine"
+    ]
+  },
+  {
+    "id": 156,
+    "Name": "Frox Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 40,
+    "buyPrice": null,
+    "locations": [
+      "Near Hebra Canyon Mine",
+      "Near Abandoned hebra Mine"
+    ]
+  },
+  {
+    "id": 157,
+    "Name": "Gibdo Bone",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 25,
+    "buyPrice": null,
+    "locations": [
+      "Gerudo Underground Cemetery",
+      "Gerudo Depths"
+    ]
+  },
+  {
+    "id": 158,
+    "Name": "Gibdo Guts",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 2,
+    "buyPrice": null,
+    "locations": [
+      "Gerudo Underground Cemetery",
+      "Gerudo Depths"
+    ]
+  },
+  {
+    "id": 159,
+    "Name": "Gibdo Wing",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 6,
+    "buyPrice": null,
+    "locations": [
+      "Ancient Altar Ruins",
+      "Gerudo Underground Cemetery"
+    ]
+  },
+  {
+    "id": 160,
+    "Name": "Gleeok Flame Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 70,
+    "buyPrice": null,
+    "locations": [
+      "Spectacle Rock",
+      "Lake Hylia Bridge"
+    ]
+  },
+  {
+    "id": 161,
+    "Name": "Gleeok Frost Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 90,
+    "buyPrice": null,
+    "locations": [
+      "Biron Snowshelf",
+      "South Tabantha Snowfield"
+    ]
+  },
+  {
+    "id": 162,
+    "Name": "Gleeok Thunder Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 150,
+    "buyPrice": null,
+    "locations": [
+      "Herin Lake South",
+      "South Akkala Plains"
+    ]
+  },
+  {
+    "id": 163,
+    "Name": "Gleeok Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 200,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Sky",
+      "Hyrule Depths"
+    ]
+  },
+  {
+    "id": 164,
+    "Name": "Hinox Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 80,
+    "buyPrice": null,
+    "locations": [
+      "Satori Mountain Foothill Cave",
+      "Near Hyrule Ridge Chasm"
+    ]
+  },
+  {
+    "id": 165,
+    "Name": "Hinox Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Satori Mountain Foothill Cave",
+      "Near Hyrule Ridge Chasm"
+    ]
+  },
+  {
+    "id": 166,
+    "Name": "Hinox Toenail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 20,
+    "buyPrice": null,
+    "locations": [
+      "Satori Mountain Foothill Cave",
+      "Near Hyrule Ridge Chasm"
+    ]
+  },
+  {
+    "id": 167,
+    "Name": "Hinox Tooth",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 35,
+    "buyPrice": null,
+    "locations": [
+      "Satori Mountain Foothill Cave",
+      "Near Hyrule Ridge Chasm"
+    ]
+  },
+  {
+    "id": 168,
+    "Name": "Horriblin Claw",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 12,
+    "buyPrice": null,
+    "locations": [
+      "Desert Coliseum",
+      "Eldin Canyon Depths"
+    ]
+  },
+  {
+    "id": 169,
+    "Name": "Horriblin Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 25,
+    "buyPrice": null,
+    "locations": [
+      "Desert Coliseum",
+      "Eldin Canyon Depths"
+    ]
+  },
+  {
+    "id": 170,
+    "Name": "Horriblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": null,
+    "locations": [
+      "Desert Coliseum",
+      "Eldin Canyon Depths"
+    ]
+  },
+  {
+    "id": 171,
+    "Name": "Ice Keese Eyeball",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 6,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 172,
+    "Name": "Ice Keese Wing",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 173,
+    "Name": "Ice Like Stone",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 25,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Caves",
+      "Walnot Mountain Cave"
+    ]
+  },
+  {
+    "id": 174,
+    "Name": "Ice-Breath Lizalfos Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 175,
+    "Name": "Ice-Breath Lizalfos Tail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 22,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 176,
+    "Name": "Keese Eyeball",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 2,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Caves",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 177,
+    "Name": "Keese Wing",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 3,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Caves",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "id": 178,
+    "Name": "Light Dragon's Horn",
+    "Type": "Monster Part",
+    "Effect": "Effect Duration;Critical Success",
+    "Prefix": "None",
+    "sellPrice": 300,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Sky"
+    ]
+  },
+  {
+    "id": 179,
+    "Name": "Light Dragon's Scale",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 150,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Sky"
+    ]
+  },
+  {
+    "id": 180,
+    "Name": "Light Dragon's Talon",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 180,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Sky"
+    ]
+  },
+  {
+    "id": 181,
+    "Name": "Like Like Stone",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Caves"
+    ]
+  },
+  {
+    "id": 182,
+    "Name": "Lizalfos Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 8,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 183,
+    "Name": "Lizalfos Tail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 18,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 184,
+    "Name": "Lizalfos Talon",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 185,
+    "Name": "Lynel Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 200,
+    "buyPrice": null,
+    "locations": [
+      "West Hyrule Plains",
+      "Upland Lindor"
+    ]
+  },
+  {
+    "id": 186,
+    "Name": "Lynel Hoof",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 50,
+    "buyPrice": null,
+    "locations": [
+      "West Hyrule Plains",
+      "Upland Lindor"
+    ]
+  },
+  {
+    "id": 187,
+    "Name": "Lynel Mace Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 40,
+    "buyPrice": null,
+    "locations": [
+      "West Hyrule Plains",
+      "Upland Lindor"
+    ]
+  },
+  {
+    "id": 188,
+    "Name": "Lynel Saber Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 40,
+    "buyPrice": null,
+    "locations": [
+      "West Hyrule Plains",
+      "Upland Lindor"
+    ]
+  },
+  {
+    "id": 189,
+    "Name": "Moblin Fang",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 12,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 190,
+    "Name": "Moblin Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 25,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 191,
+    "Name": "Moblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 5,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 192,
+    "Name": "Molduga Fin",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 30,
+    "buyPrice": "",
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 193,
+    "Name": "Molduga Claw",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 180,
+    "buyPrice": "",
+    "locations": [
+      "Hyrule Field",
+      "Central Hyrule Depths"
+    ]
+  },
+  {
+    "id": 194,
+    "Name": "Molduga Guts",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 110,
+    "buyPrice": null,
+    "locations": [
+      "Near Siwakama Shrine",
+      "Torma Dunes"
+    ]
+  },
+  {
+    "id": 195,
+    "Name": "Molduga Jaw",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 30,
+    "buyPrice": null,
+    "locations": [
+      "Near Siwakama Shrine",
+      "Torma Dunes"
+    ]
+  },
+  {
+    "id": 196,
+    "Name": "Naydra's Claw",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 30,
+    "buyPrice": null,
+    "locations": [
+      "Necluda Sky"
+    ]
+  },
+  {
+    "id": 197,
+    "Name": "Naydra's Scale",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 150,
+    "buyPrice": null,
+    "locations": [
+      "Necluda Sky"
+    ]
+  },
+  {
+    "id": 198,
+    "Name": "Naydra's Horn",
+    "Type": "Monster Part",
+    "Effect": "Effect Duration;Critical Success",
+    "Prefix": "None",
+    "sellPrice": 300,
+    "buyPrice": null,
+    "locations": [
+      "Necluda Sky"
+    ]
+  },
+  {
+    "id": 200,
+    "Name": "Shard of Dinraal's Fang",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 250,
+    "buyPrice": null,
+    "locations": [
+      "Necluda Sky"
+    ]
+  },
+  {
+    "id": 201,
+    "Name": "Obsidian Frox Fang",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 40,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Depths",
+      "Near Katenim Lightroot"
+    ]
+  },
+  {
+    "id": 202,
+    "Name": "Octo Balloon",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 5,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Waters",
+      "Satori Mountain"
+    ]
+  },
+  {
+    "id": 203,
+    "Name": "Octorok Eyeball",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Waters",
+      "Satori Mountain"
+    ]
+  },
+  {
+    "id": 204,
+    "Name": "Octorok Tentacle",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 10,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Waters",
+      "Satori Mountain"
+    ]
+  },
+  {
+    "id": 205,
+    "Name": "Red Chuchu Jelly",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": null,
+    "locations": [
+      "Eldin Canyon",
+      "Eldin Mountains"
+    ]
+  },
+  {
+    "id": 206,
+    "Name": "Shard of Light Dragon's Fang",
+    "Type": "Monster Part",
+    "Effect": "Critical Success",
+    "Prefix": "None",
+    "sellPrice": 250,
+    "buyPrice": null,
+    "locations": [
+      "Hyrule Sky"
+    ]
+  },
+  {
+    "id": 208,
+    "Name": "Shock Like Stone",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 25,
+    "buyPrice": null,
+    "locations": [
+      "East Necluda Caves",
+      "Hyrule Field Caves"
+    ]
+  },
+  {
+    "id": 209,
+    "Name": "Silver Bokoblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 25,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Hyrule Depths"
+    ]
+  },
+  {
+    "id": 210,
+    "Name": "Silver Horriblin Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 30,
+    "buyPrice": null,
+    "locations": [
+      "Desert Coliseum",
+      "Deplian Badlands Cave"
+    ]
+  },
+  {
+    "id": 211,
+    "Name": "Silver Lizalfos Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 30,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Hyrule Depths"
+    ]
+  },
+  {
+    "id": 212,
+    "Name": "Silver Lizalfos Tail",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 24,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Hyrule Depths"
+    ]
+  },
+  {
+    "id": 213,
+    "Name": "Silver Lynel Mace Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 150,
+    "buyPrice": null,
+    "locations": [
+      "Nautelle Wetlands"
+    ]
+  },
+  {
+    "id": 214,
+    "Name": "Silver Lynel Saber Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 150,
+    "buyPrice": null,
+    "locations": [
+      "Nautelle Wetlands"
+    ]
+  },
+  {
+    "id": 215,
+    "Name": "Stalnox Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 15,
+    "buyPrice": null,
+    "locations": [
+      "Akkala House of Bones",
+      "Lanayru Wetlands"
+    ]
+  },
+  {
+    "id": 216,
+    "Name": "White Chuchu Jelly",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": null,
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "id": 217,
+    "Name": "White-Maned Lynel Mace Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 90,
+    "buyPrice": null,
+    "locations": [
+      "Risoka Snowfield",
+      "Ukuku Plains"
+    ]
+  },
+  {
+    "id": 218,
+    "Name": "White-Maned Lynel Saber Horn",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 90,
+    "buyPrice": null,
+    "locations": [
+      "Risoka Snowfield",
+      "Ukuku Plains"
+    ]
+  },
+  {
+    "id": 219,
+    "Name": "Yellow Chuchu Jelly",
+    "Type": "Monster Part",
+    "Effect": "None",
+    "Prefix": "None",
+    "sellPrice": 4,
+    "buyPrice": null,
+    "locations": [
+      "West Necluda",
+      "Gerudo Desert"
+    ]
+  }
+]
