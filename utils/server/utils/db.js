@@ -47,24 +47,40 @@ class DBClient {
   }
 
     // contains Query controller to handle responses and requests to the API
-    static async findRecipesByIngredients(selectedIngredients) {
+    async findRecipesByIngredients(selectedIngredients) {
         try {
             const db = await this.connection;
             const collection = db.collection('recipes');
 
-            const matchingRecipes = await collection.find({
-                ingredients: {
-                    $not: {
-                        $elemMatch: {
-                            $not: { $in: selectedIngredients }
-                        }
-                    }
-                }
-            }).toArray();
+            const ingredientNames = selectedIngredients.map(ing => ing.name);
+            const ingredientTypes = selectedIngredients.map(ing => ing.type);
 
-            return matchingRecipes
-            
-        } catch (err) {
+            console.log(ingredientNames);
+            console.log(ingredientTypes);
+
+            const query = {
+                $and: [
+                    {
+                      ingredients: {
+                        $all: ingredientNames.map(name => ({
+                          $elemMatch: { name }
+                        }))
+                      }
+                    },
+                    {
+                      ingredients: {
+                        $elemMatch: {
+                          type: { $in: ingredientTypes }
+                        }
+                      }
+                    }
+                ]
+            }
+            console.log(query)
+            const recipes = await collection.find(query).toArray();
+            return recipes;
+            console.log(recipes);
+            } catch (err) {
             console.error('Error fetching recipes: ', err);
             return [];
         }
