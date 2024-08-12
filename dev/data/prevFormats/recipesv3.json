@@ -1,0 +1,5457 @@
+[
+    {
+        "id": 1,
+        "Name": "Mushroom Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "Name": "Meat and Mushroom Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "Name": "Fish and Mushroom Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy"
+                ]
+            },
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "Name": "Meat Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "Name": "Fish Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "Name": "Seafood Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "Name": "Copious Meat Skewers",
+        "ingredients": [
+            {
+                "unique_count": 4,
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "Name": "Copious Seafood Skewers",
+        "ingredients": [
+            {
+                "unique_count": 4,
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "Name": "Steamed Fruit",
+        "ingredients": [
+            {
+                "options": [
+                    "Golden Apple",
+                    "Palm Fruit",
+                    "Apple",
+                    "Wildberry",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Hydromelon",
+                    "Mighty Bananas",
+                    "Spicy Pepper",
+                    "Fire Fruit",
+                    "Ice Fruit",
+                    "Shock Fruit",
+                    "Splash Fruit",
+                    "Dazzlefruit"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "Name": "Steamed Tomatoes",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Tomato"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "Name": "Steamed Mushrooms",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "Name": "Steamed Meat",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "Name": "Steamed Fish",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "Name": "Sauteed Peppers",
+        "ingredients": [
+            {
+                "options": [
+                    "Spicy Pepper"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "Name": "Sauteed Nuts",
+        "ingredients": [
+            {
+                "options": [
+                    "Acorn",
+                    "Chickaloo Tree Nut"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "Name": "Fried Wild Greens",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "Name": "Copious Fried Wild Greens",
+        "ingredients": [
+            {
+                "unique_count": 4,
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "Name": "Energizing Cooked Stambulb",
+        "ingredients": [
+            {
+                "options": [
+                    "Stambulb"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "Name": "Energizing Buttered Stambulb",
+        "ingredients": [
+            {
+                "options": [
+                    "Stambulb"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "Name": "Copious Mushroom Skewers",
+        "ingredients": [
+            {
+                "unique_count": 4,
+                "options": [
+                            "Big Hearty Truffle",
+                            "Hearty Truffle",
+                            "Endura Shroom",
+                            "Rushroom",
+                            "Brightcap",
+                            "Stamella Shroom",
+                            "Chillshroom",
+                            "Sunshroom",
+                            "Hylian Shroom",
+                            "Zapshroom",
+                            "Silent Shroom",
+                            "Razorshroom",
+                            "Ironshroom",
+                            "Skyshroom"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "Name": "Spiced Meat Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            },
+            {
+                "options": [
+                    "Raw Meat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "Name": "Prime Spiced Meat Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Prime Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "Name": "Gourmet Spiced Meat Skewer",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "Name": "Crab Stir-Fry",
+        "ingredients": [
+            {
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "Name": "Meat and Seafood Fry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "Name": "Prime Meat and Seafood Fry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Prime Meat",
+                    "Raw Whole Bird"
+                ]
+            },
+            {
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "Name": "Gourmet Meat and Seafood Fry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird"
+                ]
+            },
+            {
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy",
+                    "Sneaky River Snail",
+                    "Razorclaw Crab",
+                    "Ironshell Crab",
+                    "Bright-Eyed Crab"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "Name": "Salt-Grilled Greens",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "Name": "Salt-Grilled Mushrooms",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "Name": "Salt-Grilled Meat",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "Name": "Salt-Grilled Prime Meat",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "Name": "Salt-Grilled Gourmet Meat",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "Name": "Salt-Grilled Fish",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty Salmon",
+                    "Hearty Bass",
+                    "Hyrule Bass",
+                    "Staminoka Bass",
+                    "Chillfin Trout",
+                    "Sizzlefin Trout",
+                    "Voltfin Trout",
+                    "Stealthfin Trout",
+                    "Mighty Carp",
+                    "Armored Carp",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Glowing Cave Fish",
+                    "Mighty Porgy",
+                    "Armored Porgy"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "Name": "Salt-Grilled Crab",
+        "ingredients": [
+            {
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "Name": "Herb Saute",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "Name": "Fragrant Mushroom Saute",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "Name": "Pepper Steak",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Spicy pepper"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "Name": "Peppered Seafood",
+        "ingredients": [
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Spicy pepper"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "Name": "Fragrant Seafood Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Stambulb"
+                ]
+            },
+            {
+                "options": [
+                    "Oil Jar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "Name": "Deep-Fried Drumstick",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Oil Jar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "Name": "Deep-Fried Thigh",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Bird Thigh"
+                ]
+            },
+            {
+                "options": [
+                    "Oil Jar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "Name": "Deep-Fried Bird Roast",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Whole Bird"
+                ]
+            },
+            {
+                "options": [
+                    "Oil Jar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "Name": "Seafood Meuniere",
+        "ingredients": [
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "Name": "Porgy Meuniere",
+        "ingredients": [
+            {
+                "options": [
+                    "Armored Porgy",
+                    "Mighty Porgy"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "Name": "Salmon Meuniere",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty salmon"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "Name": "Fruit and Mushroom Mix",
+        "ingredients": [
+            {
+                "options": [
+                    "Golden Apple",
+                    "Palm Fruit",
+                    "Apple",
+                    "Wildberry",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Hydromelon",
+                    "Mighty Bananas",
+                    "Spicy Pepper",
+                    "Fire Fruit",
+                    "Ice Fruit",
+                    "Shock Fruit",
+                    "Splash Fruit",
+                    "Dazzlefruit"
+                ]
+            },
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "Name": "Simmered Fruit",
+        "ingredients": [
+            {
+                "options": [
+                    "Golden Apple",
+                    "Palm Fruit",
+                    "Apple",
+                    "Wildberry",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Hydromelon",
+                    "Mighty Bananas",
+                    "Spicy Pepper",
+                    "Fire Fruit",
+                    "Ice Fruit",
+                    "Shock Fruit",
+                    "Splash Fruit",
+                    "Dazzlefruit"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "Name": "Copious Simmered Fruit",
+        "ingredients": [
+            {
+                "unique_count": 4,
+                "options": [
+                    "Golden Apple",
+                    "Palm Fruit",
+                    "Apple",
+                    "Wildberry",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Hydromelon",
+                    "Mighty Bananas",
+                    "Spicy Pepper",
+                    "Fire Fruit",
+                    "Ice Fruit",
+                    "Shock Fruit",
+                    "Splash Fruit",
+                    "Dazzlefruit"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "Name": "Simmered Tomato",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Tomato"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "Name": "Fruity Tomato Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Tomato"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "Name": "Tomato Mushroom Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Tomato"
+                ]
+            },
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "Name": "Tomato Seafood Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Tomato"
+                ]
+            },
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "Name": "Cream of Vegetable Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Hylian Tomato"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "Name": "Veggie Cream Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "Name": "Cream of Mushroom Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "Name": "Creamy Meat Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "Name": "Creamy Seafood Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "Name": "Snail Chowder",
+        "ingredients": [
+            {
+                "options": [
+                    "Sneaky River Snail"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "Name": "Creamy Heart Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty Radish"
+                ]
+            },
+            {
+                "options": [
+                    "Hydromelon"
+                ]
+            },
+            {
+                "options": [
+                    "Voltfruit"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "Name": "Glazed Veggies",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "Name": "Glazed Mushrooms",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "Name": "Glazed Meat",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "Name": "Glazed Seafood",
+        "ingredients": [
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "Name": "Curry Rice",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "Name": "Vegetable Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "Name": "Meat Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "Name": "Prime Meat Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Prime Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "Name": "Gourmet Meat Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "Name": "Poultry Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "Name": "Prime Poultry Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Bird Thigh"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "Name": "Gourmet Poultry Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Whole Bird"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "Name": "Seafood Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Armored Porgy",
+                    "Mighty Porgy"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "Name": "Cheesy Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "Name": "Carrot Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "Name": "Pumpkin Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "Name": "Meat Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "Name": "Prime Meat Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Prime Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "Name": "Gourmet Meat Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "Name": "Meat-Stuffed Pumpkin",
+        "ingredients": [
+            {
+                "options": [
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "Name": "Vegetable Risotto",
+        "ingredients": [
+            {
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "Name": "Mushroom Risotto",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "Name": "Salmon Risotto",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty Salmon"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "Name": "Crab Risotto",
+        "ingredients": [
+            {
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "Name": "Cheesy Risotto",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom",
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "Name": "Poultry Pilaf",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "Name": "Prime Poultry Pilaf",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Bird Thigh"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "Name": "Gourmet Poultry Pilaf",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Whole Bird"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "Name": "Seafood Paella",
+        "ingredients": [
+            {
+                "options": [
+                    "Mighty Porgy",
+                    "Armored Porgy"
+                ]
+            },
+            {
+                "options": [
+                    "Razorclaw crab or Ironshell crab"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "Name": "Curry Pilaf",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "Name": "Fried Egg and Rice",
+        "ingredients": [
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "Name": "Crunchy Fried Rice",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Oil Jar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "Name": "Seafood Fried Rice",
+        "ingredients": [
+            {
+                "options": [
+                    "Armored Porgy",
+                    "Mighty Porgy"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "Name": "Crab Omelet with Rice",
+        "ingredients": [
+            {
+                "options": [
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "Name": "Meat and Rice Bowl",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "Name": "Prime Meat and Rice Bowl",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Prime Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "Name": "Gourmet Meat and Rice Bowl",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "Name": "Cheesy Meat Bowl",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "Name": "Prime Cheesy Meat Bowl",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Prime Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "Name": "Gourmet Cheesy Meat Bowl",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat"
+                ]
+            },
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "Name": "Veggie Rice Balls",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "Name": "Mushroom Rice Balls",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "Name": "Meaty Rice Balls",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "Name": "Seafood Rice Balls",
+        "ingredients": [
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "Name": "Veggie Porridge",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "Name": "Wheat Bread",
+        "ingredients": [
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "Name": "Melty Cheesy Bread",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "Name": "Hylian Tomato Pizza",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Tomato"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "Name": "Meat Pie",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "Name": "Fish Pie",
+        "ingredients": [
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "Name": "Cheesy Tomato",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Tomato"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "Name": "Cheesy Baked Fish",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "Name": "Omelet",
+        "ingredients": [
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "Name": "Vegetable Omelet",
+        "ingredients": [
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion",
+                    "Endura Carrot",
+                    "Swift Carrot",
+                    "Big Hearty Radish",
+                    "Hearty Radish",
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "Name": "Mushroom Omelet",
+        "ingredients": [
+            {
+                "options": [
+                    "Big Hearty Truffle",
+                    "Hearty Truffle",
+                    "Endura Shroom",
+                    "Rushroom",
+                    "Brightcap",
+                    "Stamella Shroom",
+                    "Chillshroom",
+                    "Sunshroom",
+                    "Hylian Shroom",
+                    "Zapshroom",
+                    "Silent Shroom",
+                    "Razorshroom",
+                    "Ironshroom",
+                    "Skyshroom"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "Name": "Cheesy Omelet",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Hyrule Herb",
+                    "Silent Princess",
+                    "Stambulb",
+                    "Korok Frond",
+                    "Cool Safflina",
+                    "Warm Safflina",
+                    "Mighty Thistle",
+                    "Armoranth",
+                    "Blue Nightshade",
+                    "Electric Safflina",
+                    "Swift Violet",
+                    "Sundelion"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "Name": "Hot Buttered Apple",
+        "ingredients": [
+            {
+                "options": [
+                    "Golden Apple",
+                    "Apple"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "Name": "Honeyed Fruits",
+        "ingredients": [
+            {
+                "options": [
+                    "Ice Fruit",
+                    "Hydromelon",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Mighty Bananas",
+                    "Palm Fruit",
+                    "Wildberry",
+                    "Dazzlefruit",
+                    "Splash Fruit",
+                    "Fire Fruit",
+                    "Spicy Pepper",
+                    "Shock Fruit"
+                ]
+            },
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "Name": "Honeyed Apple",
+        "ingredients": [
+            {
+                "options": [
+                    "Golden Apple",
+                    "Apple"
+                ]
+            },
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "Name": "Honey Candy",
+        "ingredients": [
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "Name": "Fried Bananas",
+        "ingredients": [
+            {
+                "options": [
+                    "Mighty Bananas"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "Name": "Egg Pudding",
+        "ingredients": [
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "Name": "Plain Crepe",
+        "ingredients": [
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "Name": "Wildberry Crepe",
+        "ingredients": [
+            {
+                "options": [
+                    "Wildberry"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "Name": "Honey Crepe",
+        "ingredients": [
+            {
+                "options": [
+                    "Courser Bee Honey"
+                ]
+            },
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "Name": "Nutcake",
+        "ingredients": [
+            {
+                "options": [
+                    "Acorn",
+                    "Chickaloo Tree Nut"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "Name": "Fruitcake",
+        "ingredients": [
+            {
+                "options": [
+                    "Golden Apple",
+                    "Apple",
+                    "Wildberry"
+                ]
+            },
+            {
+                "options": [
+                    "Ice Fruit",
+                    "Hydromelon",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Mighty Bananas",
+                    "Palm Fruit",
+                    "Dazzlefruit",
+                    "Splash Fruit",
+                    "Fire Fruit",
+                    "Spicy Pepper",
+                    "Shock Fruit"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "Name": "Carrot Cake",
+        "ingredients": [
+            {
+                "options": [
+                    "Endura Carrot",
+                    "Swift Carrot"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "Name": "Pumpkin Pie",
+        "ingredients": [
+            {
+                "options": [
+                    "Sun Pumpkin",
+                    "Fortified Pumpkin"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "Name": "Cheesecake",
+        "ingredients": [
+            {
+                "options": [
+                    "Hateno Cheese"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "Name": "Fruit Pie",
+        "ingredients": [
+            {
+                "options": [
+                    "Ice Fruit",
+                    "Hydromelon",
+                    "Voltfruit",
+                    "Fleet-Lotus Seeds",
+                    "Mighty Bananas",
+                    "Palm Fruit",
+                    "Wildberry",
+                    "Dazzlefruit",
+                    "Splash Fruit",
+                    "Fire Fruit",
+                    "Spicy Pepper",
+                    "Shock Fruit"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "Name": "Apple Pie",
+        "ingredients": [
+            {
+                "options": [
+                    "Golden Apple",
+                    "Apple"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "Name": "Egg Tart",
+        "ingredients": [
+            {
+                "options": [
+                    "Bird Egg"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "Name": "Milk",
+        "ingredients": [
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "Name": "Noble Pursuit",
+        "ingredients": [
+            {
+                "options": [
+                    "Palm Fruit"
+                ]
+            },
+            {
+                "options": [
+                    "Hydromelon"
+                ]
+            },
+            {
+                "options": [
+                    "Voltfruit"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "Name": "Monster Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            },
+            {
+                "options": [
+                    "Monster Extract"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "Name": "Monster Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Monster Extract"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "Name": "Monster Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            },
+            {
+                "options": [
+                    "Monster Extract"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "Name": "Monster Rice Balls",
+        "ingredients": [
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            },
+            {
+                "options": [
+                    "Monster Extract"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "Name": "Monster Cake",
+        "ingredients": [
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Monster Extract"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "Name": "Dark Stew",
+        "ingredients": [
+            {
+                "options": [
+                    "Dark Clump"
+                ]
+            },
+            {
+                "options": [
+                    "Raw Gourmet Meat",
+                    "Raw Whole Bird",
+                    "Raw Prime Meat",
+                    "Raw Bird Thigh",
+                    "Raw Meat",
+                    "Raw Bird Drumstick"
+                ]
+            },
+            {
+                "options": [
+                    "Voltfin Trout",
+                    "Staminoka Bass",
+                    "Hearty Bass",
+                    "Mighty Carp",
+                    "Hyrule Bass",
+                    "Sanke Carp",
+                    "Ancient Arowana",
+                    "Stealthfin Trout",
+                    "Sizzlefin Trout",
+                    "Armored Carp",
+                    "Bright-Eyed Crab",
+                    "Razorclaw Crab",
+                    "Sneaky River Snail",
+                    "Ironshell Crab"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "Name": "Dark Soup",
+        "ingredients": [
+            {
+                "options": [
+                    "Dark Clump"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Fresh Milk"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "Name": "Dark Curry",
+        "ingredients": [
+            {
+                "options": [
+                    "Dark Clump"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Goron Spice"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "Name": "Dark Rice Ball",
+        "ingredients": [
+            {
+                "options": [
+                    "Dark Clump"
+                ]
+            },
+            {
+                "options": [
+                    "Hylian Rice"
+                ]
+            },
+            {
+                "options": [
+                    "Rock Salt"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "Name": "Dark Cake",
+        "ingredients": [
+            {
+                "options": [
+                    "Dark Clump"
+                ]
+            },
+            {
+                "options": [
+                    "Tabantha Wheat"
+                ]
+            },
+            {
+                "options": [
+                    "Goat Butter"
+                ]
+            },
+            {
+                "options": [
+                    "Cane Sugar"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 215,
+        "Name": "Energizing Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Restless Cricket",
+                    "Energetic Rhino Beetle"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 216,
+        "Name": "Hasty Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Hot-Footed Frog",
+                    "Hightail Lizard"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 217,
+        "Name": "Spicy Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Summerwing Butterfly",
+                    "Warm Darner"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 218,
+        "Name": "Chilly Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Winterwing Butterfly",
+                    "Cold Darner"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 219,
+        "Name": "Electro Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Thunderwing Butterfly",
+                    "Electric Darner"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 220,
+        "Name": "Fireproof Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Fireproof Lizard",
+                    "Smotherwing Butterfly"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 221,
+        "Name": "Mighty Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Bladed Rhino Beetle"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 222,
+        "Name": "Tough Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Rugged Rhino Beetle"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 223,
+        "Name": "Sneaky Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Sunset Firefly "
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 224,
+        "Name": "Sticky Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Sticky Frog",
+                    "Sticky Lizard"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "Name": "Bright Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Deep Firefly"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 226,
+        "Name": "Enduring Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Tireless Frog"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 227,
+        "Name": "Hearty Elixir",
+        "ingredients": [
+            {
+                "options": [
+                    "Hearty Lizard"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 228,
+        "Name": "Fairy Tonic",
+        "ingredients": [
+            {
+                "options": [
+                    "Fairy"
+                ]
+            },
+            {
+                "options": [
+                    "Aerocuda Eyeball",
+                    "Aerocuda Wing",
+                    "Black Bokoblin Horn",
+                    "Black Boss Bokoblin Horn",
+                    "Black Hinox Horn",
+                    "Black Horriblin Horn",
+                    "Black Lizalfos Horn",
+                    "Black Lizalfos Tail",
+                    "Black Moblin Horn",
+                    "Blue Bokoblin Horn",
+                    "Blue Boss Bokoblin Horn",
+                    "Blue Hinox Horn",
+                    "Blue Horriblin Horn",
+                    "Blue Lizalfos Horn",
+                    "Blue Lizalfos Tail",
+                    "Blue Moblin Horn",
+                    "Blue-Maned Lynel Mace Horn",
+                    "Blue-Maned Lynel Saber Horn",
+                    "Blue-White Frox Fang",
+                    "Bokoblin Fang",
+                    "Bokoblin Guts",
+                    "Bokoblin Horn",
+                    "Boss Bokoblin Fang",
+                    "Boss Bokoblin Guts",
+                    "Chuchu Jelly",
+                    "Dinraal's Claw",
+                    "Dinraal's Horn",
+                    "Dinraal's Scale",
+                    "Shard of Dinraal's Fang",
+                    "Electric Keese Eyeball",
+                    "Electric Keese Wing",
+                    "Electric Lizalfos Horn",
+                    "Electric Lizalfos Tail",
+                    "Farosh's Claw",
+                    "Farosh's Scale",
+                    "Farosh's Horn",
+                    "Shard of Farosh's Fang",
+                    "Fire Keese Eyeball",
+                    "Fire Keese Wing",
+                    "Fire Like Stone",
+                    "Fire-Breath Lizalfos Horn",
+                    "Fire-Breath Lizalfos Tail",
+                    "Frox Fang",
+                    "Frox Fingernail",
+                    "Frox Guts",
+                    "Gibdo Bone",
+                    "Gibdo Guts",
+                    "Gibdo Wing",
+                    "Gleeok Flame Horn",
+                    "Gleeok Frost Horn",
+                    "Gleeok Thunder Horn",
+                    "Gleeok Guts",
+                    "Hinox Guts",
+                    "Hinox Horn",
+                    "Hinox Toenail",
+                    "Hinox Tooth",
+                    "Horriblin Claw",
+                    "Horriblin Guts",
+                    "Horriblin Horn",
+                    "Ice Keese Eyeball",
+                    "Ice Keese Wing",
+                    "Ice Like Stone",
+                    "Ice-Breath Lizalfos Horn",
+                    "Ice-Breath Lizalfos Tail",
+                    "Keese Eyeball",
+                    "Keese Wing",
+                    "Light Dragon's Horn",
+                    "Light Dragon's Scale",
+                    "Light Dragon's Talon",
+                    "Like Like Stone",
+                    "Lizalfos Horn",
+                    "Lizalfos Tail",
+                    "Lizalfos Talon",
+                    "Lynel Guts",
+                    "Lynel Hoof",
+                    "Lynel Mace Horn",
+                    "Lynel Saber Horn",
+                    "Moblin Fang",
+                    "Moblin Guts",
+                    "Moblin Horn",
+                    "Molduga Fin",
+                    "Molduga Claw",
+                    "Molduga Guts",
+                    "Molduga Jaw",
+                    "Naydra's Claw",
+                    "Naydra's Scale",
+                    "Naydra's Horn",
+                    "Shard of Dinraal's Fang",
+                    "Obsidian Frox Fang",
+                    "Octo Balloon",
+                    "Octorok Eyeball",
+                    "Octorok Tentacle",
+                    "Red Chuchu Jelly",
+                    "Shard of Light Dragon's Fang",
+                    "Shock Like Stone",
+                    "Silver Bokoblin Horn",
+                    "Silver Horriblin Horn",
+                    "Silver Lizalfos Horn",
+                    "Silver Lizalfos Tail",
+                    "Silver Lynel Mace Horn",
+                    "Silver Lynel Saber Horn",
+                    "Stalnox Horn",
+                    "White Chuchu Jelly",
+                    "White-Maned Lynel Mace Horn",
+                    "White-Maned Lynel Saber Horn",
+                    "Yellow Chuchu Jelly"
+                ]
+            }
+        ]
+    }
+]
