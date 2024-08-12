@@ -4,13 +4,19 @@ class QueryController {
     // contains Query controller to handle responses and requests to the API
     static async getRecipes(req, res) {
         // sneds quests to DB to get recipes
-        const { selectedIngredients } = req.body;
-        if (!selectedIngredients) {
+        const userIngredients = req.body.ingredients;
+        if (!userIngredients) {
             return res.status(400).send('Invalid ingredients list');
         }
         try {
-            const recipes = await dbClient.findRecipesByIngredients(selectedIngredients);
-            return res.status(200).json(recipes);
+            const result = await dbClient.findRecipesByIngredients(userIngredients);
+
+            const response = result.map(recipe => ({
+                Name: recipe.Name,
+                imagePath: recipe.imagePath
+                })); 
+
+            return res.status(200).json(response);
 
         } catch (err) {
             console.error('Error fetching recipes: ', err);

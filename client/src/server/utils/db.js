@@ -1,6 +1,7 @@
 const { MongoClient, ObjectId } = require('mongodb');
 const dotenv = require('dotenv');
 const { createTestScheduler } = require('jest');
+const { options } = require('../routes');
 
 dotenv.config();
 
@@ -46,65 +47,36 @@ class DBClient {
     }
   }
 
-    // contains Query controller to handle responses and requests to the API
-    // async findRecipesByIngredients(selectedIngredients) {
-    //     try {
-    //         const db = await this.connection;
-    //         const collection = db.collection('recipes');
+// contains Query controller to handle responses and requests to the API
+async findRecipesByIngredients(userIngredients) {
+    try {
+        const db = await this.connection;
+        const collection = db.collection('recipes');
 
-    //         const ingredientNames = selectedIngredients.map(ing => ing.name);
-    //         const ingredientTypes = selectedIngredients.map(ing => ing.type);
+        // Find recipes that match any of the user ingredients
+        const recipes = await collection.find({
+            ingredients: {
+                $elemMatch: {
+                    options: { $in: userIngredients }
+                }
+            }
+        }).toArray();
 
-    //         console.log(ingredientNames);
-    //         console.log(ingredientTypes);
+        // Filter recipes to ensure all required ingredients are present
+        const result = recipes.filter(recipe => {
+            return recipe.ingredients.every(ingredientList => {
+                return ingredientList.options.some(option => userIngredients.includes(option));
+            });
+        });
 
-    //         {
-    //             "$and": [
-    //               {
-    //                 // Ensuring all name-based ingredients are covered
-    //                 "ingredients": {
-    //                   "$not": {
-    //                     "$elemMatch": {
-    //                       "name": { "$ne": null }, // Name-based ingredient
-    //                       "name": { "$nin": ["Golden Apple", "Goat Butter", "Hylian Rice"] } // Not in user's ingredients
-    //                     }
-    //                   }
-    //                 }
-    //               },
-    //               {
-    //                 // Ensuring all type-based ingredients are covered
-    //                 "ingredients": {
-    //                   "$not": {
-    //                     "$elemMatch": {
-    //                       "type": { "$ne": null }, // Type-based ingredient
-    //                       "type": { "$nin": ["Fruit", "Special"] } // Not in user's ingredients
-    //                     }
-    //                   }
-    //                 }
-    //               },
-    //               {
-    //                 // Ensuring all option-based ingredients are covered
-    //                 "ingredients": {
-    //                   "$not": {
-    //                     "$elemMatch": {
-    //                       "options": { "$exists": true }, // Options-based ingredient
-    //                       "options": { "$nin": ["Golden Apple", "Goat Butter", "Hylian Rice"] } // Not in user's ingredients
-    //                     }
-    //                   }
-    //                 }
-    //               }
-    //             ]
-    //           }
+        // Return the filtered recipes
+        return result;
 
-    //         console.log(query)
-    //         const recipes = await collection.find(query).toArray();
-    //         return recipes;
-    //         console.log(recipes);
-    //         } catch (err) {
-    //         console.error('Error fetching recipes: ', err);
-    //         return [];
-    //     }
-    // }
+    } catch (error) {
+        console.error('Error fetching recipes:', error);
+        throw error;
+    }
+}
 
     async findIngredients(sortBy) {
         try {
