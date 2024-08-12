@@ -1761,18 +1761,6 @@
     ]
   },
   {
-    "id": 138,
-    "Name": "Shard of Dinraal's Spike",
-    "Type": "Monster Part",
-    "Effect": "Critical Success",
-    "Prefix": "None",
-    "sellPrice": 30,
-    "buyPrice": null,
-    "locations": [
-      "North Hyrule"
-    ]
-  },
-  {
     "id": 139,
     "Name": "Shard of Dinraal's Fang",
     "Type": "Monster Part",
@@ -1879,18 +1867,6 @@
     "Effect": "Critical Success",
     "Prefix": "None",
     "sellPrice": 250,
-    "buyPrice": null,
-    "locations": [
-      "Southeast Hyrule"
-    ]
-  },
-  {
-    "id": 148,
-    "Name": "Shard of Farosh's Spike",
-    "Type": "Monster Part",
-    "Effect": "Critical Success",
-    "Prefix": "None",
-    "sellPrice": 30,
     "buyPrice": null,
     "locations": [
       "Southeast Hyrule"
@@ -2540,18 +2516,6 @@
     ]
   },
   {
-    "id": 199,
-    "Name": "Shard of Dinraal's Spike",
-    "Type": "Monster Part",
-    "Effect": "Critical Success",
-    "Prefix": "None",
-    "sellPrice": 30,
-    "buyPrice": null,
-    "locations": [
-      "Necluda Sky"
-    ]
-  },
-  {
     "id": 200,
     "Name": "Shard of Dinraal's Fang",
     "Type": "Monster Part",
@@ -2635,18 +2599,6 @@
     "Effect": "Critical Success",
     "Prefix": "None",
     "sellPrice": 250,
-    "buyPrice": null,
-    "locations": [
-      "Hyrule Sky"
-    ]
-  },
-  {
-    "id": 207,
-    "Name": "Shard of Light Dragon's Spike",
-    "Type": "Monster Part",
-    "Effect": "Critical Success",
-    "Prefix": "None",
-    "sellPrice": 30,
     "buyPrice": null,
     "locations": [
       "Hyrule Sky"
