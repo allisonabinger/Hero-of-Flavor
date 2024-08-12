@@ -1,20 +1,25 @@
-import React, { useState } from 'react';
-import './Recipes.css'; // You can style this page separately
+import React, { useState, useEffect } from 'react';
+import './Recipes.css';
 
 const Recipes = () => {
-  const categories = ['Fruit', 'Veggie', 'Meat', 'Elixirs', 'Dessert', 'Poultry'];
-  
-  // Generate 228 recipes
-  const recipes = Array.from({ length: 228 }).map((_, idx) => ({
-    id: idx,
-    name: `Recipe ${idx + 1}`,
-    icon: '🍲', // Placeholder icon, replace with actual images or icons as needed
-  }));
-  
+  const [recipes, setRecipes] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const recipesPerPage = 20;
+  const categories = ['Fruit', 'Veggie', 'Meat', 'Elixirs', 'Dessert', 'Poultry'];
+  
+  useEffect(() => {
+    const fetchIngredients = async () => {
+      const fetchedIngredients = Array.from({ length: 215 }).map((_, idx) => ({
+        id: idx,
+        name: `Ingredient ${idx + 1}`
+      }));
+      setRecipes(fetchedIngredients);
+    };
 
-  // Calculate the displayed recipes based on the current page
+  fetchIngredients();
+  }, [])
+  
+
   const indexOfLastRecipe = currentPage * recipesPerPage;
   const indexOfFirstRecipe = indexOfLastRecipe - recipesPerPage;
   const currentRecipes = recipes.slice(indexOfFirstRecipe, indexOfLastRecipe);

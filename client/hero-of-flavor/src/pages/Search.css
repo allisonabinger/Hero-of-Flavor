@@ -3,9 +3,9 @@
     padding: 20px;
     text-align: center;
     background-color: #DFF5E1;
-}
-
-.button {
+  }
+  
+  .button {
     padding: 15px 30px;
     margin: 20px 0;
     font-size: 16px;
@@ -14,67 +14,94 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
-}
-
-.options {
+  }
+  
+  .options {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin: 20px 0;
-}
-
-.optionButton {
+  }
+  
+  .optionButton {
     padding: 10px 20px;
     font-size: 14px;
     background-color: #fff;
     border: 1px solid #ccc;
     cursor: pointer;
     border-radius: 5px;
-}
-
-.ingredientsGrid {
+  }
+  
+  .selectedIngredients {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e0ffe0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .selectedIngredientsGrid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* 3 columns to fit the grid */
+    grid-auto-flow: dense; /* Pack items together as much as possible */
+    gap: 10px;
+  }
+  
+  .selectedIngredient {
+    background-color: #fff;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .ingredientsGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 20px;
     justify-content: center;
-}
-
-.ingredientCard {
+  }
+  
+  .ingredientCard {
     background-color: #fff;
-    padding: 20px;
+    padding: 14px;
+    width: 100px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.icon {
+    cursor: pointer;
+  }
+  
+  .icon {
     background-color: #f8b9c9;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-}
-
-.pagination-controls {
+    font-size: 1rem;
+  }
+  
+  .pagination-controls {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.pagination-controls button {
+  }
+  
+  .pagination-controls button {
     padding: 10px;
     margin: 0 10px;
     font-size: 14px;
     cursor: pointer;
-}
-
-.pagination-controls span {
+  }
+  
+  .pagination-controls span {
     margin: 0 10px;
     font-size: 14px;
-}
+  }
