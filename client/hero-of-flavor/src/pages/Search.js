@@ -1,82 +1,97 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import './Search.css'; // Import the CSS file
 
 const Search = () => {
+  const [ingredients, setIngredients] = useState([]);
+  const [selectedIngredients, setSelectedIngredients] = useState([]);
+  const itemsPerPage = 12; // Number of items per page
+  const [currentPage, setCurrentPage] = useState(1);
+
+  useEffect(() => {
+    // Simulate fetching data
+    const fetchIngredients = async () => {
+      const fetchedIngredients = Array.from({ length: 215 }).map((_, idx) => ({
+        id: idx,
+        name: `Ingredient ${idx + 1}`
+      }));
+      setIngredients(fetchedIngredients);
+    };
+
+    fetchIngredients();
+  }, []);
+
+  // Handle ingredient click
+  const handleIngredientClick = (ingredient) => {
+    setSelectedIngredients((prev) => {
+      // Add the ingredient to the selected list if it's not already selected
+      if (!prev.includes(ingredient)) {
+        return [...prev, ingredient];
+      }
+      return prev;
+    });
+  };
+
+  // Handle page navigation
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = ingredients.slice(indexOfFirstItem, indexOfFirstItem + itemsPerPage);
+
+  const totalPages = Math.ceil(ingredients.length / itemsPerPage);
+
+  const goToNextPage = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+  const goToPreviousPage = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
+
   return (
-    <div style={styles.container}>
+    <div className="container">
       <h1>Recipe by Ingredient Tool</h1>
-      <button style={styles.button}>Find Recipes With My Ingredients!</button>
-      <div style={styles.options}>
-        <button style={styles.optionButton}>Sort By Type</button>
-        <button style={styles.optionButton}>Sort Alphabetically</button>
+      <button className="button">Find Recipes With My Ingredients!</button>
+
+      <div className="options">
+        <button className="optionButton">Sort By Type</button>
+        <button className="optionButton">Sort Alphabetically</button>
       </div>
+
       <h2>How to Use</h2>
-      <div style={styles.ingredientsGrid}>
-        {Array.from({ length: 9 }).map((_, idx) => (
-          <div key={idx} style={styles.ingredientCard}>
-            <div style={styles.icon}>icon</div>
-            <p>Ingredient Name</p>
+
+      <div className="selectedIngredients">
+        <h3>Selected Ingredients:</h3>
+        {selectedIngredients.length > 0 ? (
+          <div className="selectedIngredientsGrid">
+            {selectedIngredients.map((ingredient, idx) => (
+              <div key={idx} className="selectedIngredient">
+                {ingredient.name}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p>No ingredients selected yet.</p>
+        )}
+      </div>
+
+      <div className="ingredientsGrid">
+        {currentItems.map((ingredient) => (
+          <div
+            key={ingredient.id}
+            className="ingredientCard"
+            onClick={() => handleIngredientClick(ingredient)}
+          >
+            <div className="icon">icon</div>
+            <p>{ingredient.name}</p>
           </div>
         ))}
       </div>
+
+      <div className="pagination-controls">
+        <button onClick={goToPreviousPage} disabled={currentPage === 1}>
+          Previous
+        </button>
+        <span>Page {currentPage} of {totalPages}</span>
+        <button onClick={goToNextPage} disabled={currentPage === totalPages}>
+          Next
+        </button>
+      </div>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    padding: '20px',
-    textAlign: 'center',
-    backgroundColor: '#DFF5E1',
-  },
-  button: {
-    padding: '15px 30px',
-    margin: '20px 0',
-    fontSize: '16px',
-    backgroundColor: '#4CAF50',
-    color: '#fff',
-    border: 'none',
-    cursor: 'pointer',
-    borderRadius: '5px',
-  },
-  options: {
-    display: 'flex',
-    justifyContent: 'center',
-    gap: '20px',
-    margin: '20px 0',
-  },
-  optionButton: {
-    padding: '10px 20px',
-    fontSize: '14px',
-    backgroundColor: '#fff',
-    border: '1px solid #ccc',
-    cursor: 'pointer',
-    borderRadius: '5px',
-  },
-  ingredientsGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
-    gap: '20px',
-    justifyContent: 'center',
-  },
-  ingredientCard: {
-    backgroundColor: '#fff',
-    padding: '20px',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    border: '1px solid #ccc',
-    borderRadius: '5px',
-  },
-  icon: {
-    backgroundColor: '#f8b9c9',
-    width: '60px',
-    height: '60px',
-    borderRadius: '50%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginBottom: '10px',
-  },
 };
 
 export default Search;

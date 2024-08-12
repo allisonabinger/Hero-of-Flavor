@@ -4,7 +4,7 @@ const { createTestScheduler } = require('jest');
 
 dotenv.config();
 
-const dbUser = process.env.DB_USERNAME
+const dbUser = process.env.DB_USER
 const dbPassword = process.env.DB_PASSWORD
 const dbName = process.env.DB_DATABASE
 const dbHost = process.env.DB_HOST;
@@ -64,5 +64,33 @@ class DBClient {
 //   }
 }
 
+async function connectToDb() {
+  try {
+    const client = new MongoClient(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    await client.connect();
+    console.log('Connected to MongoDB');
+    const db = client.db(dbName);
+    return db;
+  } catch (err) {
+    console.error('Error connecting to MongoDB:', err);
+    process.exit(1); // Exit process on connection failure
+  }
+}
+
+async function getIngredients() {
+  const db = await connectToDatabase();
+  const ingredients = await db.collection('ingredients').find({}).toArray();
+  return ingredients;
+}
+
+async function getRecipes() {
+  const db = await connectToDatabase();
+  const recipes = await db.collection('recipes').find({}).toArray();
+  return recipes;
+}
+
 const dbClient = new DBClient();
-module.exports = { dbClient };
+module.exports = { dbClient , connectToDb , getIngredients , getRecipes };
