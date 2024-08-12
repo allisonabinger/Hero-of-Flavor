@@ -1,30 +1,31 @@
-import React, { useEffect, useState } from 'react';
-import './Search.css';
-import { getIngredients } from '../db'; // Adjust the path as necessary
+import React, { useState, useEffect } from 'react';
+import './Search.css'; // Import the CSS file
 
 const Search = () => {
   const [ingredients, setIngredients] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const ingredientsPerPage = 12;
+  const itemsPerPage = 12; // Number of items per page
 
   useEffect(() => {
+    // Simulate fetching data
     const fetchIngredients = async () => {
-      try {
-        const ingredientsData = await getIngredients();
-        setIngredients(ingredientsData);
-      } catch (error) {
-        console.error('Failed to fetch ingredients:', error);
-      }
+      // Here you can fetch data from your backend API or MongoDB
+      const fetchedIngredients = Array.from({ length: 215 }).map((_, idx) => ({
+        id: idx,
+        name: `Ingredient ${idx + 1}`
+      }));
+      setIngredients(fetchedIngredients);
     };
 
     fetchIngredients();
   }, []);
 
-  const indexOfLastIngredient = currentPage * ingredientsPerPage;
-  const indexOfFirstRecipe = indexOfLastIngredient - ingredientsPerPage;
-  const currentIngredient = ingredients.slice(indexOfFirstRecipe, indexOfLastIngredient);
+  // Calculate the items to display on the current page
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = ingredients.slice(indexOfFirstItem, indexOfLastItem);
 
-  const totalPages = Math.ceil(ingredients.length / ingredientsPerPage);
+  const totalPages = Math.ceil(ingredients.length / itemsPerPage);
 
   const goToNextPage = () => {
     setCurrentPage((prev) => Math.min(prev + 1, totalPages));
@@ -33,7 +34,6 @@ const Search = () => {
   const goToPreviousPage = () => {
     setCurrentPage((prev) => Math.max(prev - 1, 1));
   };
-
 
   return (
     <div className="container">
@@ -45,8 +45,8 @@ const Search = () => {
       </div>
       <h2>How to Use</h2>
       <div className="ingredientsGrid">
-        {currentIngredient.map((ingredient) => (
-          <div key={ingredient._id} className="ingredientCard">
+        {currentItems.map((ingredient) => (
+          <div key={ingredient.id} className="ingredientCard">
             <div className="icon">icon</div>
             <p>{ingredient.name}</p>
           </div>
