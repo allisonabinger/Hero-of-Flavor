@@ -695,8 +695,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Shelled",
-        "Any Fish"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     },
     {
@@ -716,8 +728,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Shelled",
-        "Any Fish"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     },
     {
@@ -974,8 +998,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     }
   ]
@@ -991,7 +1027,18 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Herb",
+        "Hyrule Herb",
+        "Silent Princess",
+        "Stambulb",
+        "Korok Frond",
+        "Cool Safflina",
+        "Warm Safflina",
+        "Mighty Thistle",
+        "Armoranth",
+        "Blue Nightshade",
+        "Electric Safflina",
+        "Swift Violet",
+        "Sundelion",
         "Big Hearty Radish",
         "Hearty Radish",
         "Hylian Tomato"
@@ -1049,7 +1096,18 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Herb",
+        "Hyrule Herb",
+        "Silent Princess",
+        "Stambulb",
+        "Korok Frond",
+        "Cool Safflina",
+        "Warm Safflina",
+        "Mighty Thistle",
+        "Armoranth",
+        "Blue Nightshade",
+        "Electric Safflina",
+        "Swift Violet",
+        "Sundelion",
         "Endura Carrot",
         "Swift Carrot",
         "Big Hearty Radish",
@@ -1083,7 +1141,18 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Herb",
+        "Hyrule Herb",
+        "Silent Princess",
+        "Stambulb",
+        "Korok Frond",
+        "Cool Safflina",
+        "Warm Safflina",
+        "Mighty Thistle",
+        "Armoranth",
+        "Blue Nightshade",
+        "Electric Safflina",
+        "Swift Violet",
+        "Sundelion",
         "Endura Carrot",
         "Swift Carrot",
         "Big Hearty Radish",
@@ -1113,15 +1182,38 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     },
     {
       "type": null,
       "name": null,
       "options": [
-        "Any Herb",
+        "Hyrule Herb",
+        "Silent Princess",
+        "Stambulb",
+        "Korok Frond",
+        "Cool Safflina",
+        "Warm Safflina",
+        "Mighty Thistle",
+        "Armoranth",
+        "Blue Nightshade",
+        "Electric Safflina",
+        "Swift Violet",
+        "Sundelion",
         "Endura Carrot",
         "Swift Carrot",
         "Big Hearty Radish",
@@ -1201,7 +1293,18 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Herb",
+        "Hyrule Herb",
+        "Silent Princess",
+        "Stambulb",
+        "Korok Frond",
+        "Cool Safflina",
+        "Warm Safflina",
+        "Mighty Thistle",
+        "Armoranth",
+        "Blue Nightshade",
+        "Electric Safflina",
+        "Swift Violet",
+        "Sundelion",
         "Endura Carrot",
         "Swift Carrot",
         "Big Hearty Radish",
@@ -1261,8 +1364,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     },
     {
@@ -1767,8 +1882,30 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Mushroom",
-        "Any Fish"
+        "Big Hearty Truffle",
+        "Hearty Truffle",
+        "Endura Shroom",
+        "Rushroom",
+        "Brightcap",
+        "Stamella Shroom",
+        "Chillshroom",
+        "Sunshroom",
+        "Hylian Shroom",
+        "Zapshroom",
+        "Silent Shroom",
+        "Razorshroom",
+        "Ironshroom",
+        "Skyshroom",
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp"
       ]
     },
     {
@@ -2156,7 +2293,18 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Herb",
+        "Hyrule Herb",
+        "Silent Princess",
+        "Stambulb",
+        "Korok Frond",
+        "Cool Safflina",
+        "Warm Safflina",
+        "Mighty Thistle",
+        "Armoranth",
+        "Blue Nightshade",
+        "Electric Safflina",
+        "Swift Violet",
+        "Sundelion",
         "Endura Carrot",
         "Swift Carrot",
         "Big Hearty Radish",
@@ -2216,8 +2364,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     },
     {
@@ -2342,8 +2502,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     },
     {
@@ -2392,8 +2564,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     }
   ]
@@ -2422,7 +2606,18 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Herb",
+        "Hyrule Herb",
+        "Silent Princess",
+        "Stambulb",
+        "Korok Frond",
+        "Cool Safflina",
+        "Warm Safflina",
+        "Mighty Thistle",
+        "Armoranth",
+        "Blue Nightshade",
+        "Electric Safflina",
+        "Swift Violet",
+        "Sundelion",
         "Endura Carrot",
         "Swift Carrot",
         "Big Hearty Radish",
@@ -3007,8 +3202,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     },
     {
@@ -3128,8 +3335,20 @@
       "type": null,
       "name": null,
       "options": [
-        "Any Fish",
-        "Any Shelled"
+        "Voltfin Trout",
+        "Staminoka Bass",
+        "Hearty Bass",
+        "Mighty Carp",
+        "Hyrule Bass",
+        "Sanke Carp",
+        "Ancient Arowana",
+        "Stealthfin Trout",
+        "Sizzlefin Trout",
+        "Armored Carp",
+        "Bright-Eyed Crab",
+        "Razorclaw Crab",
+        "Sneaky River Snail",
+        "Ironshell Crab"
       ]
     }
   ]
