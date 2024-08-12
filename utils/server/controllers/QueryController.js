@@ -11,8 +11,7 @@ class QueryController {
         }
         try {
             const recipes = await dbClient.findRecipesByIngredients(selectedIngredients);
-            res.status(200).send(JSON.stringify(recipes, null, 2) + '\n');
-            // res.status(200).json(recipes);
+            res.status(200).json(recipes);
 
         } catch (err) {
             console.error('Error fetching recipes: ', err);

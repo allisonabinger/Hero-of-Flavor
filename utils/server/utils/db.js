@@ -47,33 +47,22 @@ class DBClient {
   }
 
     // contains Query controller to handle responses and requests to the API
-    async findRecipesByIngredients(selectedIngredients) {
-        // Currently works for recipes that have ingredients by name, not for ingredients by type
+    static async findRecipesByIngredients(selectedIngredients) {
         try {
             const db = await this.connection;
             const collection = db.collection('recipes');
+
             const matchingRecipes = await collection.find({
-                // aggregation expression within query language
-                $expr: {
-                    // ensures all expression must eval to 'true'
-                    $and: [
-                        {
-                            // checks if all elems of one array are present in another arr
-                            $setIsSubset: [
-                                "$ingredients.options",
-                                selectedIngredients
-                            ]
-                        },
-                        {
-                            $setIsSubset: [
-                                "$ingredients.name",
-                                selectedIngredients
-                            ]
+                ingredients: {
+                    $not: {
+                        $elemMatch: {
+                            $not: { $in: selectedIngredients }
                         }
-                    ]
+                    }
                 }
             }).toArray();
-            return matchingRecipes;
+
+            return matchingRecipes
             
         } catch (err) {
             console.error('Error fetching recipes: ', err);
