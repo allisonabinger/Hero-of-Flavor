@@ -11,4 +11,6 @@ router.get('/stats', AppController.getStats);
 
 router.post('/api/recipes', QueryController.getRecipes);
 
+router.get('/api/ingredients', QueryController.getIngredients);
+
 module.exports = router;
