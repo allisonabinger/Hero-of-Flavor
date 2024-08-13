@@ -31,12 +31,12 @@ class QueryController {
             const ingredients = await dbClient.findIngredients(sortBy);
             
             // Define the base path for images
-            const basePath = '../Hero_of_Flavor/client/src/images/ingredients/';
+            // const basePath = '../Hero_of_Flavor/client/src/images/ingredients/';
             
             // Map through the ingredients and modify the imagePath
             const modifiedIngredients = ingredients.map(ingredient => ({
                 Name: ingredient.Name,
-                imagePath: basePath + ingredient.imagePath,
+                imagePath: ingredient.imagePath,
                 Type: ingredient.Type
             }));
             

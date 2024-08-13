@@ -61,7 +61,7 @@ const Search = () => {
           <div className="selectedIngredientsGrid">
             {selectedIngredients.map((ingredient, idx) => (
               <div key={idx} className="selectedIngredient">
-                {ingredient.name}
+                {ingredient.Name}
               </div>
             ))}
           </div>
@@ -78,13 +78,12 @@ const Search = () => {
             onClick={() => handleIngredientClick(ingredient)}
           >
             <div className="icon">
-              <img src={ingredient.imageUrl} alt={ingredient.name} /> {/* Display ingredient image */}
+              <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} /> {/* Display ingredient image */}
             </div>
-            <p>{ingredient.name}</p> {/* Display ingredient name */}
+            {/* <p>{ingredient.Name}</p> Display ingredient name */}
           </div>
         ))}
       </div>
-
       <div className="pagination-controls">
         <button onClick={goToPreviousPage} disabled={currentPage === 1}>
           Previous

@@ -76,8 +76,8 @@
   }
   
   .icon img {
-    width: 100%;
-    height: auto;
+    /* width: 75px; */
+    height: 75px;
     border-radius: 50%;
   }
   
