@@ -1,10 +1,11 @@
 const { MongoClient, ObjectId } = require('mongodb');
 const dotenv = require('dotenv');
 const { createTestScheduler } = require('jest');
+const { options } = require('../routes');
 
 dotenv.config();
 
-const dbUser = process.env.DB_USER
+const dbUser = process.env.DB_USERNAME
 const dbPassword = process.env.DB_PASSWORD
 const dbName = process.env.DB_DATABASE
 const dbHost = process.env.DB_HOST;
@@ -46,51 +47,54 @@ class DBClient {
     }
   }
 
-//   async findPaintings(filter ={}, projection={}, skip = 0, limit = 10, sort = {}) {
-//     const db = await this.connection;
-//     const collection = db.collection('paintings');
-//     try {
-//         const results = await collection.find(filter)
-//             .project(projection)
-//             .skip(skip)
-//             .limit(limit)
-//             .sort(sort)
-//             .toArray();
-//         return results;
-//     } catch (err) {
-//         console.error('Error in findPaintings: ', err);
-//         throw err
-//     }
-//   }
+// contains Query controller to handle responses and requests to the API
+async findRecipesByIngredients(userIngredients) {
+    try {
+        const db = await this.connection;
+        const collection = db.collection('recipes');
+
+        // Find recipes that match any of the user ingredients
+        const recipes = await collection.find({
+            ingredients: {
+                $elemMatch: {
+                    options: { $in: userIngredients }
+                }
+            }
+        }).toArray();
+
+        // Filter recipes to ensure all required ingredients are present
+        const result = recipes.filter(recipe => {
+            return recipe.ingredients.every(ingredientList => {
+                return ingredientList.options.some(option => userIngredients.includes(option));
+            });
+        });
+
+        // Return the filtered recipes
+        return result;
+
+    } catch (error) {
+        console.error('Error fetching recipes:', error);
+        throw error;
+    }
 }
 
-async function connectToDb() {
-  try {
-    const client = new MongoClient(uri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    await client.connect();
-    console.log('Connected to MongoDB');
-    const db = client.db(dbName);
-    return db;
-  } catch (err) {
-    console.error('Error connecting to MongoDB:', err);
-    process.exit(1); // Exit process on connection failure
-  }
-}
+    async findIngredients(sortBy) {
+        try {
+            const db = await this.connection;
+            const collection = db.collection('ingredients');
 
-async function getIngredients() {
-  const db = await connectToDatabase();
-  const ingredients = await db.collection('ingredients').find({}).toArray();
-  return ingredients;
-}
+            const sortOptions = { id: 1 }
+            if (sortBy) {
+                sortOptions.type = sortBy === 'asc' ? 1 : -1;
+            }
 
-async function getRecipes() {
-  const db = await connectToDatabase();
-  const recipes = await db.collection('recipes').find({}).toArray();
-  return recipes;
+            return collection.find({}).sort(sortOptions).toArray();
+        } catch (error) {
+            console.error('Error fetching ingredients:', error);
+            throw error;
+        }
+    }
 }
 
 const dbClient = new DBClient();
-module.exports = { dbClient , connectToDb , getIngredients , getRecipes };
+module.exports = { dbClient };
