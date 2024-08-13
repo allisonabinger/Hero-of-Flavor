@@ -51,7 +51,7 @@ class DBClient {
       const count = await collection.countDocuments({});
       return count;
     } catch (error) {
-      logger.error('Error counting paintings:', error);
+      logger.error('Error counting recipes and ingredients:', error);
       return 0;
     }
   }
@@ -122,4 +122,4 @@ class DBClient {
 }
 
 const dbClient = new DBClient();
-module.exports = { dbClient };
+module.exports = { dbClient, DBClient };
