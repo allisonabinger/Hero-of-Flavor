@@ -95,13 +95,13 @@ class DBClient {
         }
     }
 
-    async getAllRecipes(sortBy) {
+    async getAllRecipes(filter) {
         try {
             const db = await this.connection;
-            const collection = db.collection('recipes');
+            const collection = db.collection('cookbook');
     
-            // If a sortBy parameter is provided, filter by that category
-            const query = sortBy ? { Category: sortBy } : {};
+            // If a filter is a parameter is provided, filter by that category
+            const query = filter ? { Category: filter } : {};
             
             const recipes = await collection.find(query).toArray();
             return recipes;

@@ -27,8 +27,8 @@ class QueryController {
     static async getAllRecipes(req, res) {
                 // gets all recipes
         try {
-            const sortBy = req.query.sort;
-            const recipes = await dbClient.getAllRecipes(sortBy);
+            const filter = req.query.filter;
+            const recipes = await dbClient.getAllRecipes(filter);
 
             const response = recipes.map(recipe => ({
                 Name: recipe.Name,
