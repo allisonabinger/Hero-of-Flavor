@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Path to your JSON file
-const inputFilePath = path.join(__dirname, 'recipes.json');
-const outputFilePath = path.join(__dirname, 'updatedRecipes.json');
+const inputFilePath = path.join(__dirname, 'cookbook.json');
+const outputFilePath = path.join(__dirname, 'updatedCookbook.json');
 
 // Function to add imagePath attribute
 function addImagePath(jsonArray) {

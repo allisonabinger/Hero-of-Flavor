@@ -1,5 +1,5 @@
 {
-    "name": "Hero of Flavor: Tears of the Kingdom API",
+    "name": "Hero of Flavor, Tears of the Kingdom API",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,7 +9,7 @@
         "start-server": "NODE_NO_WARNINGS=1 nodemon --exec babel-node --presets @babel/preset-env ./server.js",
         "start-worker": "NODE_NO_WARNINGS=1 nodemon --exec babel-node --presets @babel/preset-env ./worker.js",
         "dev": "nodemon --exec babel-node --presets @babel/preset-env",
-        "test": "mocha tests/**/*.test.js"
+        "test": "NODE_NO_WARNINGS=1 mocha tests/**/*.test.js"
     },
     "author": "",
     "license": "ISC",

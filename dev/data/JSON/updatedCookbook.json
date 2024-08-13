@@ -1,0 +1,2914 @@
+[
+  {
+    "id": 1,
+    "Name": "Mushroom Skewer",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ]
+    ],
+    "imagePath": "mushroom-skewer.png"
+  },
+  {
+    "id": 2,
+    "Name": "Meat and Mushroom Skewer",
+    "Category": [
+      "Veggie",
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Any Meat"
+      ]
+    ],
+    "imagePath": "meat-and-mushroom-skewer.png"
+  },
+  {
+    "id": 3,
+    "Name": "Fish and Mushroom Skewer",
+    "Category": [
+      "Veggie",
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Any Fish"
+      ]
+    ],
+    "imagePath": "fish-and-mushroom-skewer.png"
+  },
+  {
+    "id": 4,
+    "Name": "Meat Skewer",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ]
+    ],
+    "imagePath": "meat-skewer.png"
+  },
+  {
+    "id": 5,
+    "Name": "Fish Skewer",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Fish"
+      ]
+    ],
+    "imagePath": "fish-skewer.png"
+  },
+  {
+    "id": 6,
+    "Name": "Seafood Skewer",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Shelled"
+      ]
+    ],
+    "imagePath": "seafood-skewer.png"
+  },
+  {
+    "id": 7,
+    "Name": "Copious Meat Skewers",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Four Unique Meats"
+      ]
+    ],
+    "imagePath": "copious-meat-skewers.png"
+  },
+  {
+    "id": 8,
+    "Name": "Copious Seafood Skewers",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Four Unique Fish"
+      ]
+    ],
+    "imagePath": "copious-seafood-skewers.png"
+  },
+  {
+    "id": 9,
+    "Name": "Steamed Fruit",
+    "Category": [
+      "Fruit"
+    ],
+    "Ingredients": [
+      [
+        "Any Fruit"
+      ],
+      [
+        "Any Herb"
+      ]
+    ],
+    "imagePath": "steamed-fruit.png"
+  },
+  {
+    "id": 10,
+    "Name": "Steamed Tomatoes",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Tomato"
+      ],
+      [
+        "Any Herb"
+      ]
+    ],
+    "imagePath": "steamed-tomatoes.png"
+  },
+  {
+    "id": 11,
+    "Name": "Steamed Mushrooms",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Any Herb"
+      ]
+    ],
+    "imagePath": "steamed-mushrooms.png"
+  },
+  {
+    "id": 12,
+    "Name": "Steamed Meat",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Any Herb"
+      ]
+    ],
+    "imagePath": "steamed-meat.png"
+  },
+  {
+    "id": 13,
+    "Name": "Steamed Fish",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Fish"
+      ],
+      [
+        "Any Herb"
+      ]
+    ],
+    "imagePath": "steamed-fish.png"
+  },
+  {
+    "id": 14,
+    "Name": "Sauteed Peppers",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Spicy Pepper"
+      ]
+    ],
+    "imagePath": "sauteed-peppers.png"
+  },
+  {
+    "id": 15,
+    "Name": "Sauteed Nuts",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Any Nut"
+      ]
+    ],
+    "imagePath": "sauteed-nuts.png"
+  },
+  {
+    "id": 16,
+    "Name": "Fried Wild Greens",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb"
+      ]
+    ],
+    "imagePath": "fried-wild-greens.png"
+  },
+  {
+    "id": 17,
+    "Name": "Copious Fried Wild Greens",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Four Unique Herbs"
+      ]
+    ],
+    "imagePath": "copious-fried-wild-greens.png"
+  },
+  {
+    "id": 18,
+    "Name": "Energizing Cooked Stambulb",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Stambulb"
+      ]
+    ],
+    "imagePath": "energizing-cooked-stambulb.png"
+  },
+  {
+    "id": 19,
+    "Name": "Energizing Buttered Stambulb",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Stambulb"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "energizing-buttered-stambulb.png"
+  },
+  {
+    "id": 20,
+    "Name": "Copious Mushroom Skewers",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Four Unique"
+      ]
+    ],
+    "imagePath": "copious-mushroom-skewers.png"
+  },
+  {
+    "id": 21,
+    "Name": "Spiced Meat Skewer",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Meat"
+      ],
+      [
+        "Goron Spice"
+      ],
+      [
+        "Raw Meat"
+      ]
+    ],
+    "imagePath": "spiced-meat-skewer.png"
+  },
+  {
+    "id": 22,
+    "Name": "Prime Spiced Meat Skewer",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Prime Meat"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "prime-spiced-meat-skewer.png"
+  },
+  {
+    "id": 23,
+    "Name": "Gourmet Spiced Meat Skewer",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Gourmet Meat"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "gourmet-spiced-meat-skewer.png"
+  },
+  {
+    "id": 24,
+    "Name": "Crab Stir-Fry",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Crab"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "crab-stir-fry.png"
+  },
+  {
+    "id": 25,
+    "Name": "Meat and Seafood Fry",
+    "Category": [
+      "Meat",
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Raw Meat",
+        "Raw Bird Drumstick"
+      ],
+      [
+        "Any Seafood"
+      ]
+    ],
+    "imagePath": "meat-and-seafood-fry.png"
+  },
+  {
+    "id": 26,
+    "Name": "Prime Meat and Seafood Fry",
+    "Category": [
+      "Meat",
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Raw Prime Meat",
+        "Raw Bird Thigh"
+      ],
+      [
+        "Any Seafood"
+      ]
+    ],
+    "imagePath": "prime-meat-and-seafood-fry.png"
+  },
+  {
+    "id": 27,
+    "Name": "Gourmet Meat and Seafood Fry",
+    "Category": [
+      "Meat",
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Raw Gourmet Meat",
+        "Raw Whole Bird"
+      ],
+      [
+        "Any Seafood"
+      ]
+    ],
+    "imagePath": "gourmet-meat-and-seafood-fry.png"
+  },
+  {
+    "id": 28,
+    "Name": "Salt-Grilled Greens",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb",
+        "Flower"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "salt-grilled-greens.png"
+  },
+  {
+    "id": 29,
+    "Name": "Salt-Grilled Mushrooms",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "salt-grilled-mushrooms.png"
+  },
+  {
+    "id": 30,
+    "Name": "Salt-Grilled Meat",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Meat",
+        "Raw Bird Drumstick"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "salt-grilled-meat.png"
+  },
+  {
+    "id": 31,
+    "Name": "Salt-Grilled Prime Meat",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Prime Meat",
+        "Raw Bird Thigh"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "salt-grilled-prime-meat.png"
+  },
+  {
+    "id": 32,
+    "Name": "Salt-Grilled Gourmet Meat",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Gourmet Meat",
+        "Raw Whole Bird"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "salt-grilled-gourmet-meat.png"
+  },
+  {
+    "id": 33,
+    "Name": "Salt-Grilled Fish",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Fish"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "salt-grilled-fish.png"
+  },
+  {
+    "id": 34,
+    "Name": "Salt-Grilled Crab",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Crab"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "salt-grilled-crab.png"
+  },
+  {
+    "id": 35,
+    "Name": "Herb Saute",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb, Flower,",
+        "Vegetable"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "herb-saute.png"
+  },
+  {
+    "id": 36,
+    "Name": "Fragrant Mushroom Saute",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "fragrant-mushroom-saute.png"
+  },
+  {
+    "id": 37,
+    "Name": "Pepper Steak",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Spicy Pepper"
+      ]
+    ],
+    "imagePath": "pepper-steak.png"
+  },
+  {
+    "id": 38,
+    "Name": "Peppered Seafood",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Seafood"
+      ],
+      [
+        "Spicy Pepper"
+      ]
+    ],
+    "imagePath": "peppered-seafood.png"
+  },
+  {
+    "id": 39,
+    "Name": "Fragrant Seafood Stew",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Seafood"
+      ],
+      [
+        "Stambulb"
+      ],
+      [
+        "Oil Jar"
+      ]
+    ],
+    "imagePath": "fragrant-seafood-stew.png"
+  },
+  {
+    "id": 40,
+    "Name": "Deep-Fried Drumstick",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Bird Drumstick"
+      ],
+      [
+        "Oil Jar"
+      ]
+    ],
+    "imagePath": "deep-fried-drumstick.png"
+  },
+  {
+    "id": 41,
+    "Name": "Deep-Fried Thigh",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Bird Thigh"
+      ],
+      [
+        "Oil Jar"
+      ]
+    ],
+    "imagePath": "deep-fried-thigh.png"
+  },
+  {
+    "id": 42,
+    "Name": "Deep-Fried Bird Roast",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Whole Bird"
+      ],
+      [
+        "Oil Jar"
+      ]
+    ],
+    "imagePath": "deep-fried-bird-roast.png"
+  },
+  {
+    "id": 43,
+    "Name": "Seafood Meuniere",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Seafood (excluding Hearty Salmon and Porgy)"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "seafood-meuniere.png"
+  },
+  {
+    "id": 44,
+    "Name": "Porgy Meuniere",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Porgy"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "porgy-meuniere.png"
+  },
+  {
+    "id": 45,
+    "Name": "Salmon Meuniere",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Hearty Salmon"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "salmon-meuniere.png"
+  },
+  {
+    "id": 46,
+    "Name": "Fruit and Mushroom Mix",
+    "Category": [
+      "Veggie",
+      "Fruit"
+    ],
+    "Ingredients": [
+      [
+        "Any Fruit"
+      ],
+      [
+        "Any Mushroom"
+      ]
+    ],
+    "imagePath": "fruit-and-mushroom-mix.png"
+  },
+  {
+    "id": 47,
+    "Name": "Simmered Fruit",
+    "Category": [
+      "Fruit"
+    ],
+    "Ingredients": [
+      [
+        "Any Fruit"
+      ]
+    ],
+    "imagePath": "simmered-fruit.png"
+  },
+  {
+    "id": 48,
+    "Name": "Copious Simmered Fruit",
+    "Category": [
+      "Fruit"
+    ],
+    "Ingredients": [
+      [
+        "Any Four Unique Fruits"
+      ]
+    ],
+    "imagePath": "copious-simmered-fruit.png"
+  },
+  {
+    "id": 49,
+    "Name": "Simmered Tomato",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Tomato"
+      ]
+    ],
+    "imagePath": "simmered-tomato.png"
+  },
+  {
+    "id": 50,
+    "Name": "Fruity Tomato Stew",
+    "Category": [
+      "Fruit",
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Tomato"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "fruity-tomato-stew.png"
+  },
+  {
+    "id": 51,
+    "Name": "Tomato Mushroom Stew",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Tomato"
+      ],
+      [
+        "Any Mushroom"
+      ]
+    ],
+    "imagePath": "tomato-mushroom-stew.png"
+  },
+  {
+    "id": 52,
+    "Name": "Tomato Seafood Soup",
+    "Category": [
+      "Veggie",
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Tomato"
+      ],
+      [
+        "Any Seafood"
+      ]
+    ],
+    "imagePath": "tomato-seafood-soup.png"
+  },
+  {
+    "id": 53,
+    "Name": "Cream of Vegetable Soup",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb",
+        "Vegetable"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "cream-of-vegetable-soup.png"
+  },
+  {
+    "id": 54,
+    "Name": "Veggie Cream Soup",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Carrot",
+        "Pumpkin"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "veggie-cream-soup.png"
+  },
+  {
+    "id": 55,
+    "Name": "Cream of Mushroom Soup",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Any Herb",
+        "Vegetable"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "cream-of-mushroom-soup.png"
+  },
+  {
+    "id": 56,
+    "Name": "Creamy Meat Soup",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Any Herb",
+        "Vegetable"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "creamy-meat-soup.png"
+  },
+  {
+    "id": 57,
+    "Name": "Creamy Seafood Soup",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Seafood"
+      ],
+      [
+        "Any Herb",
+        "Vegetable"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "creamy-seafood-soup.png"
+  },
+  {
+    "id": 58,
+    "Name": "Snail Chowder",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Sneaky River Snail"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "snail-chowder.png"
+  },
+  {
+    "id": 59,
+    "Name": "Creamy Heart Soup",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Hearty Radish"
+      ],
+      [
+        "Hydromelon"
+      ],
+      [
+        "Voltfruit"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "creamy-heart-soup.png"
+  },
+  {
+    "id": 60,
+    "Name": "Glazed Veggies",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb",
+        "Vegetable"
+      ],
+      [
+        "Courser Bee Honey"
+      ]
+    ],
+    "imagePath": "glazed-veggies.png"
+  },
+  {
+    "id": 61,
+    "Name": "Glazed Mushrooms",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Courser Bee Honey"
+      ]
+    ],
+    "imagePath": "glazed-mushrooms.png"
+  },
+  {
+    "id": 62,
+    "Name": "Glazed Meat",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Courser Bee Honey"
+      ]
+    ],
+    "imagePath": "glazed-meat.png"
+  },
+  {
+    "id": 63,
+    "Name": "Glazed Seafood",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Seafood"
+      ],
+      [
+        "Courser Bee Honey"
+      ]
+    ],
+    "imagePath": "glazed-seafood.png"
+  },
+  {
+    "id": 64,
+    "Name": "Curry Rice",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "curry-rice.png"
+  },
+  {
+    "id": 65,
+    "Name": "Vegetable Curry",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Carrot",
+        "Pumpkin"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "vegetable-curry.png"
+  },
+  {
+    "id": 66,
+    "Name": "Meat Curry",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Meat"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "meat-curry.png"
+  },
+  {
+    "id": 67,
+    "Name": "Prime Meat Curry",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Prime Meat"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "prime-meat-curry.png"
+  },
+  {
+    "id": 68,
+    "Name": "Gourmet Meat Curry",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Gourmet Meat"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "gourmet-meat-curry.png"
+  },
+  {
+    "id": 69,
+    "Name": "Poultry Curry",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Bird Drumstick"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "poultry-curry.png"
+  },
+  {
+    "id": 70,
+    "Name": "Prime Poultry Curry",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Bird Thigh"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "prime-poultry-curry.png"
+  },
+  {
+    "id": 71,
+    "Name": "Gourmet Poultry Curry",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Whole Bird"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "gourmet-poultry-curry.png"
+  },
+  {
+    "id": 72,
+    "Name": "Seafood Curry",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Porgy"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "seafood-curry.png"
+  },
+  {
+    "id": 73,
+    "Name": "Cheesy Curry",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "cheesy-curry.png"
+  },
+  {
+    "id": 74,
+    "Name": "Carrot Stew",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Carrot"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "carrot-stew.png"
+  },
+  {
+    "id": 75,
+    "Name": "Pumpkin Stew",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Pumpkin"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "pumpkin-stew.png"
+  },
+  {
+    "id": 76,
+    "Name": "Meat Stew",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Meat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "meat-stew.png"
+  },
+  {
+    "id": 77,
+    "Name": "Prime Meat Stew",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Prime Meat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "prime-meat-stew.png"
+  },
+  {
+    "id": 78,
+    "Name": "Gourmet Meat Stew",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Gourmet Meat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Tabantha Wheat"
+      ]
+    ],
+    "imagePath": "gourmet-meat-stew.png"
+  },
+  {
+    "id": 79,
+    "Name": "Meat-Stuffed Pumpkin",
+    "Category": [
+      "Meat",
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Pumpkin"
+      ],
+      [
+        "Any Meat"
+      ]
+    ],
+    "imagePath": "meat-stuffed-pumpkin.png"
+  },
+  {
+    "id": 80,
+    "Name": "Vegetable Risotto",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Carrot",
+        "Pumpkin"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "vegetable-risotto.png"
+  },
+  {
+    "id": 81,
+    "Name": "Mushroom Risotto",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "mushroom-risotto.png"
+  },
+  {
+    "id": 82,
+    "Name": "Salmon Risotto",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Hearty Salmon"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "salmon-risotto.png"
+  },
+  {
+    "id": 83,
+    "Name": "Crab Risotto",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Crab"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "crab-risotto.png"
+  },
+  {
+    "id": 84,
+    "Name": "Cheesy Risotto",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Any Mushroom",
+        "Fish"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Hylian Rice"
+      ]
+    ],
+    "imagePath": "cheesy-risotto.png"
+  },
+  {
+    "id": 85,
+    "Name": "Poultry Pilaf",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Bird Drumstick"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "poultry-pilaf.png"
+  },
+  {
+    "id": 86,
+    "Name": "Prime Poultry Pilaf",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Bird Thigh"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "prime-poultry-pilaf.png"
+  },
+  {
+    "id": 87,
+    "Name": "Gourmet Poultry Pilaf",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Whole Bird"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "gourmet-poultry-pilaf.png"
+  },
+  {
+    "id": 88,
+    "Name": "Seafood Paella",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Porgy"
+      ],
+      [
+        "Any Crab"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Hylian Rice"
+      ]
+    ],
+    "imagePath": "seafood-paella.png"
+  },
+  {
+    "id": 89,
+    "Name": "Curry Pilaf",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "curry-pilaf.png"
+  },
+  {
+    "id": 90,
+    "Name": "Fried Egg and Rice",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Bird Egg"
+      ],
+      [
+        "Hylian Rice"
+      ]
+    ],
+    "imagePath": "fried-egg-and-rice.png"
+  },
+  {
+    "id": 91,
+    "Name": "Crunchy Fried Rice",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Oil Jar"
+      ]
+    ],
+    "imagePath": "crunchy-fried-rice.png"
+  },
+  {
+    "id": 92,
+    "Name": "Seafood Fried Rice",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Porgy"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "seafood-fried-rice.png"
+  },
+  {
+    "id": 93,
+    "Name": "Crab Omelet with Rice",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Crab"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Bird Egg"
+      ]
+    ],
+    "imagePath": "crab-omelet-with-rice.png"
+  },
+  {
+    "id": 94,
+    "Name": "Meat and Rice Bowl",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Meat"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "meat-and-rice-bowl.png"
+  },
+  {
+    "id": 95,
+    "Name": "Prime Meat and Rice Bowl",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Prime Meat"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "prime-meat-and-rice-bowl.png"
+  },
+  {
+    "id": 96,
+    "Name": "Gourmet Meat and Rice Bowl",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Gourmet Meat"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "gourmet-meat-and-rice-bowl.png"
+  },
+  {
+    "id": 97,
+    "Name": "Cheesy Meat Bowl",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Meat"
+      ],
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "cheesy-meat-bowl.png"
+  },
+  {
+    "id": 98,
+    "Name": "Prime Cheesy Meat Bowl",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Prime Meat"
+      ],
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "prime-cheesy-meat-bowl.png"
+  },
+  {
+    "id": 99,
+    "Name": "Gourmet Cheesy Meat Bowl",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Raw Gourmet Meat"
+      ],
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "gourmet-cheesy-meat-bowl.png"
+  },
+  {
+    "id": 100,
+    "Name": "Veggie Rice Balls",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb, Flower,",
+        "Vegetable"
+      ],
+      [
+        "Hylian Rice"
+      ]
+    ],
+    "imagePath": "veggie-rice-balls.png"
+  },
+  {
+    "id": 101,
+    "Name": "Mushroom Rice Balls",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Hylian Rice"
+      ]
+    ],
+    "imagePath": "mushroom-rice-balls.png"
+  },
+  {
+    "id": 102,
+    "Name": "Meaty Rice Balls",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Hylian Rice"
+      ]
+    ],
+    "imagePath": "meaty-rice-balls.png"
+  },
+  {
+    "id": 103,
+    "Name": "Seafood Rice Balls",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Seafood"
+      ],
+      [
+        "Hylian Rice"
+      ]
+    ],
+    "imagePath": "seafood-rice-balls.png"
+  },
+  {
+    "id": 104,
+    "Name": "Veggie Porridge",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb, Flower,",
+        "Vegetable"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "veggie-porridge.png"
+  },
+  {
+    "id": 105,
+    "Name": "Wheat Bread",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "wheat-bread.png"
+  },
+  {
+    "id": 106,
+    "Name": "Melty Cheesy Bread",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "melty-cheesy-bread.png"
+  },
+  {
+    "id": 107,
+    "Name": "Hylian Tomato Pizza",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Hylian Tomato"
+      ]
+    ],
+    "imagePath": "hylian-tomato-pizza.png"
+  },
+  {
+    "id": 108,
+    "Name": "Meat Pie",
+    "Category": [
+      "Meat"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "meat-pie.png"
+  },
+  {
+    "id": 109,
+    "Name": "Fish Pie",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Any Seafood"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "fish-pie.png"
+  },
+  {
+    "id": 110,
+    "Name": "Cheesy Tomato",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Hylian Tomato"
+      ]
+    ],
+    "imagePath": "cheesy-tomato.png"
+  },
+  {
+    "id": 111,
+    "Name": "Cheesy Baked Fish",
+    "Category": [
+      "Seafood"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Any Seafood"
+      ]
+    ],
+    "imagePath": "cheesy-baked-fish.png"
+  },
+  {
+    "id": 112,
+    "Name": "Omelet",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Bird Egg"
+      ]
+    ],
+    "imagePath": "omelet.png"
+  },
+  {
+    "id": 113,
+    "Name": "Vegetable Omelet",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Herb, Flower,",
+        "Vegetable"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "vegetable-omelet.png"
+  },
+  {
+    "id": 114,
+    "Name": "Mushroom Omelet",
+    "Category": [
+      "Veggie"
+    ],
+    "Ingredients": [
+      [
+        "Any Mushroom"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "mushroom-omelet.png"
+  },
+  {
+    "id": 115,
+    "Name": "Cheesy Omelet",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Any Herb, Flower,",
+        "Vegetable"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "cheesy-omelet.png"
+  },
+  {
+    "id": 116,
+    "Name": "Hot Buttered Apple",
+    "Category": [
+      "Fruit"
+    ],
+    "Ingredients": [
+      [
+        "Any Apple"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "hot-buttered-apple.png"
+  },
+  {
+    "id": 117,
+    "Name": "Honeyed Fruits",
+    "Category": [
+      "Fruit",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Fruit"
+      ],
+      [
+        "Courser Bee Honey"
+      ]
+    ],
+    "imagePath": "honeyed-fruits.png"
+  },
+  {
+    "id": 118,
+    "Name": "Honeyed Apple",
+    "Category": [
+      "Fruit",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Apple"
+      ],
+      [
+        "Courser Bee Honey"
+      ]
+    ],
+    "imagePath": "honeyed-apple.png"
+  },
+  {
+    "id": 119,
+    "Name": "Honey Candy",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Courser Bee Honey"
+      ]
+    ],
+    "imagePath": "honey-candy.png"
+  },
+  {
+    "id": 120,
+    "Name": "Fried Bananas",
+    "Category": [
+      "Fruit",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Mighty Bananas"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "fried-bananas.png"
+  },
+  {
+    "id": 121,
+    "Name": "Egg Pudding",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Bird Egg"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "egg-pudding.png"
+  },
+  {
+    "id": 122,
+    "Name": "Plain Crepe",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Bird Egg"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "plain-crepe.png"
+  },
+  {
+    "id": 123,
+    "Name": "Wildberry Crepe",
+    "Category": [
+      "Fruit",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Wildberry"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "wildberry-crepe.png"
+  },
+  {
+    "id": 124,
+    "Name": "Honey Crepe",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Courser Bee Honey"
+      ],
+      [
+        "Bird Egg"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "honey-crepe.png"
+  },
+  {
+    "id": 125,
+    "Name": "Nutcake",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Nut"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "nutcake.png"
+  },
+  {
+    "id": 126,
+    "Name": "Fruitcake",
+    "Category": [
+      "Fruit",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Apple",
+        "Wildberry"
+      ],
+      [
+        "Any Other Fruit"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "fruitcake.png"
+  },
+  {
+    "id": 127,
+    "Name": "Carrot Cake",
+    "Category": [
+      "Veggie",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Carrot"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "carrot-cake.png"
+  },
+  {
+    "id": 128,
+    "Name": "Pumpkin Pie",
+    "Category": [
+      "Veggie",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Pumpkin"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "pumpkin-pie.png"
+  },
+  {
+    "id": 129,
+    "Name": "Cheesecake",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Hateno Cheese"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "cheesecake.png"
+  },
+  {
+    "id": 130,
+    "Name": "Fruit Pie",
+    "Category": [
+      "Fruit",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Fruit (excluding Apples)"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "fruit-pie.png"
+  },
+  {
+    "id": 131,
+    "Name": "Apple Pie",
+    "Category": [
+      "Fruit",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Any Apple"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "apple-pie.png"
+  },
+  {
+    "id": 132,
+    "Name": "Egg Tart",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Bird Egg"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "egg-tart.png"
+  },
+  {
+    "id": 133,
+    "Name": "Milk",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Fresh Milk"
+      ]
+    ],
+    "imagePath": "milk.png"
+  },
+  {
+    "id": 134,
+    "Name": "Noble Pursuit",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Palm Fruit"
+      ],
+      [
+        "Hydromelon"
+      ],
+      [
+        "Voltfruit"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "noble-pursuit.png"
+  },
+  {
+    "id": 135,
+    "Name": "Monster Stew",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Any Meat"
+      ],
+      [
+        "Any Seafood"
+      ],
+      [
+        "Monster Extract"
+      ]
+    ],
+    "imagePath": "monster-stew.png"
+  },
+  {
+    "id": 136,
+    "Name": "Monster Soup",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Monster Extract"
+      ]
+    ],
+    "imagePath": "monster-soup.png"
+  },
+  {
+    "id": 137,
+    "Name": "Monster Curry",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ],
+      [
+        "Monster Extract"
+      ]
+    ],
+    "imagePath": "monster-curry.png"
+  },
+  {
+    "id": 138,
+    "Name": "Monster Rice Balls",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ],
+      [
+        "Monster Extract"
+      ]
+    ],
+    "imagePath": "monster-rice-balls.png"
+  },
+  {
+    "id": 139,
+    "Name": "Monster Cake",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Cane Sugar"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Monster Extract"
+      ]
+    ],
+    "imagePath": "monster-cake.png"
+  },
+  {
+    "id": 140,
+    "Name": "Dark Stew",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Dark Clump"
+      ],
+      [
+        "Any Meat"
+      ],
+      [
+        "Any Seafood"
+      ]
+    ],
+    "imagePath": "dark-stew.png"
+  },
+  {
+    "id": 141,
+    "Name": "Dark Soup",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Dark Clump"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Fresh Milk"
+      ],
+      [
+        "Goat Butter"
+      ]
+    ],
+    "imagePath": "dark-soup.png"
+  },
+  {
+    "id": 142,
+    "Name": "Dark Curry",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Dark Clump"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Goron Spice"
+      ]
+    ],
+    "imagePath": "dark-curry.png"
+  },
+  {
+    "id": 143,
+    "Name": "Dark Rice Ball",
+    "Category": [
+      "Misc"
+    ],
+    "Ingredients": [
+      [
+        "Dark Clump"
+      ],
+      [
+        "Hylian Rice"
+      ],
+      [
+        "Rock Salt"
+      ]
+    ],
+    "imagePath": "dark-rice-ball.png"
+  },
+  {
+    "id": 144,
+    "Name": "Dark Cake",
+    "Category": [
+      "Misc",
+      "Dessert"
+    ],
+    "Ingredients": [
+      [
+        "Dark Clump"
+      ],
+      [
+        "Tabantha Wheat"
+      ],
+      [
+        "Goat Butter"
+      ],
+      [
+        "Cane Sugar"
+      ]
+    ],
+    "imagePath": "dark-cake.png"
+  },
+  {
+    "id": 215,
+    "Name": "Energizing Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Restless Cricket",
+        "Energetic Rhino Beetle"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "energizing-elixir.png"
+  },
+  {
+    "id": 216,
+    "Name": "Hasty Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Hot-Footed Frog",
+        "Hightail Lizard"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "hasty-elixir.png"
+  },
+  {
+    "id": 217,
+    "Name": "Spicy Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Summerwing Butterfly",
+        "Warm Darner"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "spicy-elixir.png"
+  },
+  {
+    "id": 218,
+    "Name": "Chilly Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Winterwing Butterfly",
+        "Cold Darner"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "chilly-elixir.png"
+  },
+  {
+    "id": 219,
+    "Name": "Electro Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Thunderwing Butterfly",
+        "Electric Darner"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "electro-elixir.png"
+  },
+  {
+    "id": 220,
+    "Name": "Fireproof Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Fireproof Lizard",
+        "Smotherwing Butterfly"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "fireproof-elixir.png"
+  },
+  {
+    "id": 221,
+    "Name": "Mighty Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Bladed Rhino Beetle"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "mighty-elixir.png"
+  },
+  {
+    "id": 222,
+    "Name": "Tough Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Rugged Rhino Beetle"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "tough-elixir.png"
+  },
+  {
+    "id": 223,
+    "Name": "Sneaky Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Sunset Firefly"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "sneaky-elixir.png"
+  },
+  {
+    "id": 224,
+    "Name": "Sticky Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Sticky Frog",
+        "Sticky Lizard"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "sticky-elixir.png"
+  },
+  {
+    "id": 225,
+    "Name": "Bright Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Deep Firefly"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "bright-elixir.png"
+  },
+  {
+    "id": 226,
+    "Name": "Enduring Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Tireless Frog"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "enduring-elixir.png"
+  },
+  {
+    "id": 227,
+    "Name": "Hearty Elixir",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Hearty Lizard"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "hearty-elixir.png"
+  },
+  {
+    "id": 228,
+    "Name": "Fairy Tonic",
+    "Category": [
+      "Elixir"
+    ],
+    "Ingredients": [
+      [
+        "Fairy"
+      ],
+      [
+        "Any Monster Part"
+      ]
+    ],
+    "imagePath": "fairy-tonic.png"
+  }
+]
