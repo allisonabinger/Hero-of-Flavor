@@ -43,8 +43,7 @@
   
   .selectedIngredientsGrid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* 3 columns to fit the grid */
-    grid-auto-flow: dense; /* Pack items together as much as possible */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 10px;
   }
   
@@ -53,6 +52,7 @@
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    word-break: break-word;
   }
   
   .ingredientsGrid {
@@ -75,16 +75,10 @@
     cursor: pointer;
   }
   
-  .icon {
-    background-color: #f8b9c9;
-    width: 40px;
-    height: 40px;
+  .icon img {
+    /* width: 75px; */
+    height: 75px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 1rem;
   }
   
   .pagination-controls {
