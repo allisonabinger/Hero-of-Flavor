@@ -24,8 +24,27 @@ class QueryController {
         }
     }
 
+    static async getAllRecipes(req, res) {
+                // gets all recipes
+        try {
+            const filter = req.query.filter;
+            const recipes = await dbClient.getAllRecipes(filter);
+
+            const response = recipes.map(recipe => ({
+                Name: recipe.Name,
+                imagePath: recipe.imagePath,
+                Category: recipe.Category,
+                Ingredients: recipe.Ingredients
+                })); 
+            return res.status(200).json(response);
+        } catch (err) {
+            console.error('Error fetching all recipes: ', err);
+            return res.status(500).send('Internal Server Error');
+        }
+    }
+
     static async getIngredients(req, res) {
-        const { sortBy } = req.query;
+        const sortBy = req.query.sortBy;
         try {
             // Fetch ingredients from the database
             const ingredients = await dbClient.findIngredients(sortBy);
