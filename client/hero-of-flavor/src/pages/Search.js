@@ -8,20 +8,31 @@ const Search = () => {
   const itemsPerPage = 32; // Number of items per page
   const [currentPage, setCurrentPage] = useState(1);
 
-  useEffect(() => {
-    // Fetch ingredients from the backend using Axios
-    const fetchIngredients = async () => {
-      try {
-        const response = await axios.get('http://localhost:5000/api/ingredients');
-        console.log('Fetched ingredients: ', response.data);
-        setIngredients(response.data); // Store the fetched ingredients in state
-      } catch (error) {
-        console.error('Error fetching ingredients:', error);
-      }
-    };
+  const fetchIngredients = async (sortBy = null) => {
+    try {
+      const response = await axios.get('http://localhost:5000/api/ingredients', {
+        params: { sortBy }
+      });
+      console.log('Fetched ingredients: ', response.data);
+      setIngredients(response.data); // Store the fetched ingredients in state
+    } catch (error) {
+      console.error('Error fetching ingredients:', error);
+    }
+  };
 
-    fetchIngredients();
+  useEffect(() => {
+    fetchIngredients(); // Fetch ingredients without sorting initially
   }, []);
+
+  // Handle sorting by type (assume 'type' is the field name in your DB)
+  const sortByType = () => {
+    fetchIngredients('type');
+  };
+
+  // Handle sorting alphabetically by name
+  const sortAlphabetically = () => {
+    fetchIngredients('Name');
+  };
 
   // Handle ingredient click
   const handleIngredientClick = (ingredient) => {
@@ -49,8 +60,8 @@ const Search = () => {
       <button className="button">Find Recipes With My Ingredients!</button>
 
       <div className="options">
-        <button className="optionButton">Sort By Type</button>
-        <button className="optionButton">Sort Alphabetically</button>
+        <button className="optionButton" onClick={sortByType}>Sort By Type</button>
+        <button className="optionButton" onClick={sortAlphabetically}>Sort Alphabetically</button>
       </div>
 
       <h2>How to Use</h2>
@@ -58,10 +69,15 @@ const Search = () => {
       <div className="selectedIngredients">
         <h3>Selected Ingredients:</h3>
         {selectedIngredients.length > 0 ? (
-          <div className="selectedIngredientsGrid">
+          <div className="ingredientsGrid">
             {selectedIngredients.map((ingredient, idx) => (
-              <div key={idx} className="selectedIngredient">
-                {ingredient.Name}
+              <div
+                key={idx} 
+                onClick={() => handleIngredientClick(ingredient)}
+                className="ingredientItem"
+              >
+                <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} />
+                <p>{ingredient.Name}</p>
               </div>
             ))}
           </div>
@@ -77,8 +93,8 @@ const Search = () => {
             onClick={() => handleIngredientClick(ingredient)}
             className="ingredientItem"
           >
-            <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} /> {/* Display ingredient image */}
-            <p>{ingredient.Name}</p> {/* Display ingredient name */}
+            <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} />
+            <p>{ingredient.Name}</p>
           </div>
         ))}
       </div>

@@ -41,20 +41,6 @@
     text-align: left;
   }
   
-  .selectedIngredientsGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
-  }
-  
-  .selectedIngredient {
-    background-color: #fff;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    word-break: break-word;
-  }
-  
   .ingredientsGrid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
