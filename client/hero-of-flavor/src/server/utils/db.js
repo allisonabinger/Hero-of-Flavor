@@ -82,12 +82,12 @@ class DBClient {
         try {
             const db = await this.connection;
             const collection = db.collection('ingredients');
-
-            const sortOptions = { id: 1 }
-            if (sortBy) {
-                sortOptions.type = sortBy === 'asc' ? 1 : -1;
-            }
-
+    
+            // Default to sorting by Name if sortBy is not provided
+            const sortField = sortBy || 'id';
+    
+            const sortOptions = { [sortField]: 1 };
+    
             return collection.find({}).sort(sortOptions).toArray();
         } catch (error) {
             console.error('Error fetching ingredients:', error);
@@ -100,7 +100,7 @@ class DBClient {
             const db = await this.connection;
             const collection = db.collection('cookbook');
     
-            // If a filter is a parameter is provided, filter by that category
+            //if a filter is a parameter is provided, filter by that category
             const query = filter ? { Category: filter } : {};
             
             const recipes = await collection.find(query).toArray();

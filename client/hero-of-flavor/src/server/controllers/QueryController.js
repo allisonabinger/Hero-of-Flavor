@@ -44,7 +44,7 @@ class QueryController {
     }
 
     static async getIngredients(req, res) {
-        const { sortBy } = req.query;
+        const sortBy = req.query.sortBy;
         try {
             // Fetch ingredients from the database
             const ingredients = await dbClient.findIngredients(sortBy);
