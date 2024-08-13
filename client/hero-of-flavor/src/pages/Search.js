@@ -5,15 +5,14 @@ import './Search.css'; // Import the CSS file
 const Search = () => {
   const [ingredients, setIngredients] = useState([]);
   const [selectedIngredients, setSelectedIngredients] = useState([]);
+  const [recipes, setRecipes] = useState([]);
   const itemsPerPage = 32; // Number of items per page
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    // Fetch ingredients from the backend using Axios
     const fetchIngredients = async () => {
       try {
         const response = await axios.get('http://localhost:5000/api/ingredients');
-        console.log('Fetched ingredients: ', response.data);
         setIngredients(response.data); // Store the fetched ingredients in state
       } catch (error) {
         console.error('Error fetching ingredients:', error);
@@ -33,6 +32,18 @@ const Search = () => {
     });
   };
 
+  // Handle finding recipes
+  const findRecipes = async () => {
+    try {
+      const response = await axios.post('http://localhost:5000/api/recipes', {
+        ingredients: selectedIngredients.map(ingredient => ingredient.Name)
+      });
+      setRecipes(response.data); // Store the fetched recipes in state
+    } catch (error) {
+      console.error('Error fetching recipes:', error);
+    }
+  };
+
   // Handle page navigation
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -46,7 +57,9 @@ const Search = () => {
   return (
     <div className="container">
       <h1>Recipe by Ingredient Tool</h1>
-      <button className="button">Find Recipes With My Ingredients!</button>
+      <button className="button" onClick={findRecipes}>
+        Find Recipes With My Ingredients!
+      </button>
 
       <div className="options">
         <button className="optionButton">Sort By Type</button>
@@ -58,10 +71,15 @@ const Search = () => {
       <div className="selectedIngredients">
         <h3>Selected Ingredients:</h3>
         {selectedIngredients.length > 0 ? (
-          <div className="selectedIngredientsGrid">
+          <div className="ingredientsGrid">
             {selectedIngredients.map((ingredient, idx) => (
-              <div key={idx} className="selectedIngredient">
-                {ingredient.Name}
+              <div
+                key={idx} 
+                onClick={() => handleIngredientClick(ingredient)}
+                className="ingredientItem"
+              >
+                <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} />
+                <p>{ingredient.Name}</p>
               </div>
             ))}
           </div>
@@ -77,11 +95,25 @@ const Search = () => {
             onClick={() => handleIngredientClick(ingredient)}
             className="ingredientItem"
           >
-            <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} /> {/* Display ingredient image */}
-            <p>{ingredient.Name}</p> {/* Display ingredient name */}
+            <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} />
+            <p>{ingredient.Name}</p>
           </div>
         ))}
       </div>
+
+      {recipes.length > 0 && (
+        <div className="recipesList">
+          <h2>Possible Recipes</h2>
+          <div className="recipesGrid">
+            {recipes.map((recipe) => (
+              <div key={recipe._id} className="recipeItem">
+                <img src={`/images/recipes/${recipes.imagePath}`} alt={recipe.Name} className="recipeImage" />
+                <p>{recipe.Name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="pagination-controls">
         <button onClick={goToPreviousPage} disabled={currentPage === 1}>

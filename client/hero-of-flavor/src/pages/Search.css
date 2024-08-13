@@ -41,20 +41,6 @@
     text-align: left;
   }
   
-  .selectedIngredientsGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
-  }
-  
-  .selectedIngredient {
-    background-color: #fff;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    word-break: break-word;
-  }
-  
   .ingredientsGrid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -69,6 +55,28 @@
   
   .ingredientItem img {
     height: 75px;
+    border-radius: 50%;
+  }
+  
+  .recipesList {
+    margin-top: 20px;
+  }
+  
+  .recipesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .recipeItem {
+    text-align: center;
+  }
+  
+  .recipeImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 50%;
   }
   
