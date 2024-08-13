@@ -48,35 +48,35 @@ class DBClient {
   }
 
 // contains Query controller to handle responses and requests to the API
-async findRecipesByIngredients(userIngredients) {
-    try {
-        const db = await this.connection;
-        const collection = db.collection('recipes');
+    async findRecipesByIngredients(userIngredients) {
+        try {
+            const db = await this.connection;
+            const collection = db.collection('recipes');
 
-        // Find recipes that match any of the user ingredients
-        const recipes = await collection.find({
-            ingredients: {
-                $elemMatch: {
-                    options: { $in: userIngredients }
+            // Find recipes that match any of the user ingredients
+            const recipes = await collection.find({
+                ingredients: {
+                    $elemMatch: {
+                        options: { $in: userIngredients }
+                    }
                 }
-            }
-        }).toArray();
+            }).toArray();
 
-        // Filter recipes to ensure all required ingredients are present
-        const result = recipes.filter(recipe => {
-            return recipe.ingredients.every(ingredientList => {
-                return ingredientList.options.some(option => userIngredients.includes(option));
+            // Filter recipes to ensure all required ingredients are present
+            const result = recipes.filter(recipe => {
+                return recipe.ingredients.every(ingredientList => {
+                    return ingredientList.options.some(option => userIngredients.includes(option));
+                });
             });
-        });
 
-        // Return the filtered recipes
-        return result;
+            // Return the filtered recipes
+            return result;
 
-    } catch (error) {
-        console.error('Error fetching recipes:', error);
-        throw error;
+        } catch (error) {
+            console.error('Error fetching recipes:', error);
+            throw error;
+        }
     }
-}
 
     async findIngredients(sortBy) {
         try {
@@ -91,6 +91,22 @@ async findRecipesByIngredients(userIngredients) {
             return collection.find({}).sort(sortOptions).toArray();
         } catch (error) {
             console.error('Error fetching ingredients:', error);
+            throw error;
+        }
+    }
+
+    async getAllRecipes(sortBy) {
+        try {
+            const db = await this.connection;
+            const collection = db.collection('recipes');
+    
+            // If a sortBy parameter is provided, filter by that category
+            const query = sortBy ? { Category: sortBy } : {};
+            
+            const recipes = await collection.find(query).toArray();
+            return recipes;
+        } catch (error) {
+            console.error('Error fetching all recipes:', error);
             throw error;
         }
     }
