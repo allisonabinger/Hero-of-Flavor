@@ -1,5 +1,5 @@
 {
-    "name": "Hero of Flavor",
+    "name": "Hero of Flavor: Tears of the Kingdom API",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -24,6 +24,8 @@
         "mongodb": "^3.5.9",
         "redis": "^2.8.0",
         "sha1": "^1.1.1",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1",
         "uuid": "^8.2.0"
     },
     "devDependencies": {

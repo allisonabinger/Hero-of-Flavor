@@ -12,7 +12,7 @@ const Search = () => {
     // Fetch ingredients from the backend using Axios
     const fetchIngredients = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/ingredients');
+        const response = await axios.get(`http://localhost:5000/api/ingredients`);
         console.log('Fetched ingredients: ', response.data);
         setIngredients(response.data); // Store the fetched ingredients in state
       } catch (error) {
