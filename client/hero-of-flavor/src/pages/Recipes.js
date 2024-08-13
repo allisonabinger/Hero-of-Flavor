@@ -7,15 +7,15 @@ const Recipes = () => {
   const recipesPerPage = 20;
   
   useEffect(() => {
-    const fetchIngredients = async () => {
-      const fetchedIngredients = Array.from({ length: 215 }).map((_, idx) => ({
+    const fetchRecipes = async () => {
+      const fetchedRecipes= Array.from({ length: 215 }).map((_, idx) => ({
         id: idx,
         name: `Ingredient ${idx + 1}`
       }));
-      setRecipes(fetchedIngredients);
+      setRecipes(fetchedRecipes);
     };
 
-  fetchIngredients();
+  fetchRecipes();
   }, [])
   
 
