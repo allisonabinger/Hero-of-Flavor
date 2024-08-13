@@ -4,6 +4,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 const dotenv = require('dotenv');
 const { createTestScheduler } = require('jest');
 const { options } = require('../routes');
+const winston = require('winston');
 
 dotenv.config();
 
@@ -14,6 +15,12 @@ const dbHost = process.env.DB_HOST;
 
 const uri = `mongodb+srv://${dbUser}:${dbPassword}@${dbHost}/${dbName}`;
 
+const logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.cli(),
+    transports: [new winston.transports.Console()],
+  });
+
 class DBClient {
   constructor() {
     this.client = new MongoClient(uri, {
@@ -22,10 +29,10 @@ class DBClient {
     });
 
     this.connection = this.client.connect().then(() => {
-      console.log('Connected to MongoDB Atlas');
+      logger.info('Connected to MongoDB Atlas');
       return this.client.db(dbName);
     }).catch(err => {
-      console.error('Error connecting to MongoDB Atlas:', err);
+      logger.error('Error connecting to MongoDB Atlas:', err);
       process.exit(1); // Exit process on connection failure
     });
   }
@@ -44,7 +51,7 @@ class DBClient {
       const count = await collection.countDocuments({});
       return count;
     } catch (error) {
-      console.error('Error counting paintings:', error);
+      logger.error('Error counting paintings:', error);
       return 0;
     }
   }
@@ -75,7 +82,7 @@ class DBClient {
             return result;
 
         } catch (error) {
-            console.error('Error fetching recipes:', error);
+            logger.error('Error fetching recipes:', error);
             throw error;
         }
     }
@@ -92,7 +99,7 @@ class DBClient {
     
             return collection.find({}).sort(sortOptions).toArray();
         } catch (error) {
-            console.error('Error fetching ingredients:', error);
+            logger.error('Error fetching ingredients:', error);
             throw error;
         }
     }
@@ -108,7 +115,7 @@ class DBClient {
             const recipes = await collection.find(query).toArray();
             return recipes;
         } catch (error) {
-            console.error('Error fetching all recipes:', error);
+            logger.error('Error fetching all recipes:', error);
             throw error;
         }
     }

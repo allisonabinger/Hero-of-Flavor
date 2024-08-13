@@ -3,23 +3,31 @@ const routes = require('./routes');
 const cors = require('cors')
 const swaggerUI = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
+const winston = require('winston')
 
 const dotenv = require('dotenv');
 dotenv.config();
 
 
+// logger set up
+// const { combine, timestamp, json } = winston.format;
+const logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.cli(),
+    transports: [new winston.transports.Console()],
+  });
+
 const PORT = 5000;
 const app = express();
 
-// app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs))
-
+// Middleware setup
 app.use(cors({ origin: 'http://localhost:3000' }));
-
 app.use(express.json());
+
 app.use('/', routes);
 
 
-// swagger set up
+///// swagger set up
 const options = {
     swaggerDefinition: {
         openapi: '3.0.0',
@@ -41,12 +49,6 @@ const specs = swaggerJsDoc(options);
 
 app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs))
 
-// // Serving Swagger docs as JSON
-// app.get('/swagger.json', (req, res) => {
-//     res.setHeader('Content-Type', 'application/json');
-//     res.json(swaggerDocs);
-// });
-
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    logger.info(`Server is running on port ${PORT}`);
 });
