@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios'; // Import Axios for API calls
 import './Search.css'; // Import the CSS file
 
 const Search = () => {
@@ -8,13 +9,14 @@ const Search = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    // Simulate fetching data
+    // Fetch ingredients from the backend using Axios
     const fetchIngredients = async () => {
-      const fetchedIngredients = Array.from({ length: 215 }).map((_, idx) => ({
-        id: idx,
-        name: `Ingredient ${idx + 1}`
-      }));
-      setIngredients(fetchedIngredients);
+      try {
+        const response = await axios.get('0.0.0.0:5000/api/ingredients');
+        setIngredients(response.data); // Store the fetched ingredients in state
+      } catch (error) {
+        console.error('Error fetching ingredients:', error);
+      }
     };
 
     fetchIngredients();
@@ -23,7 +25,6 @@ const Search = () => {
   // Handle ingredient click
   const handleIngredientClick = (ingredient) => {
     setSelectedIngredients((prev) => {
-      // Add the ingredient to the selected list if it's not already selected
       if (!prev.includes(ingredient)) {
         return [...prev, ingredient];
       }
@@ -34,7 +35,7 @@ const Search = () => {
   // Handle page navigation
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = ingredients.slice(indexOfFirstItem, indexOfFirstItem + itemsPerPage);
+  const currentItems = ingredients.slice(indexOfFirstItem, indexOfLastItem);
 
   const totalPages = Math.ceil(ingredients.length / itemsPerPage);
 
@@ -71,12 +72,14 @@ const Search = () => {
       <div className="ingredientsGrid">
         {currentItems.map((ingredient) => (
           <div
-            key={ingredient.id}
+            key={ingredient._id} // Assuming MongoDB's ObjectId is used as the unique identifier
             className="ingredientCard"
             onClick={() => handleIngredientClick(ingredient)}
           >
-            <div className="icon">icon</div>
-            <p>{ingredient.name}</p>
+            <div className="icon">
+              <img src={ingredient.imageUrl} alt={ingredient.name} /> {/* Display ingredient image */}
+            </div>
+            <p>{ingredient.name}</p> {/* Display ingredient name */}
           </div>
         ))}
       </div>

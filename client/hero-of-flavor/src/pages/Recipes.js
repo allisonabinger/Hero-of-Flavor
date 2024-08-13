@@ -5,7 +5,6 @@ const Recipes = () => {
   const [recipes, setRecipes] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const recipesPerPage = 20;
-  const categories = ['Fruit', 'Veggie', 'Meat', 'Elixirs', 'Dessert', 'Poultry'];
   
   useEffect(() => {
     const fetchIngredients = async () => {
@@ -37,12 +36,6 @@ const Recipes = () => {
   return (
     <div className="recipes-container">
       <h1>All Recipes</h1>
-      
-      <div className="categories">
-        {categories.map((category) => (
-          <span key={category} className="category-item">{category}</span>
-        ))}
-      </div>
       
       <div className="recipes-grid">
         {currentRecipes.map((recipe) => (
