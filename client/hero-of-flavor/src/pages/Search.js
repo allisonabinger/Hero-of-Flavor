@@ -5,15 +5,15 @@ import './Search.css'; // Import the CSS file
 const Search = () => {
   const [ingredients, setIngredients] = useState([]);
   const [selectedIngredients, setSelectedIngredients] = useState([]);
-  const itemsPerPage = 12; // Number of items per page
+  const itemsPerPage = 32; // Number of items per page
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     // Fetch ingredients from the backend using Axios
     const fetchIngredients = async () => {
       try {
-        const response = await axios.get('http://0.0.0.0:5000/api/ingredients');
-        console.log('Fetched ingredients: ', response.data)
+        const response = await axios.get('http://localhost:5000/api/ingredients');
+        console.log('Fetched ingredients: ', response.data);
         setIngredients(response.data); // Store the fetched ingredients in state
       } catch (error) {
         console.error('Error fetching ingredients:', error);
@@ -74,16 +74,15 @@ const Search = () => {
         {currentItems.map((ingredient) => (
           <div
             key={ingredient._id} // Assuming MongoDB's ObjectId is used as the unique identifier
-            className="ingredientCard"
             onClick={() => handleIngredientClick(ingredient)}
+            className="ingredientItem"
           >
-            <div className="icon">
-              <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} /> {/* Display ingredient image */}
-            </div>
-            {/* <p>{ingredient.Name}</p> Display ingredient name */}
+            <img src={`/images/ingredients/${ingredient.imagePath}`} alt={ingredient.Name} /> {/* Display ingredient image */}
+            <p>{ingredient.Name}</p> {/* Display ingredient name */}
           </div>
         ))}
       </div>
+
       <div className="pagination-controls">
         <button onClick={goToPreviousPage} disabled={currentPage === 1}>
           Previous
