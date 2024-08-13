@@ -9,6 +9,8 @@ const QueryController = require('../controllers/QueryController')
 router.get('/status', AppController.getStatus);
 router.get('/stats', AppController.getStats);
 
-// router.post('/api/recipes', QueryController.getRecipes);
+router.post('/api/recipes', QueryController.getRecipes);
+
+router.get('/api/ingredients', QueryController.getIngredients);
 
 module.exports = router;

@@ -9,13 +9,12 @@
         "start-server": "NODE_NO_WARNINGS=1 nodemon --exec babel-node --presets @babel/preset-env ./server.js",
         "start-worker": "NODE_NO_WARNINGS=1 nodemon --exec babel-node --presets @babel/preset-env ./worker.js",
         "dev": "nodemon --exec babel-node --presets @babel/preset-env",
-        "test": "./node_modules/.bin/mocha --require @babel/register --exit"
+        "test": "mocha tests/**/*.test.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "bull": "^3.16.0",
-        "chai-http": "^4.3.0",
         "dotenv": "^16.4.5",
         "express": "^4.17.1",
         "image-thumbnail": "^1.0.10",
@@ -32,8 +31,8 @@
         "@babel/node": "^7.8.0",
         "@babel/preset-env": "^7.8.2",
         "@babel/register": "^7.8.0",
-        "chai": "^4.2.0",
-        "chai-http": "^4.3.0",
+        "chai": "^4.5.0",
+        "chai-http": "^4.4.0",
         "eslint": "^6.4.0",
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-plugin-import": "^2.18.2",
