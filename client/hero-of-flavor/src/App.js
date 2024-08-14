@@ -1,23 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Search from './pages/Search';
-import Recipes from './pages/Recipes';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Search from './pages/Search'; // Assuming your Search component is in the same directory as App.js
+import Recipes from './pages/Recipes'; // Assuming your Recipes component is in the same directory as App.js
+import Navbar from './components/Navbar'; // Importing Navbar from the components folder
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/search" element={<Search />} />
-          <Route path="/recipes" element={<Recipes />} />
-        </Routes>
-      </div>
+      {/* Include Navbar so it appears on every page */}
+      <Navbar />
+      <Routes>
+        {/* Set Search as the new Home */}
+        <Route path="/" element={<Search />} />
+        {/* Other routes */}
+        <Route path="/recipes" element={<Recipes />} />
+        {/* Redirect any unknown paths to Search */}
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
     </Router>
   );
-}
+};
 
 export default App;

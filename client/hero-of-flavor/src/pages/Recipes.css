@@ -1,47 +1,72 @@
 /* Recipes.css */
-.recipes-container {
+.container {
     padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  h1 {
     text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .recipes-grid {
+    background-color: #dfd090; /* Same background color as Search */
+}
+
+.button {
+    padding: 15px 30px;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #0d9263;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.optionButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #54e4ae;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.recipesGrid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Adjust columns as needed */
-    gap: 15px;
-    justify-items: center;
-  }
-  
-  .recipe-item {
+    grid-template-columns: repeat(6, 1fr); /* Consistent with Search */
+    gap: 20px;
+    justify-content: center;
+}
+
+.recipeItem {
     text-align: center;
-  }
-  
-  .recipe-image {
+    cursor: pointer;
+}
+
+.recipeItem img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
-  }
-  
-  .pagination-controls {
+    border-radius: 0%; /* Removed border-radius for Recipes, to match Search */
+}
+
+.pagination-controls {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .pagination-controls button {
+}
+
+.pagination-controls button {
     padding: 10px;
     margin: 0 10px;
     font-size: 14px;
     cursor: pointer;
-  }
-  
-  .pagination-controls span {
+    background-color: #54e4ae;
+}
+
+.pagination-controls span {
     margin: 0 10px;
     font-size: 14px;
-  }
+}

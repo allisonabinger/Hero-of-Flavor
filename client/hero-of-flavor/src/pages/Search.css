@@ -2,14 +2,14 @@
 .container {
     padding: 20px;
     text-align: center;
-    background-color: #DFF5E1;
+    background-color: #dfd090;
   }
   
   .button {
     padding: 15px 30px;
     margin: 20px 0;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #0d9263;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -26,7 +26,7 @@
   .optionButton {
     padding: 10px 20px;
     font-size: 14px;
-    background-color: #fff;
+    background-color: #54e4ae;
     border: 1px solid #ccc;
     cursor: pointer;
     border-radius: 5px;
@@ -35,7 +35,7 @@
   .selectedIngredients {
     margin: 20px 0;
     padding: 10px;
-    background-color: #e0ffe0;
+    background-color: #fdffe0;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: left;
@@ -92,6 +92,7 @@
     margin: 0 10px;
     font-size: 14px;
     cursor: pointer;
+    background-color: #54e4ae;
   }
   
   .pagination-controls span {
