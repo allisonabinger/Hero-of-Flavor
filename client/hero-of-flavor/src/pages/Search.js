@@ -100,6 +100,21 @@ const Search = () => {
         Find Recipes With My Ingredients!
       </button>
 
+      
+      {recipes.length > 0 && (
+        <div className="recipesList">
+          <h2>Possible Recipes</h2>
+          <div className="recipesGrid">
+            {recipes.map((recipe) => (
+              <div key={recipe._id} className="recipeItem">
+                <img src={`/images/recipes/${recipe.imagePath}`} alt={recipe.Name} className="recipeImage" />
+                <p>{recipe.Name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="options">
         <button className="optionButton" onClick={sortIngredientsByType}>
           Sort By Type {sortByType ? '✔️' : ''}
@@ -150,20 +165,6 @@ const Search = () => {
           </div>
         ))}
       </div>
-
-      {recipes.length > 0 && (
-        <div className="recipesList">
-          <h2>Possible Recipes</h2>
-          <div className="recipesGrid">
-            {recipes.map((recipe) => (
-              <div key={recipe._id} className="recipeItem">
-                <img src={`/images/recipes/${recipe.imagePath}`} alt={recipe.Name} className="recipeImage" />
-                <p>{recipe.Name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
 
       <div className="pagination-controls">
         <button onClick={goToPreviousPage} disabled={currentPage === 1}>
