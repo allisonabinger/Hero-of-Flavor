@@ -1,4 +1,24 @@
 /* Search.css */
+
+@font-face {
+    font-family: 'HyliaSerifBeta';
+    src: url('../fonts/HyliaSerifBeta-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calamity';
+    src: url('../fonts/Calamity-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'HyliaSerifBeta', serif;
+    letter-spacing: 1px;
+}
+
 .container {
     padding: 20px;
     text-align: center;
@@ -14,6 +34,7 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-family: 'Calamity, serif',
   }
   
   .options {
@@ -30,6 +51,7 @@
     border: 1px solid #ccc;
     cursor: pointer;
     border-radius: 5px;
+    font-family: 'Calamity, serif',
   }
   
   .selectedIngredients {
@@ -39,6 +61,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: left;
+    font-family: 'Calamity, serif',
   }
   
   .ingredientsGrid {
@@ -51,6 +74,7 @@
   .ingredientItem {
     text-align: center;
     cursor: pointer;
+    font-family: 'Calamity, serif',
   }
   
   .ingredientItem img {
@@ -71,6 +95,7 @@
   
   .recipeItem {
     text-align: center;
+    font-family: 'Calamity, serif',
   }
   
   .recipeImage {
@@ -93,6 +118,7 @@
     font-size: 14px;
     cursor: pointer;
     background-color: #54e4ae;
+    font-family: 'Calamity, serif',
   }
   
   .pagination-controls span {
