@@ -7,7 +7,7 @@ const Search = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortOrder, setSortOrder] = useState('');
   const [sortByType, setSortByType] = useState(false);
-  const itemsPerPage = 32;
+  const itemsPerPage = 30;
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
