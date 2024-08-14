@@ -55,7 +55,7 @@
   
   .ingredientItem img {
     height: 75px;
-    border-radius: 50%;
+    border-radius: 0%;
   }
   
   .recipesList {
