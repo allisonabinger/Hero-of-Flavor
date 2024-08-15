@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+@font-face {
+    font-family: 'HyliaSerifBeta';
+    src: url('./fonts/HyliaSerifBeta-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calamity';
+    src: url('./fonts/Calamity-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

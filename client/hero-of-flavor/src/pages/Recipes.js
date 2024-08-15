@@ -61,7 +61,7 @@ const Search = () => {
 
   return (
     <div className="container">
-
+      <h1>All Recipes</h1>
       <div className="options">
         <button className="optionButton" onClick={sortAlphabetically}>
           Sort Alphabetically {sortOrder === 'asc' ? '↑' : sortOrder === 'desc' ? '↓' : ''}

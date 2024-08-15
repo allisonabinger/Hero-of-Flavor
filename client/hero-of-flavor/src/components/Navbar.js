@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../App.css'
 
 const Navbar = () => {
   return (
@@ -28,6 +29,8 @@ const styles = {
     fontSize: '24px',
     fontWeight: 'bold',
     color: '#eac03d',
+    fontFamily: 'HyliaSerifBeta, serif',
+    letterSpacing: '1px',
   },
   navLinks: {
     display: 'flex',
@@ -36,7 +39,9 @@ const styles = {
   link: {
     textDecoration: 'none',
     color: '#eac03d',
-    fontSize: '18px',
+    fontSize: '16px',
+    fontFamily: 'HyliaSerifBeta, serif',
+    letterSpacing: '1px',
   },
 };
 

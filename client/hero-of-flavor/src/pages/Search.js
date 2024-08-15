@@ -95,7 +95,8 @@ const Search = () => {
 
   return (
     <div className="container">
-      <h1>Recipe by Ingredient Tool</h1>
+      <h1>Search Recipes by Materials</h1>
+      {/* <h3>Select ingredients in your inventory, then press 'Find Recipes With My Ingredients' to view all of the recipes you can make!</h3> */}
       <button className="button" onClick={findRecipes}>
         Find Recipes With My Ingredients!
       </button>
