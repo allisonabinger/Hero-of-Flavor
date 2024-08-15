@@ -15,7 +15,7 @@ const Search = () => {
   useEffect(() => {
     const fetchIngredients = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/ingredients');
+        const response = await axios.get('https://hero-of-flavor.onrender.com/api/ingredients');
         setIngredients(response.data);
       } catch (error) {
         console.error('Error fetching ingredients:', error);
@@ -74,7 +74,7 @@ const Search = () => {
   // Handle finding recipes
   const findRecipes = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/recipes', {
+      const response = await axios.post('https://hero-of-flavor.onrender.com/api/recipes', {
         ingredients: selectedIngredients.map(ingredient => ingredient.Name)
       });
       setRecipes(response.data);
