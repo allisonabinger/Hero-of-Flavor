@@ -5,12 +5,10 @@ import '../App.css'
 const Navbar = () => {
   return (
     <nav style={styles.navbar}>
-      <div style={styles.title}>
-        Hero of Flavor
-      </div>
+      <img src='/images/CustomLogo.png' width={100} alt='Hero of Flavor Logo'></img>
       <div style={styles.navLinks}>
-        <Link to="/" style={styles.link}>Search</Link>
-        <Link to="/recipes" style={styles.link}>Recipes</Link>
+        <Link to="/" style={styles.link}>Recipe Tool</Link>
+        <Link to="/recipes" style={styles.link}>View All Recipes</Link>
       </div>
     </nav>
   );
